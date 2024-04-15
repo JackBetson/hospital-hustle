@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4184bc2bb95e64c5baeb2f9d48a82558
+guid: 493c8af9295e5204daea3d1663a3391e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -97,421 +97,442 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerArtHH_0
+      name: DoctorTileset_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 67
+        x: 0
+        y: 60
         width: 9
-        height: 18
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 435d7d1922ba14e68a286035002d23de
-      internalID: 1461913390
+      spriteID: 5c84d9e37cea9bd469df868767037c5c
+      internalID: -1779919026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerArtHH_1
+      name: DoctorTileset_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 69
+        x: 10
+        y: 60
         width: 9
-        height: 18
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46f737021534b4f28a0e287eb2ec8429
-      internalID: -1290804162
+      spriteID: 4d4b1fe44d73d784e941aa68926553f3
+      internalID: 1146939871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerArtHH_2
+      name: DoctorTileset_2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 69
+        x: 20
+        y: 60
         width: 9
-        height: 18
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce5694aaf940b4769b98f393b4fd175b
-      internalID: 1218188653
+      spriteID: 51623057f804d6045bc3e7892b344ba2
+      internalID: -1144273755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerArtHH_3
+      name: DoctorTileset_3
       rect:
         serializedVersion: 2
-        x: 44
-        y: 67
+        x: 30
+        y: 60
         width: 9
-        height: 18
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd19e6d2fc0694beeb2c8215add74406
-      internalID: 1582557552
+      spriteID: 0c34477a9d1b8cb4db18e12d3e99f701
+      internalID: -1523810821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerArtHH_4
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 67
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6277f8ebadb274751b331acb329711d1
-      internalID: -138508110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_5
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 45
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3aef7ce65c345418e94755754701d069
-      internalID: 2034356416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_6
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 47
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ae23d4a3518f45fa93d489329daba14
-      internalID: 550449302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_7
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 47
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f54ebed797fae4642b1c292d2055f64c
-      internalID: 413397586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_8
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 45
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb4270c8496ac466f84ce0861ea6cb29
-      internalID: 1042655493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_9
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 45
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70f30f51a2829483b8f5dd6a9080d6ac
-      internalID: -1618685769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_10
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 23
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e759b5a2854294e84aa617d82a8efb5f
-      internalID: -118648008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_11
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 25
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b479a204439574ebd823450ab5753371
-      internalID: 1834706129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_12
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 25
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8d43c02c279b45a3908c9c228596898
-      internalID: 725400104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_13
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 23
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98f7adabec2f44ec4afda77289daea21
-      internalID: 182819719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_14
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 23
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48ab404925876419ebf75b3f5313f34e
-      internalID: -1907822363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_15
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 1
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 898e3398053f04e1fbe0ae69bcbd1ea7
-      internalID: -826403264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_16
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 3
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f967ec19b7814e7a86fae215c422b64
-      internalID: 67327384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_17
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 3
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2d2f9d76312e43db874bb9e6c52c7d1
-      internalID: 1657763589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerArtHH_18
+      name: DoctorTileset_4
       rect:
         serializedVersion: 2
         x: 40
-        y: 1
-        width: 8
-        height: 18
+        y: 60
+        width: 9
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b647d5240f2b42368a86ac48b6f4542
-      internalID: -2138105656
+      spriteID: 074ae3d1fc970504fb7082b21355b0d0
+      internalID: 1106264557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerArtHH_19
+      name: DoctorTileset_5
       rect:
         serializedVersion: 2
-        x: 52
-        y: 1
-        width: 8
-        height: 18
+        x: 50
+        y: 60
+        width: 9
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 527ba1bb267034d07b342090ca658ddb
-      internalID: 414365308
+      spriteID: 3e1401df7cc12034da5b4997e18d6ba5
+      internalID: 456357911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f054bd8fe54e8f344a007b75601de15e
+      internalID: 1478687039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b16cc7079eb9464689ce9e45f620702
+      internalID: 2014672829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf5ce168ec8927419fddc016cf1cb50
+      internalID: 1956606516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaf0d2fb17c24c47b9c9dad0b0dee78
+      internalID: 997846279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64c84fbdb1defc428fd9d5aebe11765
+      internalID: 2029669130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efcc6185d88c1f47a00706826926805
+      internalID: 1441098390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 20
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bcb8a8ca233c442a8077c21074435b
+      internalID: -1536814385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd774d1bebbe134f98fb4ed1b422821
+      internalID: 1761540531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 20
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694913da8b5cd524daecc1c32c0ac77d
+      internalID: 818205733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 20
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8935f060fb3fe4f45872e49bcaf05aa5
+      internalID: 1130438250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3592e8c2132b34eb6acb037a065dd2
+      internalID: -1444549748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef60ef25401942d438c80972afea01dd
+      internalID: -1085027105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341b0d3f5a7ed434d9c29dbdb03c11e1
+      internalID: 1969267344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_19
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7033d718673bc9149b6e5d86f495afe2
+      internalID: 443587967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoctorTileset_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8ce19a3cfd89c44bf22ac2f283bdd1
+      internalID: 56642908
       vertices: []
       indices: 
       edges: []
@@ -527,26 +548,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerArtHH_0: 1461913390
-      PlayerArtHH_1: -1290804162
-      PlayerArtHH_10: -118648008
-      PlayerArtHH_11: 1834706129
-      PlayerArtHH_12: 725400104
-      PlayerArtHH_13: 182819719
-      PlayerArtHH_14: -1907822363
-      PlayerArtHH_15: -826403264
-      PlayerArtHH_16: 67327384
-      PlayerArtHH_17: 1657763589
-      PlayerArtHH_18: -2138105656
-      PlayerArtHH_19: 414365308
-      PlayerArtHH_2: 1218188653
-      PlayerArtHH_3: 1582557552
-      PlayerArtHH_4: -138508110
-      PlayerArtHH_5: 2034356416
-      PlayerArtHH_6: 550449302
-      PlayerArtHH_7: 413397586
-      PlayerArtHH_8: 1042655493
-      PlayerArtHH_9: -1618685769
+      DoctorTileset_0: -1779919026
+      DoctorTileset_1: 1146939871
+      DoctorTileset_10: 2029669130
+      DoctorTileset_11: 1441098390
+      DoctorTileset_12: -1536814385
+      DoctorTileset_13: 1761540531
+      DoctorTileset_14: 818205733
+      DoctorTileset_15: 1130438250
+      DoctorTileset_16: -1444549748
+      DoctorTileset_17: -1085027105
+      DoctorTileset_18: 1969267344
+      DoctorTileset_19: 443587967
+      DoctorTileset_2: -1144273755
+      DoctorTileset_20: 56642908
+      DoctorTileset_3: -1523810821
+      DoctorTileset_4: 1106264557
+      DoctorTileset_5: 456357911
+      DoctorTileset_6: 1478687039
+      DoctorTileset_7: 2014672829
+      DoctorTileset_8: 1956606516
+      DoctorTileset_9: 997846279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

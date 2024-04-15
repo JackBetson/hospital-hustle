@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e07cfc673ffcffb41943dd2e94d82245
+guid: a7f368067bb0619408f00b0b56b3eff7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,118 +97,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SupplyCabinet1
+      name: Orange1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 32
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f23a5304c21caf449a289e2b7686daae
-      internalID: -1603186491
+      spriteID: 9676fd9757702f341b2f6145f44047a8
+      internalID: 1409940626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SupplyCabinet2
+      name: Pink2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10cb74e06bba3af4a952e544d645a937
-      internalID: -1156543668
+      spriteID: 1e0a126c95a553240b1961a8e81cd5a0
+      internalID: 563783690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SupplyCabinet3
+      name: Orange2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78872064c7d5a1740b3ea3faf00bd1b1
-      internalID: -2104831552
+      spriteID: 09ab76d3a9ecad8438af76b76793663e
+      internalID: -1570189253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SupplyCabinet4
+      name: Blue2
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b65862fef11d5ae41943127d4bd333dc
-      internalID: -1208371943
+      spriteID: 3cf901f2293d5834fa0cf8fbe45ab476
+      internalID: 148101000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door1
+      name: LeftDoor2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b1eeeb8e0f286498e545f6253bcee7
-      internalID: 1834981381
+      spriteID: 524e367887c5f2e48b1612041135f75b
+      internalID: -1045501752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door2
+      name: RightDoor2
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
-        height: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097089596623c204f851d47c6e443d9a
+      internalID: -1709841125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +237,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3f5d854dc79b9945807ed9a53916450
-      internalID: -2123643945
+      spriteID: e47c8a49ef99f084c9751441e6e7567c
+      internalID: -1403191030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97496481b6ebf8a439991b17e3b56fe6
+      internalID: -154734817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af015da5d8673704e9d2d2ca95addbf1
+      internalID: -1230818672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cf2f0b14e6b0c428a6b408d85fde58
+      internalID: -898736934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftDoor1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d9e98559377ec4fa31279678643702
+      internalID: -1727961292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightDoor1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c4ac8c0a796e64ab7325da8b13fe75
+      internalID: -1774956404
       vertices: []
       indices: 
       edges: []
@@ -233,12 +359,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Door1: 1834981381
-      Door2: -2123643945
-      SupplyCabinet1: -1603186491
-      SupplyCabinet2: -1156543668
-      SupplyCabinet3: -2104831552
-      SupplyCabinet4: -1208371943
+      Blue1: -898736934
+      Blue2: 148101000
+      LeftDoor1: -1727961292
+      LeftDoor2: -1045501752
+      Orange1: 1409940626
+      Orange2: -1570189253
+      Pink1: -1403191030
+      Pink2: 563783690
+      Red1: -154734817
+      Red2: -1230818672
+      RightDoor1: -1774956404
+      RightDoor2: -1709841125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
