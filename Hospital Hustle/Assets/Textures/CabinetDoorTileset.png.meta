@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8c0bebefb0cfa4ebcaa2c442acd06d3c
+guid: e07cfc673ffcffb41943dd2e94d82245
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Assets_0
+      name: SupplyCabinet1
       rect:
         serializedVersion: 2
-        x: 5
-        y: 72
-        width: 36
-        height: 14
+        x: 0
+        y: 0
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853929a6fd7814199888847a0ccb80e6
-      internalID: -164616694
+      spriteID: f23a5304c21caf449a289e2b7686daae
+      internalID: -1603186491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Assets_1
+      name: SupplyCabinet2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 70
-        width: 10
-        height: 10
+        x: 32
+        y: 0
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aae47475b3224f61be12ec3133db4c1
-      internalID: 1723860672
+      spriteID: 10cb74e06bba3af4a952e544d645a937
+      internalID: -1156543668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Assets_2
+      name: SupplyCabinet3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 56
-        width: 36
-        height: 14
+        x: 64
+        y: 0
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1ce4b2ab3dfc4922a6f25d1285d6038
-      internalID: 2045498039
+      spriteID: 78872064c7d5a1740b3ea3faf00bd1b1
+      internalID: -2104831552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Assets_3
+      name: SupplyCabinet4
       rect:
         serializedVersion: 2
-        x: 51
-        y: 59
-        width: 10
-        height: 10
+        x: 96
+        y: 0
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15c842cdb52b7421dadb3136e5669e3d
-      internalID: 96151961
+      spriteID: b65862fef11d5ae41943127d4bd333dc
+      internalID: -1208371943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Assets_4
+      name: Door1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 59
-        width: 10
-        height: 10
+        x: 128
+        y: 0
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a8688a2be43c4e6e9ae1839fb16c284
-      internalID: -1310437992
+      spriteID: 23b1eeeb8e0f286498e545f6253bcee7
+      internalID: 1834981381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_Assets_5
+      name: Door2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 59
-        width: 10
-        height: 10
+        x: 160
+        y: 0
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,134 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14b82d156d0d0407882208cf81463159
-      internalID: -566897421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Assets_6
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 40
-        width: 36
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0771a8ca428e64011a34f2cd64ffb470
-      internalID: 929376295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Assets_7
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 24
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33d42fe7a2b3e44e487d408facaf58b8
-      internalID: 1577364531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Assets_8
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 22
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 840a35b8c222e4d36bc0807c52a17ba0
-      internalID: 1858589247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Assets_9
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 22
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d36ede8ba0b04263a4ff395e50cb815
-      internalID: 1264755956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Assets_10
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 6
-        width: 17
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5d7013da39f44598b04a505aa9a6af4
-      internalID: 65030874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_Assets_11
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 4
-        width: 17
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21accaae5d7d046e4a3d7ac06fa31068
-      internalID: -2135938723
+      spriteID: e3f5d854dc79b9945807ed9a53916450
+      internalID: -2123643945
       vertices: []
       indices: 
       edges: []
@@ -359,18 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UI_Assets_0: -164616694
-      UI_Assets_1: 1723860672
-      UI_Assets_10: 65030874
-      UI_Assets_11: -2135938723
-      UI_Assets_2: 2045498039
-      UI_Assets_3: 96151961
-      UI_Assets_4: -1310437992
-      UI_Assets_5: -566897421
-      UI_Assets_6: 929376295
-      UI_Assets_7: 1577364531
-      UI_Assets_8: 1858589247
-      UI_Assets_9: 1264755956
+      Door1: 1834981381
+      Door2: -2123643945
+      SupplyCabinet1: -1603186491
+      SupplyCabinet2: -1156543668
+      SupplyCabinet3: -2104831552
+      SupplyCabinet4: -1208371943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
