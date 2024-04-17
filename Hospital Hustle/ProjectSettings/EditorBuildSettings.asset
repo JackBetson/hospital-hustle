@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainLevel.unity
     guid: 9b037d7ec12aeb54fabcc0be97ed31b8
+  - enabled: 1
+    path: Assets/Scenes/PatientRooms/CorrectLeftPR.unity
+    guid: 6eb7768d5c831404ba32ee8f6c97c399
+  - enabled: 1
+    path: Assets/Scenes/PatientRooms/CorrectRightPR.unity
+    guid: bf9b4e827cbcbbd4b8f0d0d50cb8dd2f
+  - enabled: 1
+    path: Assets/Scenes/PatientRooms/LeftPR.unity
+    guid: 1048f819d05b06d4bb79b534e9e2539a
+  - enabled: 1
+    path: Assets/Scenes/PatientRooms/RightPR.unity
+    guid: 1d63029cfcc68484395070585c024212
   m_configObjects: {}
