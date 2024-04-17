@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6799aa35c4bc2064abf2b0c9ec427e5a
+guid: 976f61342edb47147b758b5a0f74c8b3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,337 +97,400 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BedsideTable
+      name: Nurse1
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 74
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d9e8ba6108ce9b44ba9d2d4f6b3a930
-      internalID: -1533711301
+      spriteID: 8663f491942143e459a6fdccaffa003c
+      internalID: 1437436610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Table1
+      name: Nurse2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 10
+        y: 74
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146e49cd85f205740b8d4522e1f2a3ae
-      internalID: 694378163
+      spriteID: 374fab459ae9c8845ab2bed814e5866f
+      internalID: 1732618150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Table2
+      name: Nurse3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 20
+        y: 74
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1ac1fc57005ea84e839c4e1ef8b0909
-      internalID: 1520743129
+      spriteID: 863c313dcdfbee44092fd6286897c18f
+      internalID: 1902575746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shelf1
+      name: Nurse4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
+        x: 30
+        y: 74
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc280db68b2f4d74fa816cdfee38224a
-      internalID: -1512254978
+      spriteID: d44663b5312827e4c8920c07dd2c039d
+      internalID: 687490939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cupboard1
+      name: Nurse5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
+        x: 40
+        y: 74
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1f81cbe3ee90840b887c1ba711ad3f
-      internalID: 201808972
+      spriteID: 6a1cb6d8ca6890b49a59433052d25ee6
+      internalID: -94776718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cupboard2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c4bdfa373013ec4e8feeb4ae05da0d5
-      internalID: 1115999835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chair
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fbd46fd17e56a642a6a301cd20f7bc0
-      internalID: 1559576358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shelf2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2642d7d2207444e4d89ec9b1d4415b3c
-      internalID: -1624185380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cupboard3
+      name: Nurse6
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 56
+        width: 11
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e980bd33421f74d8786db681f15e68
-      internalID: 1565333499
+      spriteID: 0af3dce736d62294cbc389d09099ecdb
+      internalID: -1039181034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cupboard4
+      name: Nurse7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 12
+        y: 56
+        width: 11
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7088913a9ea1c2f45905e627625522e4
-      internalID: 105014325
+      spriteID: 8851a3e2659c4d34091afdfa483689b3
+      internalID: -1133032646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bin
+      name: Nurse8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 24
+        y: 56
+        width: 9
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8e91caa28c0dea43a1e9359f9cddbb8
-      internalID: 521330136
+      spriteID: 2236038fc33363b489e4dc31f22e1d42
+      internalID: -1107277711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bed1
+      name: Nurse9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 34
+        y: 56
+        width: 11
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaef9370fbfe32f4c999f91adb3e9452
-      internalID: -1739355108
+      spriteID: 6db2e705d7789164ca455e7b4e411647
+      internalID: -321739253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clipboard
+      name: Patient1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeb802a5a887254da9b195e52279330
+      internalID: 966161632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 39
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85856c89059252a4b98e353c7f36ad53
+      internalID: 2004091136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patient3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 39
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08631759359468d42b08954c4286be21
+      internalID: 423876197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientCure1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cc35470d2655b49a28a99c29e226ee
+      internalID: -192262530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientCure2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff5d66eca11bf940918488b74983af0
+      internalID: 1880255652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientDeath1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 11
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12bdac17e6481fb41ad4680bbf6bf697
-      internalID: -1568021899
+      spriteID: 4982d8f6ca6b036438f46e19abe4dad2
+      internalID: -904949963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Table3
+      name: PatientDeath2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 12
         y: 0
-        width: 32
-        height: 32
+        width: 11
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddadba4da417ade47aa62a088071500b
-      internalID: 1537511352
+      spriteID: 3e119a989e6848145a179a46cf33b1f1
+      internalID: 1447367019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Table4
+      name: PatientDeath3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 24
         y: 0
-        width: 32
-        height: 32
+        width: 11
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d864dcc7ae06a5645a3109fce9d902e1
-      internalID: 453840836
+      spriteID: 647dde3b94230e64091eef05763b9589
+      internalID: -1206221208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bed2
+      name: PatientDeath4
       rect:
         serializedVersion: 2
-        x: 96
+        x: 36
         y: 0
-        width: 32
-        height: 32
+        width: 11
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a685f741a1429d4e99419ce41cf57fc
-      internalID: -759892903
+      spriteID: db39b0fada91eab47adcd18965c96993
+      internalID: 116047985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatientDeath5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87ff53a5d09445448e121ec13d24393
+      internalID: 94821266
       vertices: []
       indices: 
       edges: []
@@ -443,22 +506,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bed1: -1739355108
-      Bed2: -759892903
-      BedsideTable: -1533711301
-      Bin: 521330136
-      Chair: 1559576358
-      Clipboard: -1568021899
-      Cupboard1: 201808972
-      Cupboard2: 1115999835
-      Cupboard3: 1565333499
-      Cupboard4: 105014325
-      Shelf1: -1512254978
-      Shelf2: -1624185380
-      Table1: 694378163
-      Table2: 1520743129
-      Table3: 1537511352
-      Table4: 453840836
+      Nurse1: 1437436610
+      Nurse2: 1732618150
+      Nurse3: 1902575746
+      Nurse4: 687490939
+      Nurse5: -94776718
+      Nurse6: -1039181034
+      Nurse7: -1133032646
+      Nurse8: -1107277711
+      Nurse9: -321739253
+      Patient1: 966161632
+      Patient2: 2004091136
+      Patient3: 423876197
+      PatientCure1: -192262530
+      PatientCure2: 1880255652
+      PatientDeath1: -904949963
+      PatientDeath2: 1447367019
+      PatientDeath3: -1206221208
+      PatientDeath4: 116047985
+      PatientDeath5: 94821266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
