@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 180
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BlueShelf1
+      name: ShelfScenes_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 450
+        y: 306
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ebee87d8728bdb43a5bd5df6924b4aa
-      internalID: -1803138359
+      spriteID: 32224045a8363fb42bf954710d3fb21a
+      internalID: 1992118223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PinkShelf1
+      name: ShelfScenes_1
       rect:
         serializedVersion: 2
         x: 180
-        y: 450
+        y: 306
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe026f1cdb1753741ae36bf05d65bc60
-      internalID: 769498542
+      spriteID: 07e034e5f47816c4986d70e5d1624a14
+      internalID: -683336017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueShelf2
+      name: ShelfScenes_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 300
+        y: 204
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1abcc24763f1c2f44a0af42e36585b2d
-      internalID: 787824988
+      spriteID: 649aed41f92af724bbbf4c8f7a8e9b3e
+      internalID: 1155325449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PinkShelf2
+      name: ShelfScenes_3
       rect:
         serializedVersion: 2
         x: 180
-        y: 300
+        y: 204
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8619f813e350cb8409c5a01ed841e82b
-      internalID: 1394027291
+      spriteID: b7824ab74eaddbd45a9933863ab103b5
+      internalID: -417391663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrangeShelf1
+      name: ShelfScenes_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 150
+        y: 102
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87373940b69cfb748840226be44db46d
-      internalID: -777847907
+      spriteID: e803af8d06a2834459fd4c96bdd1977e
+      internalID: -1757500652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedShelf1
+      name: ShelfScenes_5
       rect:
         serializedVersion: 2
         x: 180
-        y: 150
+        y: 102
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8f1da1b6364aca47bec5e2d88940847
-      internalID: -1087848449
+      spriteID: 540917e1fc492414faa5d40396455b73
+      internalID: 1849769196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrangeShelf2
+      name: ShelfScenes_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ad142ca2180cac43957d11b20bd8c16
-      internalID: 1847712455
+      spriteID: 483d5bac9b182584d90a093a03f9ba12
+      internalID: -906669548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedShelf2
+      name: ShelfScenes_7
       rect:
         serializedVersion: 2
         x: 180
         y: 0
         width: 180
-        height: 150
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: add67a1234110884e9aadee25b355829
-      internalID: -557234670
+      spriteID: 93eab3056624f3b4fbfd2bdb3b3777e7
+      internalID: -246609013
       vertices: []
       indices: 
       edges: []
@@ -275,14 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BlueShelf1: -1803138359
-      BlueShelf2: 787824988
-      OrangeShelf1: -777847907
-      OrangeShelf2: 1847712455
-      PinkShelf1: 769498542
-      PinkShelf2: 1394027291
-      RedShelf1: -1087848449
-      RedShelf2: -557234670
+      ShelfScenes_0: 1992118223
+      ShelfScenes_1: -683336017
+      ShelfScenes_2: 1155325449
+      ShelfScenes_3: -417391663
+      ShelfScenes_4: -1757500652
+      ShelfScenes_5: 1849769196
+      ShelfScenes_6: -906669548
+      ShelfScenes_7: -246609013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
