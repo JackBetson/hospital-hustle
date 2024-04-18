@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FullMedicineSet_0
+      name: Medicine_0
       rect:
         serializedVersion: 2
         x: 0
@@ -105,20 +105,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a63bf80741671f4f903c04b2f0e5d66
-      internalID: -338878352
+      spriteID: 57d0876ac3c06fd4b9f37830d4de7f18
+      internalID: -453701625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_1
+      name: Medicine_1
       rect:
         serializedVersion: 2
         x: 44
@@ -126,20 +126,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8978322f55fc7e84fbb41140c8db0039
-      internalID: 347147058
+      spriteID: 81eec8162cc5bcc4294ccdb1e65bea62
+      internalID: 334780110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_2
+      name: Medicine_2
       rect:
         serializedVersion: 2
         x: 88
@@ -147,20 +147,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 031f35f8a07f0094c8282d5b51bac316
-      internalID: -1335041357
+      spriteID: 67596fc42263eec48b213bc147d1619d
+      internalID: 1588066544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_3
+      name: Medicine_3
       rect:
         serializedVersion: 2
         x: 132
@@ -168,20 +168,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c26b1e319f7466d4aa1c1fd4493a63c3
-      internalID: -109168069
+      spriteID: fcf74c2bcb2fc4b428709984fe7f7b91
+      internalID: 4978834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_4
+      name: Medicine_4
       rect:
         serializedVersion: 2
         x: 176
@@ -189,20 +189,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec9d9b1ed606df04586a8a520aa77c22
-      internalID: -2009968590
+      spriteID: 14e90e11e49054743be2895918b681a5
+      internalID: -2146215419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_5
+      name: Medicine_5
       rect:
         serializedVersion: 2
         x: 220
@@ -210,20 +210,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e85dabd2d97d4b40bb67813fe274f42
-      internalID: 2117577629
+      spriteID: 09c3643658db76b459bf260435048830
+      internalID: 1690936999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_6
+      name: Medicine_6
       rect:
         serializedVersion: 2
         x: 264
@@ -231,20 +231,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e2659f45765c8743a20a7d1d6432aeb
-      internalID: -1591422774
+      spriteID: 8539cc616dd6b7840ac26fb99e8c4e6e
+      internalID: 968465687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_7
+      name: Medicine_7
       rect:
         serializedVersion: 2
         x: 308
@@ -252,20 +252,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf383153aaf3144d8bf2708391f47e9
-      internalID: -1543267492
+      spriteID: a40eb24d42354ed4e98491814f6e42cb
+      internalID: 692210052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_8
+      name: Medicine_8
       rect:
         serializedVersion: 2
         x: 352
@@ -273,20 +273,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a06f08f29994048b3f30a532675898
-      internalID: 975252813
+      spriteID: 5a63ca14abbd0ac4db7b60a6d7dba7db
+      internalID: -125752761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_9
+      name: Medicine_9
       rect:
         serializedVersion: 2
         x: 396
@@ -294,20 +294,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d1a752c5754e04da74ea5bf22e1dab
-      internalID: -254164494
+      spriteID: e06c2913db75cad40b3aa0f538d63578
+      internalID: -441717840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_10
+      name: Medicine_10
       rect:
         serializedVersion: 2
         x: 440
@@ -315,20 +315,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af7eca256c512bc429b8c2cf0aa4d333
-      internalID: -271007394
+      spriteID: 4e6ccc7fba714304c8fe81004432f261
+      internalID: -936780553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_11
+      name: Medicine_11
       rect:
         serializedVersion: 2
         x: 484
@@ -336,20 +336,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5c2bb76f7ed72345816bdbc33b1b15d
-      internalID: 467617596
+      spriteID: 2239360b042c85f418455ff6307bcff8
+      internalID: -717104108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_12
+      name: Medicine_12
       rect:
         serializedVersion: 2
         x: 528
@@ -357,20 +357,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 382eb97fefdf8dd428a9b0e071341372
-      internalID: 2136594380
+      spriteID: 9e1f8bd61b883c447a09cb0affa5bd32
+      internalID: 896864488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_13
+      name: Medicine_13
       rect:
         serializedVersion: 2
         x: 572
@@ -378,20 +378,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdc3686474f1683478f5258df7d424d4
-      internalID: -1615076904
+      spriteID: 8adf5ca97e3856448a05799a0d6d58fb
+      internalID: 444450655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_14
+      name: Medicine_14
       rect:
         serializedVersion: 2
         x: 616
@@ -399,20 +399,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 003cd18c8897fb24aa9473c497d6e946
-      internalID: 1832168995
+      spriteID: 434f61c4e637f334eb649ab8c3a7ce71
+      internalID: -624653584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_15
+      name: Medicine_15
       rect:
         serializedVersion: 2
         x: 660
@@ -420,20 +420,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0c9ccd84f1a4e04695efcc2f42d0cfc
-      internalID: -329107449
+      spriteID: ab690ddaf12aff04693f4f765acec395
+      internalID: -1440266186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_16
+      name: Medicine_16
       rect:
         serializedVersion: 2
         x: 704
@@ -441,20 +441,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 297b1af9f514e3247981e1829b811ee4
-      internalID: -2120202281
+      spriteID: 29eca0d65cf6b44428b4ad44c19eefb9
+      internalID: -729394959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_17
+      name: Medicine_17
       rect:
         serializedVersion: 2
         x: 748
@@ -462,20 +462,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cf2c8716381de442bbce09162eb184a
-      internalID: -436422269
+      spriteID: a169b82ba948c1b4c91c70e9e082c43b
+      internalID: 1817680938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_18
+      name: Medicine_18
       rect:
         serializedVersion: 2
         x: 792
@@ -483,20 +483,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f70f5ef3813ff2e4e9eb06c5a1b2a062
-      internalID: -217861721
+      spriteID: 23520eef14c96424694aa3e325e4b854
+      internalID: -1728109481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_19
+      name: Medicine_19
       rect:
         serializedVersion: 2
         x: 836
@@ -504,20 +504,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf23420ac02815b49b5aed0a0202a527
-      internalID: -386836091
+      spriteID: 97f93b7e7b697e54d9301e01de3a2ccc
+      internalID: 1163406182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_20
+      name: Medicine_20
       rect:
         serializedVersion: 2
         x: 880
@@ -525,20 +525,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d62aa843ad24a4a85f2a452312aa07
-      internalID: 1948596164
+      spriteID: 299d2e7441b31274f867449b097f63cd
+      internalID: -1217406523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_21
+      name: Medicine_21
       rect:
         serializedVersion: 2
         x: 924
@@ -546,20 +546,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a1af9dfdb70754892c3ecd47f2c954
-      internalID: -1474721646
+      spriteID: 14a6447eb366316459005c81db9097d0
+      internalID: -962269998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_22
+      name: Medicine_22
       rect:
         serializedVersion: 2
         x: 968
@@ -567,20 +567,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13afc5ed802219e41acdae3dd911ac25
-      internalID: -694421619
+      spriteID: 813c757fca1dac84ca83afcda8df8e9e
+      internalID: -701640318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_23
+      name: Medicine_23
       rect:
         serializedVersion: 2
         x: 1012
@@ -588,20 +588,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c579b78e17f62cf41af34b9b0045c19d
-      internalID: 166027320
+      spriteID: 5ba29b5592cd44b4aa1dedccf82054eb
+      internalID: -1598242459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_24
+      name: Medicine_24
       rect:
         serializedVersion: 2
         x: 1056
@@ -609,20 +609,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e914716d2a7482f41b32d33e020206b2
-      internalID: 513732353
+      spriteID: a95c3abe7fe33eb41acd77f42c67301f
+      internalID: -395584254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_25
+      name: Medicine_25
       rect:
         serializedVersion: 2
         x: 1100
@@ -630,20 +630,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99862f7cf6148c04597a2c62c075d667
-      internalID: -1847467321
+      spriteID: a4759bbe1f67f0149b7c0108bdb8eff5
+      internalID: -484378355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_26
+      name: Medicine_26
       rect:
         serializedVersion: 2
         x: 1144
@@ -651,20 +651,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b4a36054fc8cf247916745c43c6b1e3
-      internalID: 256131296
+      spriteID: 7c976c19edc3a7949a17af73d6a6e793
+      internalID: -1629472795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_27
+      name: Medicine_27
       rect:
         serializedVersion: 2
         x: 0
@@ -672,20 +672,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fab97c01c2317df4fbe70beed1e56f19
-      internalID: -1156220911
+      spriteID: a6e3dd6788cf9234da9190a7881cf129
+      internalID: -1263028725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_28
+      name: Medicine_28
       rect:
         serializedVersion: 2
         x: 44
@@ -693,20 +693,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b91c2149d7192e4185c213c2edba1ba
-      internalID: -524503885
+      spriteID: 1c39b4447ad76294eb22ff376aa1586b
+      internalID: -92194038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_29
+      name: Medicine_29
       rect:
         serializedVersion: 2
         x: 88
@@ -714,20 +714,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c6244a1132c6004ab3c7757c310e452
-      internalID: 1235471079
+      spriteID: 11d9e5a8f28f9864290352830731e1f1
+      internalID: 641267720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_30
+      name: Medicine_30
       rect:
         serializedVersion: 2
         x: 132
@@ -735,20 +735,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60ca89f613d8b9e4d841097a6373cb7c
-      internalID: 1416096848
+      spriteID: a94f969e2d86c874590512acb61bfc9c
+      internalID: 899649658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_31
+      name: Medicine_31
       rect:
         serializedVersion: 2
         x: 176
@@ -756,20 +756,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2b3ea09cacf04e4e9adb655142745dd
-      internalID: 1186125181
+      spriteID: 7d5a6c5df59df694b99bd5491e09a217
+      internalID: 1129466706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_32
+      name: Medicine_32
       rect:
         serializedVersion: 2
         x: 220
@@ -777,20 +777,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb2ae457c6c680498f2822b850e68be
-      internalID: 1369716057
+      spriteID: bf1ecd921d5c88442a27cbdd7e788b56
+      internalID: 800164547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_33
+      name: Medicine_33
       rect:
         serializedVersion: 2
         x: 264
@@ -798,20 +798,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3932bb01d011f654eaa969c95d1937f7
-      internalID: 1329361593
+      spriteID: bf9555b68335f7348b51977f130bf8c4
+      internalID: -829760586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_34
+      name: Medicine_34
       rect:
         serializedVersion: 2
         x: 308
@@ -819,20 +819,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0770ba09f5f2add4183ddf9c6182caea
-      internalID: -1379405140
+      spriteID: 204c3689f03dbce4c979dd3a52880f2e
+      internalID: 91362060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_35
+      name: Medicine_35
       rect:
         serializedVersion: 2
         x: 352
@@ -840,20 +840,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93588dde7009028419800ca119c708de
-      internalID: 2056856958
+      spriteID: f5f202f81c5b25d4f805f6f3a775a540
+      internalID: -1414561957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_36
+      name: Medicine_36
       rect:
         serializedVersion: 2
         x: 396
@@ -861,20 +861,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd4e9ebd295b8a348a68e5d3c9c5dd8f
-      internalID: -1196983151
+      spriteID: f967936ffe5c0914cb96140bc1531179
+      internalID: 1288572204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_37
+      name: Medicine_37
       rect:
         serializedVersion: 2
         x: 440
@@ -882,20 +882,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cac144bad337a0847aa6eef54f2731b2
-      internalID: -1178174378
+      spriteID: 7e4ba472bf7367b488f66edb4847601f
+      internalID: 1383877676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_38
+      name: Medicine_38
       rect:
         serializedVersion: 2
         x: 484
@@ -903,20 +903,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a6948ba5e5b6e42b5c8d4f6d90703f
-      internalID: 729901362
+      spriteID: 6b9b0a54e12ecc744a8575014becff1f
+      internalID: -359129472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_39
+      name: Medicine_39
       rect:
         serializedVersion: 2
         x: 528
@@ -924,20 +924,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccd70cc47ef52314fb2454e5436496a0
-      internalID: 2059556468
+      spriteID: 732251cbf41c6f148bf6d7720b547b4e
+      internalID: -125889108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_40
+      name: Medicine_40
       rect:
         serializedVersion: 2
         x: 572
@@ -945,20 +945,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf87b49bb907f3448926a5a2af160ee
-      internalID: 1458757759
+      spriteID: e2b6a4c56ad44ac4a9d4dd578fb255a4
+      internalID: 1933854298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_41
+      name: Medicine_41
       rect:
         serializedVersion: 2
         x: 616
@@ -966,20 +966,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b76e2fb0713b3e40b93485850b78222
-      internalID: 1489945693
+      spriteID: ac7d42d3b188373498e7939a6715a157
+      internalID: 1376542826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_42
+      name: Medicine_42
       rect:
         serializedVersion: 2
         x: 660
@@ -987,20 +987,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa935a7f91d9c874881d575f63e218ab
-      internalID: -882267836
+      spriteID: 8206b9bc7e7f70244810c5743769d285
+      internalID: -368976888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_43
+      name: Medicine_43
       rect:
         serializedVersion: 2
         x: 704
@@ -1008,20 +1008,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 613d50272ebcd664e85ab3ddaefd46b4
-      internalID: 886302896
+      spriteID: 19ea7ad869d18fa45be8eec4fb2b9941
+      internalID: -2083062259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_44
+      name: Medicine_44
       rect:
         serializedVersion: 2
         x: 748
@@ -1029,20 +1029,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f60fbb60c14a8624eae010badc967b05
-      internalID: -1631068620
+      spriteID: 8ef0d6548c9daca4a97b01fd160326e3
+      internalID: 154894003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_45
+      name: Medicine_45
       rect:
         serializedVersion: 2
         x: 792
@@ -1050,20 +1050,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4979df3612852f2409d0f5b1564d84b3
-      internalID: -225606312
+      spriteID: dc56c9ffdf1c53046bf361e8bc7402e0
+      internalID: -2020115775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_46
+      name: Medicine_46
       rect:
         serializedVersion: 2
         x: 836
@@ -1071,20 +1071,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae27952884ba1f40a1fca84fb23f2bd
-      internalID: -479278819
+      spriteID: 4736dd055dfb8794588c7aa40a3cfbbb
+      internalID: 851701176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_47
+      name: Medicine_47
       rect:
         serializedVersion: 2
         x: 880
@@ -1092,20 +1092,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f88e817eb0e39f647bad0a790fa14815
-      internalID: -1101175965
+      spriteID: fae30c0e3931532449881d66a0a3cfa4
+      internalID: 1169480286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_48
+      name: Medicine_48
       rect:
         serializedVersion: 2
         x: 924
@@ -1113,20 +1113,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f407d1a80ab05d42919f83160181625
-      internalID: 1042815799
+      spriteID: 986bb5c635e97b445a9f968845d78a39
+      internalID: -506025445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_49
+      name: Medicine_49
       rect:
         serializedVersion: 2
         x: 968
@@ -1134,20 +1134,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b50bc4ffcaf9b41b1ce38128c78e3f
-      internalID: 362635513
+      spriteID: 7e8eb39fff26cca48a45a6473e71fcf6
+      internalID: -451938737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_50
+      name: Medicine_50
       rect:
         serializedVersion: 2
         x: 1012
@@ -1155,20 +1155,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51dbeabdcaa129349a7d1be15307fed5
-      internalID: 1103914053
+      spriteID: f3fabc10193862346be1b7bba8b83484
+      internalID: -1189796842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_51
+      name: Medicine_51
       rect:
         serializedVersion: 2
         x: 1056
@@ -1176,20 +1176,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f93f8854afe6d84cb7039b68f33f20e
-      internalID: 418131243
+      spriteID: 3feaef5f3cc2596459d06ec6741da257
+      internalID: 974075290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_52
+      name: Medicine_52
       rect:
         serializedVersion: 2
         x: 1100
@@ -1197,20 +1197,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a8d72464ed799f458a4ed94aedd75fd
-      internalID: 779072975
+      spriteID: 75ddbdac7832eda4aa4bf73028d67aeb
+      internalID: -185324708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_53
+      name: Medicine_53
       rect:
         serializedVersion: 2
         x: 1144
@@ -1218,20 +1218,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4306e2f9f2acbd54d8cd2800b533ad38
-      internalID: 2119952193
+      spriteID: f78dd5d613868e6498026e8846109f64
+      internalID: 1119818195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_54
+      name: Medicine_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1239,20 +1239,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20638adf767caa74493d1b486dc7de1c
-      internalID: 2118049727
+      spriteID: 5a9b8760ca89dc644be904774ef48c86
+      internalID: -1764507555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_55
+      name: Medicine_55
       rect:
         serializedVersion: 2
         x: 44
@@ -1260,20 +1260,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c9d7d6726b511946bef0f78f9895cc4
-      internalID: -734147546
+      spriteID: b2f67e9ece78c3e47a0d3847bda79c83
+      internalID: -126149989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_56
+      name: Medicine_56
       rect:
         serializedVersion: 2
         x: 88
@@ -1281,20 +1281,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 501737e8fd5724c419b60aa7fad0d7d1
-      internalID: 406744580
+      spriteID: 0595c45853181864b9eb750949357038
+      internalID: -1136030426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_57
+      name: Medicine_57
       rect:
         serializedVersion: 2
         x: 132
@@ -1302,20 +1302,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f50429c2a97fc574ea5e16e398ad7bca
-      internalID: 491513174
+      spriteID: 207233888aba330489942a4a4b3b5db8
+      internalID: -1636848162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_58
+      name: Medicine_58
       rect:
         serializedVersion: 2
         x: 176
@@ -1323,20 +1323,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf93dd5364baac042b74c2c66ba97282
-      internalID: -1487291363
+      spriteID: 72a58e7c337441c45bfd4817f3fffa83
+      internalID: 518345926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_59
+      name: Medicine_59
       rect:
         serializedVersion: 2
         x: 220
@@ -1344,20 +1344,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a974a5759ba8e2b438456e89c678b386
-      internalID: 833607696
+      spriteID: 2fc720ec3ae2f0c4393a5eb052f91a67
+      internalID: -2110107861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_60
+      name: Medicine_60
       rect:
         serializedVersion: 2
         x: 264
@@ -1365,20 +1365,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ab83ebc78def304284de00fbe9ef2c9
-      internalID: 1160281524
+      spriteID: 441d32a8f25c7c6438ce16ef5d7dae40
+      internalID: 1638366777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_61
+      name: Medicine_61
       rect:
         serializedVersion: 2
         x: 308
@@ -1386,20 +1386,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b2c46359e73d804ab3bfea5daa5f6fd
-      internalID: 1850688944
+      spriteID: 4e6afbfe1b2298f48b4782cdbcd5156f
+      internalID: -2063346866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_62
+      name: Medicine_62
       rect:
         serializedVersion: 2
         x: 352
@@ -1407,20 +1407,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dc19a34cf6670d40a98c6056730fede
-      internalID: 219816740
+      spriteID: d42259271c7b6e24386ae36a53e23779
+      internalID: -2107974854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_63
+      name: Medicine_63
       rect:
         serializedVersion: 2
         x: 396
@@ -1428,20 +1428,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9485d15adf36bf4408862e15b57c7c7e
-      internalID: 1848366035
+      spriteID: a2a829b6f0a3cb84591467569b78b2d7
+      internalID: -1230315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_64
+      name: Medicine_64
       rect:
         serializedVersion: 2
         x: 440
@@ -1449,20 +1449,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e52367a3dfffc34badf32bc570b97c7
-      internalID: 1843992255
+      spriteID: 011e9e4cb3201074496206751168cf9a
+      internalID: 2114090030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_65
+      name: Medicine_65
       rect:
         serializedVersion: 2
         x: 484
@@ -1470,20 +1470,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 721d3712eb6c86b428761a7ab8e6c37d
-      internalID: 656647468
+      spriteID: 1bd23cf8d1fea2146a8fdf44407a7ee2
+      internalID: -1860138102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_66
+      name: Medicine_66
       rect:
         serializedVersion: 2
         x: 528
@@ -1491,20 +1491,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 549447d51d151e54aac1c172e0a42885
-      internalID: 1957440252
+      spriteID: e36ee6d5e48b12f479a8fe8c9e4b074e
+      internalID: 345808442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_67
+      name: Medicine_67
       rect:
         serializedVersion: 2
         x: 572
@@ -1512,20 +1512,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7baf2a93ee3ced84289346a377b0b8e8
-      internalID: -677300880
+      spriteID: e5d978b826f9e0d48996a8f6eeb01320
+      internalID: -631021134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_68
+      name: Medicine_68
       rect:
         serializedVersion: 2
         x: 616
@@ -1533,20 +1533,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: defb82aa2b6045d47bdb6f8956da4adb
-      internalID: 1381403981
+      spriteID: 3bb9cc9192843854586bb6cdee9b3a7a
+      internalID: 1365005225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_69
+      name: Medicine_69
       rect:
         serializedVersion: 2
         x: 660
@@ -1554,20 +1554,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23faa2a694b609049b38a72052d91e3b
-      internalID: -606547101
+      spriteID: 70a0c7ee9d8bb5a4695c98f912a18000
+      internalID: -1474967235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_70
+      name: Medicine_70
       rect:
         serializedVersion: 2
         x: 704
@@ -1575,20 +1575,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d04b10e1d9e9c46bb8c4e8a262674c
-      internalID: -213241166
+      spriteID: 94e4d83a367a38b43972f0635c721fb8
+      internalID: 2137002028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_71
+      name: Medicine_71
       rect:
         serializedVersion: 2
         x: 748
@@ -1596,20 +1596,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18d1f721cd2aa51438dbd0c963fff3be
-      internalID: 1144720432
+      spriteID: ebd1fe8b62218bf42b610c502bd5f058
+      internalID: 1779969848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_72
+      name: Medicine_72
       rect:
         serializedVersion: 2
         x: 792
@@ -1617,20 +1617,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9123ac55a6176eb4d9f2fc2e53cf327f
-      internalID: -1073079085
+      spriteID: 10b02c018e8502b49a1c04b4b86926b5
+      internalID: 1973672931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_73
+      name: Medicine_73
       rect:
         serializedVersion: 2
         x: 836
@@ -1638,20 +1638,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f70e93a7e7164045a388639e6afd925
-      internalID: 1507216421
+      spriteID: 46a31594b794b5c49b5a2c5f97bad945
+      internalID: 801309867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_74
+      name: Medicine_74
       rect:
         serializedVersion: 2
         x: 880
@@ -1659,20 +1659,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364c2842b1b6599488d6d91e70c447f0
-      internalID: -810768109
+      spriteID: 503a21a24d7585f4b916df985efbcea9
+      internalID: -1452213145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_75
+      name: Medicine_75
       rect:
         serializedVersion: 2
         x: 924
@@ -1680,20 +1680,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eea4e02aa31b92442a7e2c61d98d4bd8
-      internalID: -1428716901
+      spriteID: d1b0d10e0d67e3e458add239620f4384
+      internalID: 1264194294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_76
+      name: Medicine_76
       rect:
         serializedVersion: 2
         x: 968
@@ -1701,20 +1701,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b016d91882b6f24eab940f706af2d37
-      internalID: -2086278074
+      spriteID: ab150e714e5f16f46aa0f37695125624
+      internalID: -1497495167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_77
+      name: Medicine_77
       rect:
         serializedVersion: 2
         x: 1012
@@ -1722,20 +1722,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8e72b6e62d1b64458770aeb02ade8c5
-      internalID: -1429339218
+      spriteID: 907a6a545fd5ef646a060ca27dff88a3
+      internalID: -76971591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_78
+      name: Medicine_78
       rect:
         serializedVersion: 2
         x: 1056
@@ -1743,20 +1743,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1849b9a58f97cc49ad8213267c08438
-      internalID: 302069184
+      spriteID: 43490c0c4f197104d82b2f3f4eab99bd
+      internalID: 134565021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_79
+      name: Medicine_79
       rect:
         serializedVersion: 2
         x: 1100
@@ -1764,20 +1764,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7c8223d99095a408a23baad2a23ab1
-      internalID: 828836718
+      spriteID: 561b83e869f987540b195f2bd06876b7
+      internalID: -1879570126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_80
+      name: Medicine_80
       rect:
         serializedVersion: 2
         x: 1144
@@ -1785,209 +1785,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a9f8f5da2db24b4d8d8cb96f63a25a5
-      internalID: 2062753866
+      spriteID: 4a5e69c96b6ceae4e9fa26243f069d78
+      internalID: -45916825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_81
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17d0298881487404d8cf73e9fc87de7f
-      internalID: -739161549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_82
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23275f587e4af0c4989db7db70a4cf33
-      internalID: -264355449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_83
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc20f6915654808408e4673a3cd7d04e
-      internalID: 80350690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_84
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d2cb98a0de120d43a71cabf3ff4a77a
-      internalID: 514787426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_85
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7feb644813ca68142a7b705b38813449
-      internalID: -85968493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_86
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07b112a76750c7f478923934c9510e1a
-      internalID: -1282149143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_87
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bfdba6af2180bc4aaee59da7c50daf8
-      internalID: 1850918881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_88
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbb7b237bd8631f4f9dc9ad90171923c
-      internalID: -57629708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_89
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 420
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49c182b312515c545ac78561e2a96e6a
-      internalID: 1542207066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_90
+      name: Medicine_90
       rect:
         serializedVersion: 2
         x: 396
@@ -1995,20 +1806,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 418baefa200d73748b567efb7559f9e7
-      internalID: -848527575
+      spriteID: 9d1b8f98181f84e4d98bf090a57a6cc1
+      internalID: 1060179791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_91
+      name: Medicine_91
       rect:
         serializedVersion: 2
         x: 440
@@ -2016,20 +1827,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fbd2a6bca2f52e47a93d1c1df5fa4e5
-      internalID: -1239632561
+      spriteID: 24de196acf9e33345ac09d791dff90ee
+      internalID: 439672350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_92
+      name: Medicine_92
       rect:
         serializedVersion: 2
         x: 484
@@ -2037,20 +1848,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0adc07adddc18344a5bde47fa5bb557
-      internalID: -438596742
+      spriteID: 870e432c4fd4223418417759e284e78a
+      internalID: -1814440457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_93
+      name: Medicine_93
       rect:
         serializedVersion: 2
         x: 528
@@ -2058,20 +1869,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8475951cf803a22408b41b4d3c27ba8f
-      internalID: 1639556348
+      spriteID: a0ff353006bd60743bafaca4cd732010
+      internalID: 85805929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_94
+      name: Medicine_94
       rect:
         serializedVersion: 2
         x: 572
@@ -2079,20 +1890,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b671e23c227d774fabb07e2d64eb361
-      internalID: 633824502
+      spriteID: 9ac77f2212c7bed42bb8208ecdf6f79c
+      internalID: -1686469438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_95
+      name: Medicine_95
       rect:
         serializedVersion: 2
         x: 616
@@ -2100,20 +1911,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdd4bb7b0001c004dba6d5a4e4a1ede4
-      internalID: 1998611011
+      spriteID: 1d18e0fc3912b004f918370275ae29b9
+      internalID: 965788994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_96
+      name: Medicine_96
       rect:
         serializedVersion: 2
         x: 660
@@ -2121,20 +1932,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6db2c84ab18af3c418649eeb725d330a
-      internalID: -1064162265
+      spriteID: cbacd549d53bcad46826782d4db0fb1d
+      internalID: 1105214347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_97
+      name: Medicine_97
       rect:
         serializedVersion: 2
         x: 704
@@ -2142,20 +1953,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b040673d7137ad143b54510a2e585734
-      internalID: -93601683
+      spriteID: fcc5ea74e1a265346b26a0abfb0a9106
+      internalID: -1378550980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_98
+      name: Medicine_98
       rect:
         serializedVersion: 2
         x: 748
@@ -2163,20 +1974,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51f044cdc91b41c46a719586c5b6458d
-      internalID: 357013919
+      spriteID: 93677b0079b939e4694edae84dbf45ba
+      internalID: -1331694856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_99
+      name: Medicine_99
       rect:
         serializedVersion: 2
         x: 792
@@ -2184,20 +1995,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87f781b25cdc4de418b2b93c1ba56a95
-      internalID: 2008749417
+      spriteID: fb945657ad1ec274aa0c5df29d3bd7c6
+      internalID: 923799466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_100
+      name: Medicine_100
       rect:
         serializedVersion: 2
         x: 836
@@ -2205,20 +2016,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92fd0dafc210ac5469324b4ea7ba41b5
-      internalID: -897033427
+      spriteID: 47fd005ddb0d1264e9fe5419ae34600a
+      internalID: -1952544587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_101
+      name: Medicine_101
       rect:
         serializedVersion: 2
         x: 880
@@ -2226,20 +2037,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b04818574adf11642a2568d0cc15ca7e
-      internalID: -1332273051
+      spriteID: 83f1f1b96a3953749a4da5f7f13a5464
+      internalID: -1531491044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_102
+      name: Medicine_102
       rect:
         serializedVersion: 2
         x: 924
@@ -2247,20 +2058,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d2f34a3b432df443baf08211da055cc
-      internalID: -191565406
+      spriteID: 1d329c4e978632d4cb222edbc5826681
+      internalID: 162704596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_103
+      name: Medicine_103
       rect:
         serializedVersion: 2
         x: 968
@@ -2268,20 +2079,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7e7ac07334f94b418683fb1af3a48cf
-      internalID: -1897997520
+      spriteID: 79ba7b8178f47e4478e72fe35275d776
+      internalID: -1713295782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_104
+      name: Medicine_104
       rect:
         serializedVersion: 2
         x: 1012
@@ -2289,20 +2100,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b583ccaa3f320c14ca93ef26025eb844
-      internalID: -1835748560
+      spriteID: 3e6c192d92b39c94dbd327b8bb36adcf
+      internalID: -936726828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_105
+      name: Medicine_105
       rect:
         serializedVersion: 2
         x: 1056
@@ -2310,20 +2121,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722378d79d44a5147938a31a64f7902f
-      internalID: 661673231
+      spriteID: 621f2c201323e5b48965809bd583e1ee
+      internalID: 2133501970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_106
+      name: Medicine_106
       rect:
         serializedVersion: 2
         x: 1100
@@ -2331,20 +2142,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7fe79faf5d561d4599faaa66fbf9f37
-      internalID: 861014810
+      spriteID: aef13488a97249b4a8a42ed9c333e8d4
+      internalID: -1639840938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_107
+      name: Medicine_107
       rect:
         serializedVersion: 2
         x: 1144
@@ -2352,209 +2163,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8288a0bd38d58141ac1e7ea63205c80
-      internalID: 826822743
+      spriteID: cfe4cea3d29f4b042bb7306432fbc7c6
+      internalID: -193200528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_108
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd81d168a2996634db5ec57a0234bbb1
-      internalID: 30871228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_109
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5505033431a2f724caacf971e66cd17a
-      internalID: 606180240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_110
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d67f6e3a167d04c45861ed69948e336d
-      internalID: -1811313760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_111
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd4ed5d2a6c7eeb4394a48f7cca2b522
-      internalID: -1020602570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_112
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e98c6243e16eee243844f28204bc79b8
-      internalID: 258345663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_113
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5ba2217f5f30b547b24a7b5d535634e
-      internalID: -1916602435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_114
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0435e4548f91afa47ac33e273f38ccb2
-      internalID: 2066194560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_115
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb1ec925c58004946929c79b3b70ecf2
-      internalID: 65394429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_116
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 336
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fef04682937f8544f9ec1c9960eef0c5
-      internalID: -1998738577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_117
+      name: Medicine_117
       rect:
         serializedVersion: 2
         x: 396
@@ -2562,20 +2184,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 732317ddc1c188244bba84b90d768d2e
-      internalID: -72006013
+      spriteID: 530801127a9e90744af8779cd5cc60c5
+      internalID: -215552593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_118
+      name: Medicine_118
       rect:
         serializedVersion: 2
         x: 440
@@ -2583,20 +2205,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 326143d028666dc4d8c2e281ce4d9007
-      internalID: 89385328
+      spriteID: baa4313a9c211eb48a3188e64639a9b6
+      internalID: 600909866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_119
+      name: Medicine_119
       rect:
         serializedVersion: 2
         x: 484
@@ -2604,20 +2226,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6154ecd111c4c4cbd6aaf641a17ffe
-      internalID: -1787948608
+      spriteID: 44a9fcac307d0de4dafa968c3bd4d50c
+      internalID: 262820957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_120
+      name: Medicine_120
       rect:
         serializedVersion: 2
         x: 528
@@ -2625,20 +2247,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e760cc8681a31234b9f4237fced7233e
-      internalID: 1861115061
+      spriteID: e91ace292bf273e4ca094313851a2d79
+      internalID: -46513232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_121
+      name: Medicine_121
       rect:
         serializedVersion: 2
         x: 572
@@ -2646,20 +2268,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0724a02d2dcf3343a6b2d79b460582c
-      internalID: -1233720819
+      spriteID: 59df0a6c42996f643a3bdb29798f1241
+      internalID: 301993725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_122
+      name: Medicine_122
       rect:
         serializedVersion: 2
         x: 616
@@ -2667,20 +2289,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b33735e395dad2645a0d03dc5aeb7d1f
-      internalID: -1264561174
+      spriteID: 2ae15375c7c3ef74aa2d4d1a3e38451a
+      internalID: -1582390985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_123
+      name: Medicine_123
       rect:
         serializedVersion: 2
         x: 660
@@ -2688,20 +2310,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5885f5fad566c443a96476c9d471147
-      internalID: 1125700054
+      spriteID: 1d1fa8d4b0c29494089ff895133f8373
+      internalID: -1086968777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_124
+      name: Medicine_124
       rect:
         serializedVersion: 2
         x: 704
@@ -2709,20 +2331,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953b16d9bf5be604e905bb79b3de4025
-      internalID: -1269096925
+      spriteID: 08302f8a2d869584299f834cad9de70c
+      internalID: 81320834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_125
+      name: Medicine_125
       rect:
         serializedVersion: 2
         x: 748
@@ -2730,20 +2352,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1278c1ffcdd9d9645b32c2f146bf2f16
-      internalID: 1993995276
+      spriteID: 5813b0c5aecb0a141bb6825e08696297
+      internalID: 289078918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_126
+      name: Medicine_126
       rect:
         serializedVersion: 2
         x: 792
@@ -2751,20 +2373,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fbd04c77c32c384c930493cba622d21
-      internalID: -1509900160
+      spriteID: 33ad96e601de7d54188e2af956964c48
+      internalID: -1851037449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_127
+      name: Medicine_127
       rect:
         serializedVersion: 2
         x: 836
@@ -2772,20 +2394,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f01c2e822ce8ab7459cf3ecc45668964
-      internalID: -1436078100
+      spriteID: c079f2a2dbbcc784e98f2b17c96bb3f6
+      internalID: 1881275403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_128
+      name: Medicine_128
       rect:
         serializedVersion: 2
         x: 880
@@ -2793,20 +2415,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f3879fc515f00b418a396976a57766f
-      internalID: 603702457
+      spriteID: 1c744ea1106176643a7ec802465ded17
+      internalID: -589665385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_129
+      name: Medicine_129
       rect:
         serializedVersion: 2
         x: 924
@@ -2814,20 +2436,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ca5209d5ab35c04fb9a914ca8f0138b
-      internalID: 1908358742
+      spriteID: 339d46efe68b41d4a8a590c3d28245fb
+      internalID: -1743619634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_130
+      name: Medicine_130
       rect:
         serializedVersion: 2
         x: 968
@@ -2835,20 +2457,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e48c431ef9587149883b43c669112ba
-      internalID: 1683733759
+      spriteID: b936590f3106cda4488503e6c4b18eb7
+      internalID: -240796876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_131
+      name: Medicine_131
       rect:
         serializedVersion: 2
         x: 1012
@@ -2856,20 +2478,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78bbf007dd2b73d42a13cc30607e0d33
-      internalID: 1307039866
+      spriteID: 8136f0bab77e4f84aa7840431889e582
+      internalID: 1379593448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_132
+      name: Medicine_132
       rect:
         serializedVersion: 2
         x: 1056
@@ -2877,20 +2499,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e083a20e0bc79944fa0d3f21b242ba21
-      internalID: -825213242
+      spriteID: e70482558abc42e488800529ad523909
+      internalID: -773617348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_133
+      name: Medicine_133
       rect:
         serializedVersion: 2
         x: 1100
@@ -2898,20 +2520,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10e46a988a6e810419a5f97001c182ae
-      internalID: -1862743008
+      spriteID: ddde613f64f6b7e42a487fcd254a89d5
+      internalID: 157815631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_134
+      name: Medicine_134
       rect:
         serializedVersion: 2
         x: 1144
@@ -2919,209 +2541,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d45e8e6359d2a6d41b1327cce32aea2b
-      internalID: 1152757223
+      spriteID: 0cd74cfc71042704cb04b5c519d43ad7
+      internalID: -1487026694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_135
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c5dcc78ddfa2c04482a55248a96fc03
-      internalID: -1018607968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_136
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c72804d144dcea347af0f0dfc2799e96
-      internalID: 230460975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_137
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44162a516f2f3734186e63e157269504
-      internalID: 1697286826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_138
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0009f361ea73d5b4dbaee2890df5f2a0
-      internalID: -923729857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_139
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d43134646e471d478d53a27d405f293
-      internalID: -814980880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_140
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 165997feff69fa547a3bcc1314b64fc3
-      internalID: 1141887656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_141
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f502d8bd4def93948bb1515a46bb8e85
-      internalID: 934065763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_142
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79974eb618d45f64986631e85e315c85
-      internalID: -1089499574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_143
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 252
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2ea14509b3b9e94798071ab872c54cd
-      internalID: 2010927836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_144
+      name: Medicine_144
       rect:
         serializedVersion: 2
         x: 396
@@ -3129,20 +2562,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c26b2bfae1cca41b9a2f8973a4865e
-      internalID: 1307027166
+      spriteID: c780304c2b725a243be0783c19c16ebe
+      internalID: 277954880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_145
+      name: Medicine_145
       rect:
         serializedVersion: 2
         x: 440
@@ -3150,20 +2583,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94035d2ae3cf1cb40967c2a95af753d7
-      internalID: -1785905866
+      spriteID: ea2fa616a73862240bda2b74c077fa46
+      internalID: -1304695152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_146
+      name: Medicine_146
       rect:
         serializedVersion: 2
         x: 484
@@ -3171,20 +2604,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e37a01aff554a024aa26538780432165
-      internalID: -1219401141
+      spriteID: 619b09c886b9ef343b9a6a04b9f874f3
+      internalID: -643757582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_147
+      name: Medicine_147
       rect:
         serializedVersion: 2
         x: 528
@@ -3192,20 +2625,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b1590a452adfa4e85d4c8112ad0551
-      internalID: 585519182
+      spriteID: d20ca604a2854c64b8f363e251fb8078
+      internalID: 1515059209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_148
+      name: Medicine_148
       rect:
         serializedVersion: 2
         x: 572
@@ -3213,20 +2646,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f763b922581c5144e99c21903c42b0c6
-      internalID: -629277661
+      spriteID: d079eba38878ebc409e370e0c3cdf82c
+      internalID: -1668522587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_149
+      name: Medicine_149
       rect:
         serializedVersion: 2
         x: 616
@@ -3234,20 +2667,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55cb7bfa49b6bb64c93621febab3663b
-      internalID: 359883986
+      spriteID: 5cb13624461cb1142850e0fa8ec84dcc
+      internalID: -439897809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_150
+      name: Medicine_150
       rect:
         serializedVersion: 2
         x: 660
@@ -3255,20 +2688,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7ed3bceac04df4aae922aacc01b92c
-      internalID: 1641876171
+      spriteID: 3ae2e03630dc1c74da76af6f762423e8
+      internalID: 102902114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_151
+      name: Medicine_151
       rect:
         serializedVersion: 2
         x: 704
@@ -3276,20 +2709,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45364c0bc22856d4990b6ac9f7f0115b
-      internalID: -1968845982
+      spriteID: 4a69ca1cecaa8504bac281a7479f96c5
+      internalID: -686701871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_152
+      name: Medicine_152
       rect:
         serializedVersion: 2
         x: 748
@@ -3297,20 +2730,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56697a54ead69d446bf69f4c940d0fad
-      internalID: -1428204360
+      spriteID: cbe5b7c8b901053459d353f716854a0d
+      internalID: -1643935417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_153
+      name: Medicine_153
       rect:
         serializedVersion: 2
         x: 792
@@ -3318,20 +2751,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f8d9fd7594aeb34a98702111b552e30
-      internalID: 515507825
+      spriteID: 9b80d030bcc601e46b4688e02ec7e745
+      internalID: -538199934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_154
+      name: Medicine_154
       rect:
         serializedVersion: 2
         x: 836
@@ -3339,20 +2772,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb56069aa58f5d44e8beef994e4bfd26
-      internalID: 797162740
+      spriteID: 4d6bb5b963814b7438fe68dbb5ac6311
+      internalID: -206345234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_155
+      name: Medicine_155
       rect:
         serializedVersion: 2
         x: 880
@@ -3360,20 +2793,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ed7383f906c1ec4eb45628d556b5c1d
-      internalID: 670529410
+      spriteID: 722b9d28dbb8b524d86138d10dffe68d
+      internalID: 1821160183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_156
+      name: Medicine_156
       rect:
         serializedVersion: 2
         x: 924
@@ -3381,20 +2814,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a2da9e3522a39d40b6a7e7f49f78573
-      internalID: -980714774
+      spriteID: 983e984e0006e664f995dc14620db2c5
+      internalID: -699979216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_157
+      name: Medicine_157
       rect:
         serializedVersion: 2
         x: 968
@@ -3402,20 +2835,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f53de919154b34c8679d6168732d3e
-      internalID: -760556392
+      spriteID: 65e066637713990438e6a8df250cb452
+      internalID: 1059210572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_158
+      name: Medicine_158
       rect:
         serializedVersion: 2
         x: 1012
@@ -3423,20 +2856,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5af85b645f21227429513d934d0039dd
-      internalID: 269113930
+      spriteID: 91df6127a9a10fc499194d07767837fd
+      internalID: 2090310949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_159
+      name: Medicine_159
       rect:
         serializedVersion: 2
         x: 1056
@@ -3444,20 +2877,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b93981ccfbd36474f882a83c6878b98e
-      internalID: -904596443
+      spriteID: c2b79c4bd89cd794194a36b774d667d7
+      internalID: 1797779643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_160
+      name: Medicine_160
       rect:
         serializedVersion: 2
         x: 1100
@@ -3465,20 +2898,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76ecda48b73056546b51e98b870b0f8f
-      internalID: 1652314246
+      spriteID: ea5265db0a7f9b949965ff05940e18df
+      internalID: -1700001550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_161
+      name: Medicine_161
       rect:
         serializedVersion: 2
         x: 1144
@@ -3486,20 +2919,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebd8362ab2043bf418cd28de7f322ca5
-      internalID: -389535489
+      spriteID: c8738ccf04928a64080e677c6e1eb7ad
+      internalID: 1061211866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_162
+      name: Medicine_162
       rect:
         serializedVersion: 2
         x: 0
@@ -3507,20 +2940,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15f02b356c15c514f95566638a234076
-      internalID: -125154520
+      spriteID: 31287859ade278347bc89fe4532ba0bc
+      internalID: -448859949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_163
+      name: Medicine_163
       rect:
         serializedVersion: 2
         x: 44
@@ -3528,20 +2961,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff0d86caadcd3044faf60af115211d02
-      internalID: 1281983523
+      spriteID: 388306314dbfced42a4a1adf25e254e3
+      internalID: 1051907875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_164
+      name: Medicine_164
       rect:
         serializedVersion: 2
         x: 88
@@ -3549,20 +2982,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34eea89388102a04780cf6fd7ae921e4
-      internalID: -646756109
+      spriteID: 92c79ceecd60dab40b95571170f6014b
+      internalID: 986110534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_165
+      name: Medicine_165
       rect:
         serializedVersion: 2
         x: 132
@@ -3570,20 +3003,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7464adb3884a05468a33aaf465cfd9b
-      internalID: 1478765530
+      spriteID: 9d066bcff50eb4c4e92a5b0349be2674
+      internalID: -376835448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_166
+      name: Medicine_166
       rect:
         serializedVersion: 2
         x: 176
@@ -3591,20 +3024,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03c9d6ed4b5787e47b45c9b4408bde02
-      internalID: 183466467
+      spriteID: d3d956bb9145b44449d5909fe7dc8d01
+      internalID: 182764154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_167
+      name: Medicine_167
       rect:
         serializedVersion: 2
         x: 220
@@ -3612,20 +3045,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12bd1403e2f253b4781ad03e5d06cf7f
-      internalID: -814310027
+      spriteID: 3a57f387ef8be19409bdebd098ed31d4
+      internalID: 313695096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_168
+      name: Medicine_168
       rect:
         serializedVersion: 2
         x: 264
@@ -3633,20 +3066,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a958953b5e36dae4e817b96dcacc82dc
-      internalID: 1993129261
+      spriteID: c326999c9758a0b48a167759d50996e1
+      internalID: -284760360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_169
+      name: Medicine_169
       rect:
         serializedVersion: 2
         x: 308
@@ -3654,20 +3087,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3cc506cea4c3064d91e7c41c1cc1e6e
-      internalID: 858589293
+      spriteID: 8bdcc68009934d04d9e056369ca89328
+      internalID: -1375807112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_170
+      name: Medicine_170
       rect:
         serializedVersion: 2
         x: 352
@@ -3675,20 +3108,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a0e02cbe18930242a0512efdc611e66
-      internalID: 645870125
+      spriteID: bac36bdd425e18b42a744eed72ae73ac
+      internalID: 1716039790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_171
+      name: Medicine_171
       rect:
         serializedVersion: 2
         x: 396
@@ -3696,20 +3129,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6149bb9ca90d93f44863fe67316df5e4
-      internalID: -750403485
+      spriteID: 579de9e7251ea7342801343333a6bed7
+      internalID: 342808754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_172
+      name: Medicine_172
       rect:
         serializedVersion: 2
         x: 440
@@ -3717,20 +3150,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da1eae43d7f625f489c3be12c06cca52
-      internalID: -952844032
+      spriteID: 99637d55d346a9d4fb399d9ee83d18fc
+      internalID: 948341621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_173
+      name: Medicine_173
       rect:
         serializedVersion: 2
         x: 484
@@ -3738,20 +3171,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d611239aca3104c84f647b703a6095
-      internalID: 1737475906
+      spriteID: e9c3c99d09a1ff94097042642a323e76
+      internalID: -1015024108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_174
+      name: Medicine_174
       rect:
         serializedVersion: 2
         x: 528
@@ -3759,20 +3192,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d62a7150fcbeb7d49a48685584e875f1
-      internalID: -316236877
+      spriteID: d583c172bd362514cb1958e1763ba587
+      internalID: 515066985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_175
+      name: Medicine_175
       rect:
         serializedVersion: 2
         x: 572
@@ -3780,20 +3213,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d00eede74dc534ea8afec57534699d
-      internalID: 2090105307
+      spriteID: da057861b34e2a8489abe203f8959b2b
+      internalID: -615935835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_176
+      name: Medicine_176
       rect:
         serializedVersion: 2
         x: 616
@@ -3801,20 +3234,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7ec2e7efe400fe42aebd12c59ae6714
-      internalID: 1157013044
+      spriteID: d87d60406efe9934c8495d3651f1df8a
+      internalID: 1858330710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_177
+      name: Medicine_177
       rect:
         serializedVersion: 2
         x: 660
@@ -3822,20 +3255,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a71378eb7d290b45a16cc515e3ab9ef
-      internalID: 2116733018
+      spriteID: 1d0cbb079a2d5bf499d76bf60f6a8a54
+      internalID: -100553751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_178
+      name: Medicine_178
       rect:
         serializedVersion: 2
         x: 704
@@ -3843,20 +3276,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 637b371e208f176438ebbfb2789867d3
-      internalID: 790016964
+      spriteID: 17c0cda76d5df304189352a20f221c68
+      internalID: 1114497766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_179
+      name: Medicine_179
       rect:
         serializedVersion: 2
         x: 748
@@ -3864,209 +3297,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a3e1e0af060c70458d6f86e741054f6
-      internalID: 927591850
+      spriteID: 1ace84941c4958b4e83005f4f3ff246a
+      internalID: -1272324747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_180
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3ae66ca6cc6a4545a8a4dc46ccdb767
-      internalID: 1613572679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_181
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95e80734ab96dac4bb50d6124356537f
-      internalID: -1251356708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_182
-      rect:
-        serializedVersion: 2
-        x: 880
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdcf9129aeab156489ff4a11b7328795
-      internalID: 2035724066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_183
-      rect:
-        serializedVersion: 2
-        x: 924
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 576a938adbcdd774fa3c89e3dd2ed108
-      internalID: 36378122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_184
-      rect:
-        serializedVersion: 2
-        x: 968
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03520e53f62b5864d8706c8a3f70ab84
-      internalID: 1275476213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_185
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5e903a0763fecf40b09c299ac1cbed3
-      internalID: 1763460103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_186
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16dd5c9981457374ab90b609290ef38d
-      internalID: 341660509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_187
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b903f9967e28f24a93adb33b9dd8ca7
-      internalID: -1994743406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_188
-      rect:
-        serializedVersion: 2
-        x: 1144
-        y: 168
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ed9b9a71c89c054c827ac6f47f6f327
-      internalID: 1046842500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_189
+      name: Medicine_189
       rect:
         serializedVersion: 2
         x: 0
@@ -4074,20 +3318,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cb262e242c75154d87f86cea437f4c2
-      internalID: -170586534
+      spriteID: e89aa103698c7c74f8bad4d61f829a78
+      internalID: 528655762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_190
+      name: Medicine_190
       rect:
         serializedVersion: 2
         x: 44
@@ -4095,20 +3339,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b016ff5db8d66a449e8b53a32bce460
-      internalID: -320790918
+      spriteID: e28111049bcf61a48b1bc95b2d19b4bd
+      internalID: 953262093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_191
+      name: Medicine_191
       rect:
         serializedVersion: 2
         x: 88
@@ -4116,20 +3360,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 911b081bbae4039448fc4d7c6d8c698e
-      internalID: -696635588
+      spriteID: 49a463fcf5fd81241adfe4f7de45119f
+      internalID: -58742069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_192
+      name: Medicine_192
       rect:
         serializedVersion: 2
         x: 132
@@ -4137,20 +3381,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e0d02e8519972644872c2a70ef0fddd
-      internalID: 1057825401
+      spriteID: 4335e33445701d344a445848eedabfd4
+      internalID: 512161898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_193
+      name: Medicine_193
       rect:
         serializedVersion: 2
         x: 176
@@ -4158,20 +3402,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e838b1838aaab7c4a88f81a456b9cb5d
-      internalID: -477644679
+      spriteID: ba38d3858ddab5946994ce25d1dc0a2f
+      internalID: 1563540836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_194
+      name: Medicine_194
       rect:
         serializedVersion: 2
         x: 220
@@ -4179,20 +3423,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c976e08dd0ba8a4ba9e640eb0d5bb9e
-      internalID: 433808161
+      spriteID: 67c2cafd50027234b93ba38138f0e242
+      internalID: 1940186583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_195
+      name: Medicine_195
       rect:
         serializedVersion: 2
         x: 264
@@ -4200,20 +3444,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8337419ec433eb48a33d069a44df5fb
-      internalID: -1676144594
+      spriteID: 983ee660681584c4b8832c3aa35be567
+      internalID: -1849205354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_196
+      name: Medicine_196
       rect:
         serializedVersion: 2
         x: 308
@@ -4221,20 +3465,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f2892bbd9c2a07418e2b44629216ec7
-      internalID: 276844747
+      spriteID: d44ab4904bc000843b41b5ccf8bed1fe
+      internalID: -134620403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_197
+      name: Medicine_197
       rect:
         serializedVersion: 2
         x: 352
@@ -4242,20 +3486,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de2f82568170dbf42afe54cdef931c33
-      internalID: 1730519053
+      spriteID: c0e6797f9cd3ee448b904946154425aa
+      internalID: 996958084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_198
+      name: Medicine_198
       rect:
         serializedVersion: 2
         x: 396
@@ -4263,20 +3507,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c14ae8ac01cf18499275c6d18fa2045
-      internalID: -357486907
+      spriteID: 7095b5e516f55bf41958ed9afba6eddf
+      internalID: -2118419528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_199
+      name: Medicine_199
       rect:
         serializedVersion: 2
         x: 440
@@ -4284,20 +3528,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597fdf6050ea19543bf53518a539ca48
-      internalID: -157676399
+      spriteID: fa6969702467f7948b61f9a16bacc890
+      internalID: 748163495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_200
+      name: Medicine_200
       rect:
         serializedVersion: 2
         x: 484
@@ -4305,20 +3549,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beac3aa9e890986419a69aeb985103a7
-      internalID: 340806853
+      spriteID: bf51ef5a2a64ae64d8c4cdc1ac85288c
+      internalID: 178824622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_201
+      name: Medicine_201
       rect:
         serializedVersion: 2
         x: 528
@@ -4326,20 +3570,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80e422f303472a44cab59e874ab84665
-      internalID: -1303016864
+      spriteID: a3a75c74757aeb94aa9a108265ad25a4
+      internalID: -1870396391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_202
+      name: Medicine_202
       rect:
         serializedVersion: 2
         x: 572
@@ -4347,20 +3591,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c03f888fa2fd1f14fb5abce6b89f6aeb
-      internalID: -959293306
+      spriteID: de10ca9c60a4b864597c9820e3074878
+      internalID: -481115808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_203
+      name: Medicine_203
       rect:
         serializedVersion: 2
         x: 616
@@ -4368,20 +3612,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fa5b23d0464066478dd9d0782aee96b
-      internalID: 473803374
+      spriteID: c31741f07fe470e48b05b6c64069be8c
+      internalID: 386072671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_204
+      name: Medicine_204
       rect:
         serializedVersion: 2
         x: 660
@@ -4389,20 +3633,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9eb57145a4127c41ada9ce5d864f58f
-      internalID: -193311750
+      spriteID: 6ac66ee5a8d702344a0132227b8f1c3e
+      internalID: 1645903815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_205
+      name: Medicine_205
       rect:
         serializedVersion: 2
         x: 704
@@ -4410,20 +3654,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eea0a585a6605914ca9d058e5b61f22b
-      internalID: -790448683
+      spriteID: 397b1c2f6c825994896e03392fe8d8b9
+      internalID: -1161461421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_206
+      name: Medicine_206
       rect:
         serializedVersion: 2
         x: 748
@@ -4431,209 +3675,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ffb5f73bf2fac458a066eee509cdcd
-      internalID: -354482212
+      spriteID: d97551fa15b8b59438cd27a25364ce3c
+      internalID: 618743994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_207
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f52102fa313b8c94dba9719846823b50
-      internalID: -1984018627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_208
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5d48d8763df21545920aff0612e14ce
-      internalID: -30537125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_209
-      rect:
-        serializedVersion: 2
-        x: 880
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f3659a22226a514388e7b95c6516c20
-      internalID: -204533944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_210
-      rect:
-        serializedVersion: 2
-        x: 924
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08c70124a7dfe3b46933b3108111f596
-      internalID: -1438393908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_211
-      rect:
-        serializedVersion: 2
-        x: 968
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10b5c7ea428a7884e9c93b7153c7d044
-      internalID: 14605754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_212
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91a357155a8668642987c68449b03b39
-      internalID: -256919714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_213
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5d79325f400ae44c96fc15596601162
-      internalID: -745924775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_214
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6357b2c11e0bac478103264d5616ae0
-      internalID: 898099572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_215
-      rect:
-        serializedVersion: 2
-        x: 1144
-        y: 84
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efbdf66284cbcec448f13186e6d62cb4
-      internalID: 1782831172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_216
+      name: Medicine_216
       rect:
         serializedVersion: 2
         x: 0
@@ -4641,20 +3696,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d23fdc5b1fe95e47967bb27b57f7c9e
-      internalID: -454104529
+      spriteID: d25c0e1c2a88a0749b5c813cbfdfdc2c
+      internalID: 1772074661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_217
+      name: Medicine_217
       rect:
         serializedVersion: 2
         x: 44
@@ -4662,20 +3717,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07567cb6b50c81c46af9fb22c3e79eff
-      internalID: 1523625609
+      spriteID: 5bc731fbd0e1c934ba0ce35e1435fee5
+      internalID: -1077141958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_218
+      name: Medicine_218
       rect:
         serializedVersion: 2
         x: 88
@@ -4683,20 +3738,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c43b7fed37de58140bc8c3ae8ba291fb
-      internalID: 1951325583
+      spriteID: 8cde6d17c11605e47b007b20323d8e48
+      internalID: 1414883412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_219
+      name: Medicine_219
       rect:
         serializedVersion: 2
         x: 132
@@ -4704,20 +3759,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ee1a9624869ed44ca722cad264817cd
-      internalID: -1257830419
+      spriteID: 3fa1ded9beb74df4596258d779bb8406
+      internalID: 239076050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_220
+      name: Medicine_220
       rect:
         serializedVersion: 2
         x: 176
@@ -4725,20 +3780,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f9b461bc127eb449a7d3fd7022ef5eb
-      internalID: -1424576807
+      spriteID: 9c99bf066403b8a469912bf335c0cf5e
+      internalID: 1151254942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_221
+      name: Medicine_221
       rect:
         serializedVersion: 2
         x: 220
@@ -4746,20 +3801,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d24f96e625c75a4290ab1d15b6b5771
-      internalID: 673563062
+      spriteID: 96af468672781d5408abbf9ed5dcdaf5
+      internalID: 306442271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_222
+      name: Medicine_222
       rect:
         serializedVersion: 2
         x: 264
@@ -4767,20 +3822,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3451683f5f6bb9c4bb5fd0e13a0d995d
-      internalID: 151306558
+      spriteID: c2d51d32483309f40a00fca6b46a363a
+      internalID: 422138323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_223
+      name: Medicine_223
       rect:
         serializedVersion: 2
         x: 308
@@ -4788,20 +3843,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28f881e1f2e12164b84e0846a505a9a4
-      internalID: -648816728
+      spriteID: b390e6800a3a47c4c86b9d4f88547afc
+      internalID: -509598501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_224
+      name: Medicine_224
       rect:
         serializedVersion: 2
         x: 352
@@ -4809,20 +3864,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27875b04dbf67754cb0dc8273c8ab81e
-      internalID: -1557433208
+      spriteID: b0be676499cde70498960fc39cee885f
+      internalID: -846753182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_225
+      name: Medicine_225
       rect:
         serializedVersion: 2
         x: 396
@@ -4830,20 +3885,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3267cc8a09aebc2488bd5271f85042f3
-      internalID: 2138115464
+      spriteID: 27b172b4f37297a45930310dc5ae59d4
+      internalID: -944213688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_226
+      name: Medicine_226
       rect:
         serializedVersion: 2
         x: 440
@@ -4851,20 +3906,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdfa40b7b9f529b42b4d551f53341f7f
-      internalID: 57349776
+      spriteID: 6c247b314c8e6e84db5cd4643ea820a2
+      internalID: 812586128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_227
+      name: Medicine_227
       rect:
         serializedVersion: 2
         x: 484
@@ -4872,20 +3927,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b490df29fca4c3459a5d07c239d7ec3
-      internalID: 1221992146
+      spriteID: fbe77c337cbd56743be9ccd70f19fcb0
+      internalID: 746917787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_228
+      name: Medicine_228
       rect:
         serializedVersion: 2
         x: 528
@@ -4893,20 +3948,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7513d26675976745b7654481fe853a2
-      internalID: -1101580208
+      spriteID: 086dd2bea6664f34d87da68886958e34
+      internalID: 147454539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_229
+      name: Medicine_229
       rect:
         serializedVersion: 2
         x: 572
@@ -4914,20 +3969,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b573b67b9ad171d43a3d47105e698fab
-      internalID: -1257173604
+      spriteID: 572bc4cb36601bd469be7cc29c7e3aa9
+      internalID: -1564489595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_230
+      name: Medicine_230
       rect:
         serializedVersion: 2
         x: 616
@@ -4935,20 +3990,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f950c01e7c2d143b5e0470e5909433
-      internalID: 251646000
+      spriteID: ea4d3ba5d75920f43a622a31ea1de795
+      internalID: 912599474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_231
+      name: Medicine_231
       rect:
         serializedVersion: 2
         x: 660
@@ -4956,20 +4011,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c58f6a0170e5c41a5e46dfd06052ba
-      internalID: -205546393
+      spriteID: b760fd086f8e47a40a29e3d56839f65d
+      internalID: -330333801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_232
+      name: Medicine_232
       rect:
         serializedVersion: 2
         x: 704
@@ -4977,20 +4032,20 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4071af0441a57e84b88421e6b26fa67a
-      internalID: 1586953348
+      spriteID: a411e6ac4987a644a8333234849a2321
+      internalID: -554604916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FullMedicineSet_233
+      name: Medicine_233
       rect:
         serializedVersion: 2
         x: 748
@@ -4998,203 +4053,14 @@ TextureImporter:
         width: 44
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ac0599bf44a2f743b6f79669c3bbb8e
-      internalID: -1059459358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_234
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d0e68f06db0c264c8ef6aeaa8a9cc54
-      internalID: 1802211614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_235
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4af5e4cef7e00e247809addded839cd5
-      internalID: -1893480490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_236
-      rect:
-        serializedVersion: 2
-        x: 880
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57eab0f58f821a44a9a705ef633a90ab
-      internalID: 250281109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_237
-      rect:
-        serializedVersion: 2
-        x: 924
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61681ff2179d1fb498c05150e805df99
-      internalID: -1310121940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_238
-      rect:
-        serializedVersion: 2
-        x: 968
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e79122f8ff10f1c4c8a731e05363d380
-      internalID: 1469274496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_239
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5325e9659ed46c94394e546488565263
-      internalID: 1248357735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_240
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d20de5675ef44a47aca8afc0238897b
-      internalID: 2140372539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_241
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a495ce5b26d3b604ca6e16afeeccecfe
-      internalID: 600197618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FullMedicineSet_242
-      rect:
-        serializedVersion: 2
-        x: 1144
-        y: 0
-        width: 44
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e1d053ac850e5c4291defa81d483cac
-      internalID: -689614521
+      spriteID: c0a72507237db5443ba5efc7ec49e37e
+      internalID: -429132177
       vertices: []
       indices: 
       edges: []
@@ -5210,249 +4076,249 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FullMedicineSet_0: -338878352
-      FullMedicineSet_1: 347147058
-      FullMedicineSet_10: -271007394
-      FullMedicineSet_100: -897033427
-      FullMedicineSet_101: -1332273051
-      FullMedicineSet_102: -191565406
-      FullMedicineSet_103: -1897997520
-      FullMedicineSet_104: -1835748560
-      FullMedicineSet_105: 661673231
-      FullMedicineSet_106: 861014810
-      FullMedicineSet_107: 826822743
-      FullMedicineSet_108: 30871228
-      FullMedicineSet_109: 606180240
-      FullMedicineSet_11: 467617596
-      FullMedicineSet_110: -1811313760
-      FullMedicineSet_111: -1020602570
-      FullMedicineSet_112: 258345663
-      FullMedicineSet_113: -1916602435
-      FullMedicineSet_114: 2066194560
-      FullMedicineSet_115: 65394429
-      FullMedicineSet_116: -1998738577
-      FullMedicineSet_117: -72006013
-      FullMedicineSet_118: 89385328
-      FullMedicineSet_119: -1787948608
-      FullMedicineSet_12: 2136594380
-      FullMedicineSet_120: 1861115061
-      FullMedicineSet_121: -1233720819
-      FullMedicineSet_122: -1264561174
-      FullMedicineSet_123: 1125700054
-      FullMedicineSet_124: -1269096925
-      FullMedicineSet_125: 1993995276
-      FullMedicineSet_126: -1509900160
-      FullMedicineSet_127: -1436078100
-      FullMedicineSet_128: 603702457
-      FullMedicineSet_129: 1908358742
-      FullMedicineSet_13: -1615076904
-      FullMedicineSet_130: 1683733759
-      FullMedicineSet_131: 1307039866
-      FullMedicineSet_132: -825213242
-      FullMedicineSet_133: -1862743008
-      FullMedicineSet_134: 1152757223
-      FullMedicineSet_135: -1018607968
-      FullMedicineSet_136: 230460975
-      FullMedicineSet_137: 1697286826
-      FullMedicineSet_138: -923729857
-      FullMedicineSet_139: -814980880
-      FullMedicineSet_14: 1832168995
-      FullMedicineSet_140: 1141887656
-      FullMedicineSet_141: 934065763
-      FullMedicineSet_142: -1089499574
-      FullMedicineSet_143: 2010927836
-      FullMedicineSet_144: 1307027166
-      FullMedicineSet_145: -1785905866
-      FullMedicineSet_146: -1219401141
-      FullMedicineSet_147: 585519182
-      FullMedicineSet_148: -629277661
-      FullMedicineSet_149: 359883986
-      FullMedicineSet_15: -329107449
-      FullMedicineSet_150: 1641876171
-      FullMedicineSet_151: -1968845982
-      FullMedicineSet_152: -1428204360
-      FullMedicineSet_153: 515507825
-      FullMedicineSet_154: 797162740
-      FullMedicineSet_155: 670529410
-      FullMedicineSet_156: -980714774
-      FullMedicineSet_157: -760556392
-      FullMedicineSet_158: 269113930
-      FullMedicineSet_159: -904596443
-      FullMedicineSet_16: -2120202281
-      FullMedicineSet_160: 1652314246
-      FullMedicineSet_161: -389535489
-      FullMedicineSet_162: -125154520
-      FullMedicineSet_163: 1281983523
-      FullMedicineSet_164: -646756109
-      FullMedicineSet_165: 1478765530
-      FullMedicineSet_166: 183466467
-      FullMedicineSet_167: -814310027
-      FullMedicineSet_168: 1993129261
-      FullMedicineSet_169: 858589293
-      FullMedicineSet_17: -436422269
-      FullMedicineSet_170: 645870125
-      FullMedicineSet_171: -750403485
-      FullMedicineSet_172: -952844032
-      FullMedicineSet_173: 1737475906
-      FullMedicineSet_174: -316236877
-      FullMedicineSet_175: 2090105307
-      FullMedicineSet_176: 1157013044
-      FullMedicineSet_177: 2116733018
-      FullMedicineSet_178: 790016964
-      FullMedicineSet_179: 927591850
-      FullMedicineSet_18: -217861721
-      FullMedicineSet_180: 1613572679
-      FullMedicineSet_181: -1251356708
-      FullMedicineSet_182: 2035724066
-      FullMedicineSet_183: 36378122
-      FullMedicineSet_184: 1275476213
-      FullMedicineSet_185: 1763460103
-      FullMedicineSet_186: 341660509
-      FullMedicineSet_187: -1994743406
-      FullMedicineSet_188: 1046842500
-      FullMedicineSet_189: -170586534
-      FullMedicineSet_19: -386836091
-      FullMedicineSet_190: -320790918
-      FullMedicineSet_191: -696635588
-      FullMedicineSet_192: 1057825401
-      FullMedicineSet_193: -477644679
-      FullMedicineSet_194: 433808161
-      FullMedicineSet_195: -1676144594
-      FullMedicineSet_196: 276844747
-      FullMedicineSet_197: 1730519053
-      FullMedicineSet_198: -357486907
-      FullMedicineSet_199: -157676399
-      FullMedicineSet_2: -1335041357
-      FullMedicineSet_20: 1948596164
-      FullMedicineSet_200: 340806853
-      FullMedicineSet_201: -1303016864
-      FullMedicineSet_202: -959293306
-      FullMedicineSet_203: 473803374
-      FullMedicineSet_204: -193311750
-      FullMedicineSet_205: -790448683
-      FullMedicineSet_206: -354482212
-      FullMedicineSet_207: -1984018627
-      FullMedicineSet_208: -30537125
-      FullMedicineSet_209: -204533944
-      FullMedicineSet_21: -1474721646
-      FullMedicineSet_210: -1438393908
-      FullMedicineSet_211: 14605754
-      FullMedicineSet_212: -256919714
-      FullMedicineSet_213: -745924775
-      FullMedicineSet_214: 898099572
-      FullMedicineSet_215: 1782831172
-      FullMedicineSet_216: -454104529
-      FullMedicineSet_217: 1523625609
-      FullMedicineSet_218: 1951325583
-      FullMedicineSet_219: -1257830419
-      FullMedicineSet_22: -694421619
-      FullMedicineSet_220: -1424576807
-      FullMedicineSet_221: 673563062
-      FullMedicineSet_222: 151306558
-      FullMedicineSet_223: -648816728
-      FullMedicineSet_224: -1557433208
-      FullMedicineSet_225: 2138115464
-      FullMedicineSet_226: 57349776
-      FullMedicineSet_227: 1221992146
-      FullMedicineSet_228: -1101580208
-      FullMedicineSet_229: -1257173604
-      FullMedicineSet_23: 166027320
-      FullMedicineSet_230: 251646000
-      FullMedicineSet_231: -205546393
-      FullMedicineSet_232: 1586953348
-      FullMedicineSet_233: -1059459358
-      FullMedicineSet_234: 1802211614
-      FullMedicineSet_235: -1893480490
-      FullMedicineSet_236: 250281109
-      FullMedicineSet_237: -1310121940
-      FullMedicineSet_238: 1469274496
-      FullMedicineSet_239: 1248357735
-      FullMedicineSet_24: 513732353
-      FullMedicineSet_240: 2140372539
-      FullMedicineSet_241: 600197618
-      FullMedicineSet_242: -689614521
-      FullMedicineSet_25: -1847467321
-      FullMedicineSet_26: 256131296
-      FullMedicineSet_27: -1156220911
-      FullMedicineSet_28: -524503885
-      FullMedicineSet_29: 1235471079
-      FullMedicineSet_3: -109168069
-      FullMedicineSet_30: 1416096848
-      FullMedicineSet_31: 1186125181
-      FullMedicineSet_32: 1369716057
-      FullMedicineSet_33: 1329361593
-      FullMedicineSet_34: -1379405140
-      FullMedicineSet_35: 2056856958
-      FullMedicineSet_36: -1196983151
-      FullMedicineSet_37: -1178174378
-      FullMedicineSet_38: 729901362
-      FullMedicineSet_39: 2059556468
-      FullMedicineSet_4: -2009968590
-      FullMedicineSet_40: 1458757759
-      FullMedicineSet_41: 1489945693
-      FullMedicineSet_42: -882267836
-      FullMedicineSet_43: 886302896
-      FullMedicineSet_44: -1631068620
-      FullMedicineSet_45: -225606312
-      FullMedicineSet_46: -479278819
-      FullMedicineSet_47: -1101175965
-      FullMedicineSet_48: 1042815799
-      FullMedicineSet_49: 362635513
-      FullMedicineSet_5: 2117577629
-      FullMedicineSet_50: 1103914053
-      FullMedicineSet_51: 418131243
-      FullMedicineSet_52: 779072975
-      FullMedicineSet_53: 2119952193
-      FullMedicineSet_54: 2118049727
-      FullMedicineSet_55: -734147546
-      FullMedicineSet_56: 406744580
-      FullMedicineSet_57: 491513174
-      FullMedicineSet_58: -1487291363
-      FullMedicineSet_59: 833607696
-      FullMedicineSet_6: -1591422774
-      FullMedicineSet_60: 1160281524
-      FullMedicineSet_61: 1850688944
-      FullMedicineSet_62: 219816740
-      FullMedicineSet_63: 1848366035
-      FullMedicineSet_64: 1843992255
-      FullMedicineSet_65: 656647468
-      FullMedicineSet_66: 1957440252
-      FullMedicineSet_67: -677300880
-      FullMedicineSet_68: 1381403981
-      FullMedicineSet_69: -606547101
-      FullMedicineSet_7: -1543267492
-      FullMedicineSet_70: -213241166
-      FullMedicineSet_71: 1144720432
-      FullMedicineSet_72: -1073079085
-      FullMedicineSet_73: 1507216421
-      FullMedicineSet_74: -810768109
-      FullMedicineSet_75: -1428716901
-      FullMedicineSet_76: -2086278074
-      FullMedicineSet_77: -1429339218
-      FullMedicineSet_78: 302069184
-      FullMedicineSet_79: 828836718
-      FullMedicineSet_8: 975252813
-      FullMedicineSet_80: 2062753866
-      FullMedicineSet_81: -739161549
-      FullMedicineSet_82: -264355449
-      FullMedicineSet_83: 80350690
-      FullMedicineSet_84: 514787426
-      FullMedicineSet_85: -85968493
-      FullMedicineSet_86: -1282149143
-      FullMedicineSet_87: 1850918881
-      FullMedicineSet_88: -57629708
-      FullMedicineSet_89: 1542207066
-      FullMedicineSet_9: -254164494
-      FullMedicineSet_90: -848527575
-      FullMedicineSet_91: -1239632561
-      FullMedicineSet_92: -438596742
-      FullMedicineSet_93: 1639556348
-      FullMedicineSet_94: 633824502
-      FullMedicineSet_95: 1998611011
-      FullMedicineSet_96: -1064162265
-      FullMedicineSet_97: -93601683
-      FullMedicineSet_98: 357013919
-      FullMedicineSet_99: 2008749417
+      Medicine_0: -453701625
+      Medicine_1: 334780110
+      Medicine_10: -936780553
+      Medicine_100: -1952544587
+      Medicine_101: -1531491044
+      Medicine_102: 162704596
+      Medicine_103: -1713295782
+      Medicine_104: -936726828
+      Medicine_105: 2133501970
+      Medicine_106: -1639840938
+      Medicine_107: -193200528
+      Medicine_108: -1082105777
+      Medicine_109: 1373782678
+      Medicine_11: -717104108
+      Medicine_110: 589823364
+      Medicine_111: 961431615
+      Medicine_112: -786689455
+      Medicine_113: -907564572
+      Medicine_114: -2055255714
+      Medicine_115: 1075854744
+      Medicine_116: -1699656598
+      Medicine_117: -215552593
+      Medicine_118: 600909866
+      Medicine_119: 262820957
+      Medicine_12: 896864488
+      Medicine_120: -46513232
+      Medicine_121: 301993725
+      Medicine_122: -1582390985
+      Medicine_123: -1086968777
+      Medicine_124: 81320834
+      Medicine_125: 289078918
+      Medicine_126: -1851037449
+      Medicine_127: 1881275403
+      Medicine_128: -589665385
+      Medicine_129: -1743619634
+      Medicine_13: 444450655
+      Medicine_130: -240796876
+      Medicine_131: 1379593448
+      Medicine_132: -773617348
+      Medicine_133: 157815631
+      Medicine_134: -1487026694
+      Medicine_135: 1614214343
+      Medicine_136: 493734186
+      Medicine_137: -1818021560
+      Medicine_138: 697428950
+      Medicine_139: -1395062981
+      Medicine_14: -624653584
+      Medicine_140: 324144498
+      Medicine_141: 1517154574
+      Medicine_142: 221681544
+      Medicine_143: -979478448
+      Medicine_144: 277954880
+      Medicine_145: -1304695152
+      Medicine_146: -643757582
+      Medicine_147: 1515059209
+      Medicine_148: -1668522587
+      Medicine_149: -439897809
+      Medicine_15: -1440266186
+      Medicine_150: 102902114
+      Medicine_151: -686701871
+      Medicine_152: -1643935417
+      Medicine_153: -538199934
+      Medicine_154: -206345234
+      Medicine_155: 1821160183
+      Medicine_156: -699979216
+      Medicine_157: 1059210572
+      Medicine_158: 2090310949
+      Medicine_159: 1797779643
+      Medicine_16: -729394959
+      Medicine_160: -1700001550
+      Medicine_161: 1061211866
+      Medicine_162: -448859949
+      Medicine_163: 1051907875
+      Medicine_164: 986110534
+      Medicine_165: -376835448
+      Medicine_166: 182764154
+      Medicine_167: 313695096
+      Medicine_168: -284760360
+      Medicine_169: -1375807112
+      Medicine_17: 1817680938
+      Medicine_170: 1716039790
+      Medicine_171: 342808754
+      Medicine_172: 948341621
+      Medicine_173: -1015024108
+      Medicine_174: 515066985
+      Medicine_175: -615935835
+      Medicine_176: 1858330710
+      Medicine_177: -100553751
+      Medicine_178: 1114497766
+      Medicine_179: -1272324747
+      Medicine_18: -1728109481
+      Medicine_180: -615360082
+      Medicine_181: 881484760
+      Medicine_182: 1133711961
+      Medicine_183: 937375228
+      Medicine_184: 1498287632
+      Medicine_185: 215799748
+      Medicine_186: 1533398618
+      Medicine_187: -1186629963
+      Medicine_188: 1985687916
+      Medicine_189: 528655762
+      Medicine_19: 1163406182
+      Medicine_190: 953262093
+      Medicine_191: -58742069
+      Medicine_192: 512161898
+      Medicine_193: 1563540836
+      Medicine_194: 1940186583
+      Medicine_195: -1849205354
+      Medicine_196: -134620403
+      Medicine_197: 996958084
+      Medicine_198: -2118419528
+      Medicine_199: 748163495
+      Medicine_2: 1588066544
+      Medicine_20: -1217406523
+      Medicine_200: 178824622
+      Medicine_201: -1870396391
+      Medicine_202: -481115808
+      Medicine_203: 386072671
+      Medicine_204: 1645903815
+      Medicine_205: -1161461421
+      Medicine_206: 618743994
+      Medicine_207: 1440558171
+      Medicine_208: -1227747997
+      Medicine_209: -1745555594
+      Medicine_21: -962269998
+      Medicine_210: 1419176750
+      Medicine_211: -1672076816
+      Medicine_212: 1646876289
+      Medicine_213: -713803350
+      Medicine_214: 1285408426
+      Medicine_215: -1725072562
+      Medicine_216: 1772074661
+      Medicine_217: -1077141958
+      Medicine_218: 1414883412
+      Medicine_219: 239076050
+      Medicine_22: -701640318
+      Medicine_220: 1151254942
+      Medicine_221: 306442271
+      Medicine_222: 422138323
+      Medicine_223: -509598501
+      Medicine_224: -846753182
+      Medicine_225: -944213688
+      Medicine_226: 812586128
+      Medicine_227: 746917787
+      Medicine_228: 147454539
+      Medicine_229: -1564489595
+      Medicine_23: -1598242459
+      Medicine_230: 912599474
+      Medicine_231: -330333801
+      Medicine_232: -554604916
+      Medicine_233: -429132177
+      Medicine_234: -70227053
+      Medicine_235: 1311543080
+      Medicine_236: -140808906
+      Medicine_237: -1843472808
+      Medicine_238: 1525185961
+      Medicine_239: -169719708
+      Medicine_24: -395584254
+      Medicine_240: -813389466
+      Medicine_241: -708586484
+      Medicine_242: -2119882845
+      Medicine_25: -484378355
+      Medicine_26: -1629472795
+      Medicine_27: -1263028725
+      Medicine_28: -92194038
+      Medicine_29: 641267720
+      Medicine_3: 4978834
+      Medicine_30: 899649658
+      Medicine_31: 1129466706
+      Medicine_32: 800164547
+      Medicine_33: -829760586
+      Medicine_34: 91362060
+      Medicine_35: -1414561957
+      Medicine_36: 1288572204
+      Medicine_37: 1383877676
+      Medicine_38: -359129472
+      Medicine_39: -125889108
+      Medicine_4: -2146215419
+      Medicine_40: 1933854298
+      Medicine_41: 1376542826
+      Medicine_42: -368976888
+      Medicine_43: -2083062259
+      Medicine_44: 154894003
+      Medicine_45: -2020115775
+      Medicine_46: 851701176
+      Medicine_47: 1169480286
+      Medicine_48: -506025445
+      Medicine_49: -451938737
+      Medicine_5: 1690936999
+      Medicine_50: -1189796842
+      Medicine_51: 974075290
+      Medicine_52: -185324708
+      Medicine_53: 1119818195
+      Medicine_54: -1764507555
+      Medicine_55: -126149989
+      Medicine_56: -1136030426
+      Medicine_57: -1636848162
+      Medicine_58: 518345926
+      Medicine_59: -2110107861
+      Medicine_6: 968465687
+      Medicine_60: 1638366777
+      Medicine_61: -2063346866
+      Medicine_62: -2107974854
+      Medicine_63: -1230315
+      Medicine_64: 2114090030
+      Medicine_65: -1860138102
+      Medicine_66: 345808442
+      Medicine_67: -631021134
+      Medicine_68: 1365005225
+      Medicine_69: -1474967235
+      Medicine_7: 692210052
+      Medicine_70: 2137002028
+      Medicine_71: 1779969848
+      Medicine_72: 1973672931
+      Medicine_73: 801309867
+      Medicine_74: -1452213145
+      Medicine_75: 1264194294
+      Medicine_76: -1497495167
+      Medicine_77: -76971591
+      Medicine_78: 134565021
+      Medicine_79: -1879570126
+      Medicine_8: -125752761
+      Medicine_80: -45916825
+      Medicine_81: 1454944509
+      Medicine_82: 769821175
+      Medicine_83: -1337196677
+      Medicine_84: -1724979731
+      Medicine_85: 1465045237
+      Medicine_86: 631457113
+      Medicine_87: 1137230553
+      Medicine_88: -1552492635
+      Medicine_89: -501513908
+      Medicine_9: -441717840
+      Medicine_90: 1060179791
+      Medicine_91: 439672350
+      Medicine_92: -1814440457
+      Medicine_93: 85805929
+      Medicine_94: -1686469438
+      Medicine_95: 965788994
+      Medicine_96: 1105214347
+      Medicine_97: -1378550980
+      Medicine_98: -1331694856
+      Medicine_99: 923799466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
