@@ -1063,7 +1063,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medicine_46
+      name: LEVEL2
       rect:
         serializedVersion: 2
         x: 836
@@ -2302,7 +2302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medicine_123
+      name: LEVEL1
       rect:
         serializedVersion: 2
         x: 660
@@ -4076,6 +4076,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      LEVEL1: -1086968777
+      LEVEL2: 851701176
       Medicine_0: -453701625
       Medicine_1: 334780110
       Medicine_10: -936780553
@@ -4104,7 +4106,6 @@ TextureImporter:
       Medicine_120: -46513232
       Medicine_121: 301993725
       Medicine_122: -1582390985
-      Medicine_123: -1086968777
       Medicine_124: 81320834
       Medicine_125: 289078918
       Medicine_126: -1851037449
@@ -4260,7 +4261,6 @@ TextureImporter:
       Medicine_43: -2083062259
       Medicine_44: 154894003
       Medicine_45: -2020115775
-      Medicine_46: 851701176
       Medicine_47: 1169480286
       Medicine_48: -506025445
       Medicine_49: -451938737

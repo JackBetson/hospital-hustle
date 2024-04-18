@@ -1,18 +1,24 @@
 using UnityEngine;
-using System.Collections;
 
 public class ViewSupply : MonoBehaviour
 {
+    private Vector3 originalScale;
+
+    void Start()
+    {
+        // Store the original scale of the object
+        originalScale = transform.localScale;
+    }
+
     void OnMouseOver()
     {
         // Enlarge the object by 2
-        transform.localScale = new Vector3(1.5F, 1.5F, 0);
+        transform.localScale = originalScale * 1.45f;
     }
 
     void OnMouseExit()
     {
-        // Shrink the object by 2
-        transform.localScale = new Vector3(1F, 1F, 0);
+        // Restore the original scale of the object
+        transform.localScale = originalScale;
     }
-
 }
