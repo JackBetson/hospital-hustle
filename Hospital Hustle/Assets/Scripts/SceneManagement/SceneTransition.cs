@@ -17,14 +17,12 @@ public class SceneTransition : MonoBehaviour
 
     public void FadeToScene(string sceneName)
     {
-        Debug.Log("Fading to " + sceneName);
         _sceneToLoad = sceneName;
         _animator.SetTrigger("startFadeOut");
     }
 
     public void OnFadeComplete()
     {
-        Debug.Log("Fade complete, loading scene: " + _sceneToLoad);
         StartCoroutine(LoadSceneAndFadeIn(_sceneToLoad));
     }
 

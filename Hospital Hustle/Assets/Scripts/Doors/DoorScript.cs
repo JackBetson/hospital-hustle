@@ -27,6 +27,7 @@ public class DoorScript : MonoBehaviour
         // Check if the player is in the trigger area and if they press the 'E' key
         if (_isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
+            DoorManager.enteredFromRightDoor = isRightDoor;
             _sceneTransition.FadeToScene(_sceneToLoad);
         }
     }
