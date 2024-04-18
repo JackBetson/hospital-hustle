@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PatientRooms/RightPR.unity
     guid: 1d63029cfcc68484395070585c024212
+  - enabled: 1
+    path: Assets/Scenes/SupplyCabinets/BlueCabinet.unity
+    guid: de754b2ee5cc7ae4995fbb39c6e73510
+  - enabled: 1
+    path: Assets/Scenes/SupplyCabinets/OrangeCabinet.unity
+    guid: 4f00d56358e90bb42af7d53450816456
+  - enabled: 1
+    path: Assets/Scenes/SupplyCabinets/PinkCabinet.unity
+    guid: 58cd8736e7091aa41a4455481c15d5e8
+  - enabled: 1
+    path: Assets/Scenes/SupplyCabinets/RedCabinet.unity
+    guid: 85f92dd0c70fbfc43badfb151d3f42f2
   m_configObjects: {}
