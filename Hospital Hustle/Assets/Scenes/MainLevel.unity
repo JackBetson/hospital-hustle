@@ -199,6 +199,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _interactionText
       value: 
       objectReference: {fileID: 549269973}
@@ -229,6 +234,9 @@ GameObject:
   - component: {fileID: 88259806}
   - component: {fileID: 88259808}
   - component: {fileID: 88259807}
+  - component: {fileID: 88259811}
+  - component: {fileID: 88259810}
+  - component: {fileID: 88259809}
   m_Layer: 6
   m_Name: Layer 3 - Doors and Cabinets
   m_TagString: Untagged
@@ -289,8 +297,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -119907781
-  m_SortingLayer: 2
+  m_SortingLayerID: 2087192991
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -742,6 +750,282 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!66 &88259809
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88259805}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 88259811}
+    m_ColliderPaths:
+    - - X: 25937500
+        Y: 160000000
+      - X: 20000000
+        Y: 160000000
+      - X: 20000000
+        Y: 140000000
+      - X: 25937500
+        Y: 140000000
+    - - X: -20000000
+        Y: 160000000
+      - X: -25937500
+        Y: 160000000
+      - X: -25937500
+        Y: 140000000
+      - X: -20000000
+        Y: 140000000
+    - - X: 25937500
+        Y: 130000000
+      - X: 20000000
+        Y: 130000000
+      - X: 20000000
+        Y: 110000000
+      - X: 25937500
+        Y: 110000000
+    - - X: -20000000
+        Y: 130000000
+      - X: -25937500
+        Y: 130000000
+      - X: -25937500
+        Y: 110000000
+      - X: -20000000
+        Y: 110000000
+    - - X: 25937500
+        Y: 100000000
+      - X: 20000000
+        Y: 100000000
+      - X: 20000000
+        Y: 80000000
+      - X: 25937500
+        Y: 80000000
+    - - X: -20000000
+        Y: 100000000
+      - X: -25937500
+        Y: 100000000
+      - X: -25937500
+        Y: 80000000
+      - X: -20000000
+        Y: 80000000
+    - - X: 30000000
+        Y: 20000000
+      - X: 20000000
+        Y: 20000000
+      - X: 20000000
+        Y: -20000000
+      - X: 30000000
+        Y: -20000000
+    - - X: -20000000
+        Y: 20000000
+      - X: -30000000
+        Y: 20000000
+      - X: -30000000
+        Y: -20000000
+      - X: -20000000
+        Y: -20000000
+    - - X: -20000000
+        Y: -80000000
+      - X: -25937500
+        Y: -80000000
+      - X: -25937500
+        Y: -100000000
+      - X: -20000000
+        Y: -100000000
+    - - X: 25937500
+        Y: -80000000
+      - X: 20000000
+        Y: -80000000
+      - X: 20000000
+        Y: -100000000
+      - X: 25937500
+        Y: -100000000
+    - - X: -20000000
+        Y: -110000000
+      - X: -25937500
+        Y: -110000000
+      - X: -25937500
+        Y: -130000000
+      - X: -20000000
+        Y: -130000000
+    - - X: 25937500
+        Y: -110000000
+      - X: 20000000
+        Y: -110000000
+      - X: 20000000
+        Y: -130000000
+      - X: 25937500
+        Y: -130000000
+    - - X: -20000000
+        Y: -140000000
+      - X: -25937500
+        Y: -140000000
+      - X: -25937500
+        Y: -160000000
+      - X: -20000000
+        Y: -160000000
+    - - X: 25937500
+        Y: -140000000
+      - X: 20000000
+        Y: -140000000
+      - X: 20000000
+        Y: -160000000
+      - X: 25937500
+        Y: -160000000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 2.593721, y: 14}
+      - {x: 2.593721, y: 16}
+      - {x: 2, y: 15.999971}
+      - {x: 2.0000293, y: 14}
+    - - {x: -2.0000293, y: 14}
+      - {x: -2.0000293, y: 16}
+      - {x: -2.59375, y: 15.999971}
+      - {x: -2.593721, y: 14}
+    - - {x: 2.593721, y: 11}
+      - {x: 2.593721, y: 13}
+      - {x: 2, y: 12.99997}
+      - {x: 2.0000293, y: 11}
+    - - {x: -2.0000293, y: 11}
+      - {x: -2.0000293, y: 13}
+      - {x: -2.59375, y: 12.99997}
+      - {x: -2.593721, y: 11}
+    - - {x: 2.593721, y: 8}
+      - {x: 2.593721, y: 10}
+      - {x: 2, y: 9.99997}
+      - {x: 2.0000293, y: 8}
+    - - {x: -2.0000293, y: 8}
+      - {x: -2.0000293, y: 10}
+      - {x: -2.59375, y: 9.99997}
+      - {x: -2.593721, y: 8}
+    - - {x: 2.999971, y: -2}
+      - {x: 2.999971, y: 2}
+      - {x: 2, y: 1.9999708}
+      - {x: 2.0000293, y: -2}
+    - - {x: -2.0000293, y: -2}
+      - {x: -2.0000293, y: 2}
+      - {x: -3, y: 1.9999708}
+      - {x: -2.999971, y: -2}
+    - - {x: 2.593721, y: -10}
+      - {x: 2.593721, y: -8}
+      - {x: 2, y: -8.00003}
+      - {x: 2.0000293, y: -10}
+    - - {x: -2.0000293, y: -10}
+      - {x: -2.0000293, y: -8}
+      - {x: -2.59375, y: -8.00003}
+      - {x: -2.593721, y: -10}
+    - - {x: 2.593721, y: -13}
+      - {x: 2.593721, y: -11}
+      - {x: 2, y: -11.00003}
+      - {x: 2.0000293, y: -13}
+    - - {x: -2.0000293, y: -13}
+      - {x: -2.0000293, y: -11}
+      - {x: -2.59375, y: -11.00003}
+      - {x: -2.593721, y: -13}
+    - - {x: 2.593721, y: -16}
+      - {x: 2.593721, y: -14}
+      - {x: 2, y: -14.000029}
+      - {x: 2.0000293, y: -16}
+    - - {x: -2.0000293, y: -16}
+      - {x: -2.0000293, y: -14}
+      - {x: -2.59375, y: -14.000029}
+      - {x: -2.593721, y: -16}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 88259805}
+--- !u!50 &88259810
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88259805}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!19719996 &88259811
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88259805}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1001 &283130746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -758,7 +1042,7 @@ PrefabInstance:
     - target: {fileID: 2481393635085531970, guid: 467467e5f8953c240898f34f49b82860,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2481393635085531970, guid: 467467e5f8953c240898f34f49b82860,
         type: 3}
@@ -810,52 +1094,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 467467e5f8953c240898f34f49b82860, type: 3}
---- !u!1 &291251916
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 291251918}
-  - component: {fileID: 291251917}
-  m_Layer: 0
-  m_Name: DialogueManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &291251917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291251916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 401126147283b5b43bf40872e26f12d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 0}
-  dialoguePanel: {fileID: 0}
---- !u!4 &291251918
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291251916}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &318769535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1250,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.37, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1069,7 +1307,7 @@ Transform:
   m_GameObject: {fileID: 534106479}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.848953, y: 3.397278, z: 0.3933733}
+  m_LocalPosition: {x: -0.5, y: 3.397278, z: 0.3933733}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1169,8 +1407,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isRightDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -1260,6 +1508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -1458,8 +1711,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isRightDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -1558,6 +1821,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _interactionText
       value: 
       objectReference: {fileID: 549269973}
@@ -1602,7 +1870,7 @@ Transform:
   m_GameObject: {fileID: 995373395}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7479153, y: 3.2988353, z: 1440.981}
+  m_LocalPosition: {x: 1.6, y: 3.2988353, z: 1440.981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1612,6 +1880,12 @@ Transform:
   - {fileID: 1192279772}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1102929049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 853700647722495898, guid: 467467e5f8953c240898f34f49b82860,
+    type: 3}
+  m_PrefabInstance: {fileID: 283130746}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1192279771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,6 +2168,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _interactionText
       value: 
       objectReference: {fileID: 549269973}
@@ -1983,8 +2262,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isRightDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -2077,8 +2366,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isRightDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -4330,7 +4629,7 @@ Transform:
   m_GameObject: {fileID: 1462161307}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.37, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4406,6 +4705,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -4498,8 +4802,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isRightDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -4522,6 +4836,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1579283395}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1721479237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1721479239}
+  - component: {fileID: 1721479238}
+  m_Layer: 0
+  m_Name: PlayerSpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1721479238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721479237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21be3f0a79a20544dbaa143aeaec6fb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 1102929049}
+  _defaultSpawnPoint: {x: 0, y: 0}
+--- !u!4 &1721479239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721479237}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.343932, y: 2.1371257, z: -0.13838674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1751724981 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8258539287458267292, guid: d91b4f5a084e4114fb5459db7304ca9b,
@@ -4710,8 +5070,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isRightDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _sceneToLoad
       value: CorrectPatientRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -7900,6 +8270,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
+      propertyPath: _isHallwayDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
       propertyPath: _interactionText
       value: 
       objectReference: {fileID: 549269973}
@@ -8123,4 +8498,4 @@ SceneRoots:
   - {fileID: 4456276507848675329}
   - {fileID: 318769538}
   - {fileID: 2091959019}
-  - {fileID: 291251918}
+  - {fileID: 1721479239}

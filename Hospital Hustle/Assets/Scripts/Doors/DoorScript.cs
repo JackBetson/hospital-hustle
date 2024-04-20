@@ -12,7 +12,9 @@ public class DoorScript : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _interactionText;
     [SerializeField]
-    private bool isRightDoor;
+    private bool _isRightDoor;
+    [SerializeField]
+    private bool _isHallwayDoor;
 
     private bool _isPlayerInTrigger = false;
 
@@ -27,7 +29,13 @@ public class DoorScript : MonoBehaviour
         // Check if the player is in the trigger area and if they press the 'E' key
         if (_isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
-            DoorManager.enteredFromRightDoor = isRightDoor;
+            DoorManager.enteredFromRightDoor = _isRightDoor;
+            if (_isHallwayDoor)
+            {
+                Vector2 spawnPosition = (Vector2)transform.position + (new Vector2(_isRightDoor ? -0.5f : 0.5f, 0));
+                DoorManager.SetLastDoorEnteredPosition(spawnPosition);
+            }
+                
             _sceneTransition.FadeToScene(_sceneToLoad);
         }
     }
