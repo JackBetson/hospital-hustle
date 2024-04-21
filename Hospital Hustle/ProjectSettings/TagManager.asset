@@ -8,6 +8,7 @@ TagManager:
   - PatientRoom
   - InteractionText
   - Medicine
+  - NotificationText
   layers:
   - Default
   - TransparentFX

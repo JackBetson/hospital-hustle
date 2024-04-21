@@ -33,6 +33,7 @@ public class DoorScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log(InventoryManager.Instance.Medicine);
             _isPlayerInTrigger = true;
             FindInteractionText(); // Ensure the text component is ready
             FindSceneTransition(); // Ensure the SceneTransition component is ready
@@ -99,6 +100,7 @@ public class DoorScript : MonoBehaviour
         else
         {
             _sceneTransition.FadeToScene(HALLWAY_NAME);
+            if(Patient.Instance != null && Patient.Instance.Healed) Destroy(Patient.Instance.gameObject);
         }
     }
 

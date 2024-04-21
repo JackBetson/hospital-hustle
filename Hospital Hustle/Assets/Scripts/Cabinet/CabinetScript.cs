@@ -88,7 +88,16 @@ public class CabinetScript : MonoBehaviour
             return;
         }
 
+        Vector2 spawnPosition = CalculateSpawnPosition();
+        DoorManager.SetLastDoorEnteredPosition(spawnPosition);
         LoadAppropriateScene();
+    }
+
+    private Vector2 CalculateSpawnPosition()
+    {
+        string cabinetName = gameObject.name;
+        bool isRightDoor = cabinetName == PINK_CABINET_NAME || cabinetName == BLUE_CABINET_NAME;
+        return (Vector2)transform.position + new Vector2(isRightDoor ? -0.5f : 0.5f, 0);
     }
 
     private void LoadAppropriateScene()
