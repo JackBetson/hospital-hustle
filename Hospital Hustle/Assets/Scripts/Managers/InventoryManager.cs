@@ -3,6 +3,7 @@ using static UnityEditor.Progress;
 
 public class MedicineData
 {
+    public bool isDefibrillator;
     public string mainColor;
     public string subColor;
     public string icon;
@@ -28,16 +29,13 @@ public class InventoryManager : MonoBehaviour
 
     public void SetMedicine(Medicine medicine)
     {
-        Debug.Log("Medicine set to inventory");
         Medicine = new MedicineData
         {
+            isDefibrillator = medicine.isDefibrillator,
             mainColor = medicine.mainColor,
             subColor = medicine.subColor,
             icon = medicine.icon
         };
-        Debug.Log(Medicine.mainColor);
-        Debug.Log(Medicine.subColor);
-        Debug.Log(Medicine.icon);
     }
 
     public void ClearMedicine()
