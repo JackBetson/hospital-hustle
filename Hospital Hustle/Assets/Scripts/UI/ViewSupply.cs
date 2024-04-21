@@ -3,11 +3,13 @@ using UnityEngine;
 public class ViewSupply : MonoBehaviour
 {
     private Vector3 originalScale;
+    private InventoryManager _inventoryManager;
 
     void Start()
     {
         // Store the original scale of the object
         originalScale = transform.localScale;
+        _inventoryManager = FindObjectOfType<InventoryManager>();
     }
 
     void OnMouseOver()
@@ -20,5 +22,11 @@ public class ViewSupply : MonoBehaviour
     {
         // Restore the original scale of the object
         transform.localScale = originalScale;
+    }
+
+    private void OnMouseDown()
+    {
+        if(_inventoryManager != null)
+            _inventoryManager.SetMedicine(gameObject.GetComponent<Medicine>());
     }
 }
