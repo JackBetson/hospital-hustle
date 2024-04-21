@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 31822189}
   - component: {fileID: 31822188}
   - component: {fileID: 31822191}
+  - component: {fileID: 31822192}
   m_Layer: 0
   m_Name: Medicine_171
   m_TagString: Medicine
@@ -283,6 +284,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: orange
   icon: Triangle
+--- !u!114 &31822192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31822186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &36731660
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +309,7 @@ GameObject:
   - component: {fileID: 36731663}
   - component: {fileID: 36731665}
   - component: {fileID: 36731662}
+  - component: {fileID: 36731666}
   m_Layer: 0
   m_Name: Medicine_30
   m_TagString: Medicine
@@ -443,6 +457,18 @@ MonoBehaviour:
   mainColor: red
   subColor: blue
   icon: Snake
+--- !u!114 &36731666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36731660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &76507726
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +482,7 @@ GameObject:
   - component: {fileID: 76507729}
   - component: {fileID: 76507731}
   - component: {fileID: 76507728}
+  - component: {fileID: 76507732}
   m_Layer: 0
   m_Name: Medicine_165
   m_TagString: Medicine
@@ -603,6 +630,18 @@ MonoBehaviour:
   mainColor: pink
   subColor: blue
   icon: Ladder
+--- !u!114 &76507732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76507726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &103188981
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +655,7 @@ GameObject:
   - component: {fileID: 103188984}
   - component: {fileID: 103188983}
   - component: {fileID: 103188986}
+  - component: {fileID: 103188987}
   m_Layer: 0
   m_Name: Medicine_15
   m_TagString: Medicine
@@ -763,6 +803,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: pink
   icon: DUBUPL
+--- !u!114 &103188987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103188981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &103911481
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +828,7 @@ GameObject:
   - component: {fileID: 103911484}
   - component: {fileID: 103911486}
   - component: {fileID: 103911483}
+  - component: {fileID: 103911487}
   m_Layer: 0
   m_Name: Medicine_9
   m_TagString: Medicine
@@ -923,6 +976,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: orange
   icon: Triangle
+--- !u!114 &103911487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103911481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &128865541
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +1001,7 @@ GameObject:
   - component: {fileID: 128865544}
   - component: {fileID: 128865546}
   - component: {fileID: 128865543}
+  - component: {fileID: 128865547}
   m_Layer: 0
   m_Name: Medicine_147
   m_TagString: Medicine
@@ -1083,6 +1149,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: blue
   icon: Glasses
+--- !u!114 &128865547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128865541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &143039880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,6 +1174,7 @@ GameObject:
   - component: {fileID: 143039883}
   - component: {fileID: 143039885}
   - component: {fileID: 143039882}
+  - component: {fileID: 143039886}
   m_Layer: 0
   m_Name: Medicine_90
   m_TagString: Medicine
@@ -1243,6 +1322,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: orange
   icon: Triangle
+--- !u!114 &143039886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143039880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &175839758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1347,7 @@ GameObject:
   - component: {fileID: 175839760}
   - component: {fileID: 175839759}
   - component: {fileID: 175839763}
+  - component: {fileID: 175839764}
   m_Layer: 0
   m_Name: Medicine_231 (2)
   m_TagString: Medicine
@@ -1403,6 +1495,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: black
   icon: TINT
+--- !u!114 &175839764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175839758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &179877966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,6 +1520,7 @@ GameObject:
   - component: {fileID: 179877968}
   - component: {fileID: 179877967}
   - component: {fileID: 179877971}
+  - component: {fileID: 179877972}
   m_Layer: 0
   m_Name: Medicine_228 (3)
   m_TagString: Medicine
@@ -1563,6 +1668,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: blue
   icon: Glasses
+--- !u!114 &179877972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179877966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &230834714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,6 +1821,7 @@ GameObject:
   - component: {fileID: 267832205}
   - component: {fileID: 267832204}
   - component: {fileID: 267832208}
+  - component: {fileID: 267832209}
   m_Layer: 0
   m_Name: Medicine_216 (1)
   m_TagString: Medicine
@@ -1851,6 +1969,18 @@ MonoBehaviour:
   mainColor: pink
   subColor: yellow
   icon: RR
+--- !u!114 &267832209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267832203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &342437960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,6 +2081,7 @@ GameObject:
   - component: {fileID: 346818006}
   - component: {fileID: 346818005}
   - component: {fileID: 346818008}
+  - component: {fileID: 346818009}
   m_Layer: 0
   m_Name: Medicine_192
   m_TagString: Medicine
@@ -2098,6 +2229,18 @@ MonoBehaviour:
   mainColor: pink
   subColor: blue
   icon: Snake
+--- !u!114 &346818009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346818003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &374477391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,6 +2254,7 @@ GameObject:
   - component: {fileID: 374477394}
   - component: {fileID: 374477396}
   - component: {fileID: 374477393}
+  - component: {fileID: 374477397}
   m_Layer: 0
   m_Name: Medicine_12
   m_TagString: Medicine
@@ -2258,6 +2402,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: blue
   icon: Ladder
+--- !u!114 &374477397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374477391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &457457586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,6 +2427,7 @@ GameObject:
   - component: {fileID: 457457589}
   - component: {fileID: 457457591}
   - component: {fileID: 457457588}
+  - component: {fileID: 457457592}
   m_Layer: 0
   m_Name: Medicine_102
   m_TagString: Medicine
@@ -2418,6 +2575,108 @@ MonoBehaviour:
   mainColor: purple
   subColor: blue
   icon: Ladder
+--- !u!114 &457457592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457457586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &501821434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 501821435}
+  - component: {fileID: 501821438}
+  - component: {fileID: 501821437}
+  - component: {fileID: 501821436}
+  m_Layer: 5
+  m_Name: InventoryDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &501821435
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501821434}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1839377418}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 866.99994, y: 453.55997}
+  m_SizeDelta: {x: 165.72, y: 167.94}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &501821436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501821434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e7186fc22d05409ebb956a78e5821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 692841499}
+  defaultSprite: {fileID: 0}
+--- !u!114 &501821437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501821434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1707656105, guid: 67e578de541206547af5cc75e8918c09, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &501821438
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501821434}
+  m_CullTransparentMesh: 1
 --- !u!1 &515661360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,6 +2690,7 @@ GameObject:
   - component: {fileID: 515661363}
   - component: {fileID: 515661365}
   - component: {fileID: 515661362}
+  - component: {fileID: 515661366}
   m_Layer: 0
   m_Name: Medicine_129
   m_TagString: Medicine
@@ -2578,6 +2838,18 @@ MonoBehaviour:
   mainColor: purple
   subColor: blue
   icon: Snake
+--- !u!114 &515661366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515661360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &561979092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,6 +2863,7 @@ GameObject:
   - component: {fileID: 561979095}
   - component: {fileID: 561979094}
   - component: {fileID: 561979097}
+  - component: {fileID: 561979098}
   m_Layer: 0
   m_Name: Medicine_201
   m_TagString: Medicine
@@ -2738,6 +3011,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: blue
   icon: Snake
+--- !u!114 &561979098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561979092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &603953368
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,6 +3036,7 @@ GameObject:
   - component: {fileID: 603953371}
   - component: {fileID: 603953373}
   - component: {fileID: 603953370}
+  - component: {fileID: 603953374}
   m_Layer: 0
   m_Name: Medicine_27
   m_TagString: Medicine
@@ -2898,6 +3184,18 @@ MonoBehaviour:
   mainColor: red
   subColor: orange
   icon: Mcdonald
+--- !u!114 &603953374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603953368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &607568064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2911,6 +3209,7 @@ GameObject:
   - component: {fileID: 607568067}
   - component: {fileID: 607568069}
   - component: {fileID: 607568066}
+  - component: {fileID: 607568070}
   m_Layer: 0
   m_Name: Medicine_198
   m_TagString: Medicine
@@ -3058,6 +3357,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: orange
   icon: Mcdonald
+--- !u!114 &607568070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607568064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &691645149
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,6 +3444,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691645149}
   m_CullTransparentMesh: 1
+--- !u!1 &692841497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 692841498}
+  - component: {fileID: 692841500}
+  - component: {fileID: 692841499}
+  m_Layer: 5
+  m_Name: ItemDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &692841498
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692841497}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1998799, y: 1.1998799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1839377418}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 866.99994, y: 453.56}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &692841499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692841497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &692841500
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692841497}
+  m_CullTransparentMesh: 1
 --- !u!1 &766815274
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,6 +3532,7 @@ GameObject:
   - component: {fileID: 766815277}
   - component: {fileID: 766815279}
   - component: {fileID: 766815276}
+  - component: {fileID: 766815280}
   m_Layer: 0
   m_Name: Medicine_168
   m_TagString: Medicine
@@ -3293,6 +3680,18 @@ MonoBehaviour:
   mainColor: pink
   subColor: pink
   icon: DUBUPL
+--- !u!114 &766815280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766815274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &822502882
 GameObject:
   m_ObjectHideFlags: 0
@@ -3306,6 +3705,7 @@ GameObject:
   - component: {fileID: 822502885}
   - component: {fileID: 822502887}
   - component: {fileID: 822502884}
+  - component: {fileID: 822502888}
   m_Layer: 0
   m_Name: Medicine_144
   m_TagString: Medicine
@@ -3453,131 +3853,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: orange
   icon: RR
---- !u!1001 &837620980
-PrefabInstance:
+--- !u!114 &822502888
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 385615967614891651, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_Name
-      value: Canvas (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051728347235941444, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_TagString
-      value: InteractionText
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 8068523710918500487, guid: d91b4f5a084e4114fb5459db7304ca9b, type: 3}
-    - {fileID: 5237264442793268012, guid: d91b4f5a084e4114fb5459db7304ca9b, type: 3}
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d91b4f5a084e4114fb5459db7304ca9b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822502882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839224789
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,6 +3878,7 @@ GameObject:
   - component: {fileID: 839224792}
   - component: {fileID: 839224794}
   - component: {fileID: 839224791}
+  - component: {fileID: 839224795}
   m_Layer: 0
   m_Name: Medicine_93
   m_TagString: Medicine
@@ -3738,6 +4026,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: blue
   icon: Ladder
+--- !u!114 &839224795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839224789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &851600783
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,6 +4051,7 @@ GameObject:
   - component: {fileID: 851600786}
   - component: {fileID: 851600788}
   - component: {fileID: 851600785}
+  - component: {fileID: 851600789}
   m_Layer: 0
   m_Name: Medicine_39
   m_TagString: Medicine
@@ -3898,6 +4199,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: blue
   icon: Snake
+--- !u!114 &851600789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851600783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &888107872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3966,6 +4279,77 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &890916389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 890916391}
+  - component: {fileID: 890916390}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &890916390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890916389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641c6a56dd0e75c40a1476dae22fd780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _notificationText: {fileID: 1332597216}
+  _suspicionMeter: {fileID: 1332597215}
+  _suspicionSprites:
+  - {fileID: -1837105982, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 490203874, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 1436163936, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 19721703, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: -979186128, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 175303232, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 1956975376, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 1471775198, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 1701166311, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  _maxSuspicion: 9
+  _currentSuspicion: 0
+  _healthBarImage: {fileID: 1332597214}
+  _healthBarSprites:
+  - {fileID: -1868642670, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: -1375412464, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: -1297943006, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 839322757, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 1391217071, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 1639891964, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: -1595637147, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: 862405750, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  - {fileID: -1390517028, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
+  _maxHealth: 9
+  _currentHealth: 9
+--- !u!4 &890916391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890916389}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &895508385
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,6 +4363,7 @@ GameObject:
   - component: {fileID: 895508388}
   - component: {fileID: 895508387}
   - component: {fileID: 895508390}
+  - component: {fileID: 895508391}
   m_Layer: 0
   m_Name: Medicine_78
   m_TagString: Medicine
@@ -4126,81 +4511,18 @@ MonoBehaviour:
   mainColor: green
   subColor: pink
   icon: TINT
---- !u!1 &906551373
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 906551374}
-  - component: {fileID: 906551376}
-  - component: {fileID: 906551375}
-  m_Layer: 5
-  m_Name: InventorySlot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &906551374
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906551373}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1839377418}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 866.99994, y: 453.55997}
-  m_SizeDelta: {x: 165.72, y: 167.94}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &906551375
+--- !u!114 &895508391
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906551373}
+  m_GameObject: {fileID: 895508385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1707656105, guid: 67e578de541206547af5cc75e8918c09, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &906551376
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906551373}
-  m_CullTransparentMesh: 1
 --- !u!1 &930736308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4214,6 +4536,7 @@ GameObject:
   - component: {fileID: 930736311}
   - component: {fileID: 930736313}
   - component: {fileID: 930736310}
+  - component: {fileID: 930736314}
   m_Layer: 0
   m_Name: Medicine_63
   m_TagString: Medicine
@@ -4361,6 +4684,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: orange
   icon: RR
+--- !u!114 &930736314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930736308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &936185957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,6 +4709,7 @@ GameObject:
   - component: {fileID: 936185960}
   - component: {fileID: 936185962}
   - component: {fileID: 936185959}
+  - component: {fileID: 936185963}
   m_Layer: 0
   m_Name: Medicine_153
   m_TagString: Medicine
@@ -4521,6 +4857,18 @@ MonoBehaviour:
   mainColor: purple
   subColor: orange
   icon: RR
+--- !u!114 &936185963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936185957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1056109803
 GameObject:
   m_ObjectHideFlags: 0
@@ -4534,6 +4882,7 @@ GameObject:
   - component: {fileID: 1056109806}
   - component: {fileID: 1056109808}
   - component: {fileID: 1056109805}
+  - component: {fileID: 1056109809}
   m_Layer: 0
   m_Name: Medicine_57
   m_TagString: Medicine
@@ -4681,6 +5030,18 @@ MonoBehaviour:
   mainColor: red
   subColor: blue
   icon: Glasses
+--- !u!114 &1056109809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056109803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1057569855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,6 +5055,7 @@ GameObject:
   - component: {fileID: 1057569858}
   - component: {fileID: 1057569860}
   - component: {fileID: 1057569857}
+  - component: {fileID: 1057569861}
   m_Layer: 0
   m_Name: Medicine_120
   m_TagString: Medicine
@@ -4841,6 +5203,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: blue
   icon: Snake
+--- !u!114 &1057569861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057569855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1085472764
 GameObject:
   m_ObjectHideFlags: 0
@@ -4854,6 +5228,7 @@ GameObject:
   - component: {fileID: 1085472767}
   - component: {fileID: 1085472766}
   - component: {fileID: 1085472769}
+  - component: {fileID: 1085472770}
   m_Layer: 0
   m_Name: Medicine_159
   m_TagString: Medicine
@@ -5001,6 +5376,18 @@ MonoBehaviour:
   mainColor: purple
   subColor: pink
   icon: TINT
+--- !u!114 &1085472770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085472764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1091403099
 GameObject:
   m_ObjectHideFlags: 0
@@ -5014,6 +5401,7 @@ GameObject:
   - component: {fileID: 1091403102}
   - component: {fileID: 1091403104}
   - component: {fileID: 1091403101}
+  - component: {fileID: 1091403105}
   m_Layer: 0
   m_Name: Medicine_195
   m_TagString: Medicine
@@ -5161,6 +5549,18 @@ MonoBehaviour:
   mainColor: pink
   subColor: pink
   icon: Demon
+--- !u!114 &1091403105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091403099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1127790640
 GameObject:
   m_ObjectHideFlags: 0
@@ -5174,6 +5574,7 @@ GameObject:
   - component: {fileID: 1127790643}
   - component: {fileID: 1127790645}
   - component: {fileID: 1127790642}
+  - component: {fileID: 1127790646}
   m_Layer: 0
   m_Name: Medicine_117
   m_TagString: Medicine
@@ -5321,6 +5722,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: orange
   icon: Mcdonald
+--- !u!114 &1127790646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127790640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1151745392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5334,6 +5747,7 @@ GameObject:
   - component: {fileID: 1151745394}
   - component: {fileID: 1151745397}
   - component: {fileID: 1151745393}
+  - component: {fileID: 1151745398}
   m_Layer: 0
   m_Name: Medicine_231 (1)
   m_TagString: Medicine
@@ -5481,6 +5895,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: pink
   icon: TINT
+--- !u!114 &1151745398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151745392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1202911278
 GameObject:
   m_ObjectHideFlags: 0
@@ -5494,6 +5920,7 @@ GameObject:
   - component: {fileID: 1202911281}
   - component: {fileID: 1202911283}
   - component: {fileID: 1202911280}
+  - component: {fileID: 1202911284}
   m_Layer: 0
   m_Name: Medicine_36
   m_TagString: Medicine
@@ -5641,6 +6068,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: orange
   icon: Mcdonald
+--- !u!114 &1202911284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202911278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1215286844
 GameObject:
   m_ObjectHideFlags: 0
@@ -5654,6 +6093,7 @@ GameObject:
   - component: {fileID: 1215286847}
   - component: {fileID: 1215286849}
   - component: {fileID: 1215286846}
+  - component: {fileID: 1215286850}
   m_Layer: 0
   m_Name: Medicine_156
   m_TagString: Medicine
@@ -5801,6 +6241,18 @@ MonoBehaviour:
   mainColor: purple
   subColor: blue
   icon: Glasses
+--- !u!114 &1215286850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215286844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1220993243
 GameObject:
   m_ObjectHideFlags: 0
@@ -5814,6 +6266,7 @@ GameObject:
   - component: {fileID: 1220993245}
   - component: {fileID: 1220993244}
   - component: {fileID: 1220993248}
+  - component: {fileID: 1220993249}
   m_Layer: 0
   m_Name: Medicine_219 (2)
   m_TagString: Medicine
@@ -5961,6 +6414,18 @@ MonoBehaviour:
   mainColor: pink
   subColor: blue
   icon: Glasses
+--- !u!114 &1220993249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220993243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1283796589
 GameObject:
   m_ObjectHideFlags: 0
@@ -6049,6 +6514,7 @@ GameObject:
   - component: {fileID: 1308373039}
   - component: {fileID: 1308373038}
   - component: {fileID: 1308373041}
+  - component: {fileID: 1308373042}
   m_Layer: 0
   m_Name: Medicine_189
   m_TagString: Medicine
@@ -6196,6 +6662,177 @@ MonoBehaviour:
   mainColor: pink
   subColor: orange
   icon: Mcdonald
+--- !u!114 &1308373042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308373036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1332597213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4641662603938070487, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_Name
+      value: OverlayCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390541025887209743, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_TagString
+      value: InteractionText
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525354423343104454, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f39c05c43405e14481e7de85adadc1f, type: 3}
+--- !u!114 &1332597214 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2978193432645031382, guid: 7f39c05c43405e14481e7de85adadc1f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1332597213}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1332597215 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4515727822829790368, guid: 7f39c05c43405e14481e7de85adadc1f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1332597213}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1332597216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4862649989628166116, guid: 7f39c05c43405e14481e7de85adadc1f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1332597213}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1353977328
 GameObject:
   m_ObjectHideFlags: 0
@@ -6209,6 +6846,7 @@ GameObject:
   - component: {fileID: 1353977331}
   - component: {fileID: 1353977333}
   - component: {fileID: 1353977330}
+  - component: {fileID: 1353977334}
   m_Layer: 0
   m_Name: Medicine_150
   m_TagString: Medicine
@@ -6356,6 +6994,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: pink
   icon: TINT
+--- !u!114 &1353977334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353977328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1370175128
 GameObject:
   m_ObjectHideFlags: 0
@@ -6369,6 +7019,7 @@ GameObject:
   - component: {fileID: 1370175131}
   - component: {fileID: 1370175130}
   - component: {fileID: 1370175133}
+  - component: {fileID: 1370175134}
   m_Layer: 0
   m_Name: Medicine_60
   m_TagString: Medicine
@@ -6516,6 +7167,18 @@ MonoBehaviour:
   mainColor: red
   subColor: pink
   icon: TINT
+--- !u!114 &1370175134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370175128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1372656902
 GameObject:
   m_ObjectHideFlags: 0
@@ -6529,6 +7192,7 @@ GameObject:
   - component: {fileID: 1372656905}
   - component: {fileID: 1372656904}
   - component: {fileID: 1372656907}
+  - component: {fileID: 1372656908}
   m_Layer: 0
   m_Name: Medicine_105
   m_TagString: Medicine
@@ -6676,6 +7340,18 @@ MonoBehaviour:
   mainColor: purple
   subColor: pink
   icon: DUBUPL
+--- !u!114 &1372656908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372656902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1479922089
 GameObject:
   m_ObjectHideFlags: 0
@@ -6689,6 +7365,7 @@ GameObject:
   - component: {fileID: 1479922092}
   - component: {fileID: 1479922091}
   - component: {fileID: 1479922094}
+  - component: {fileID: 1479922095}
   m_Layer: 0
   m_Name: Medicine_6
   m_TagString: Medicine
@@ -6836,6 +7513,18 @@ MonoBehaviour:
   mainColor: red
   subColor: pink
   icon: DUBUPL
+--- !u!114 &1479922095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479922089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1487477599
 GameObject:
   m_ObjectHideFlags: 0
@@ -6849,6 +7538,7 @@ GameObject:
   - component: {fileID: 1487477602}
   - component: {fileID: 1487477604}
   - component: {fileID: 1487477601}
+  - component: {fileID: 1487477605}
   m_Layer: 0
   m_Name: Medicine_21
   m_TagString: Medicine
@@ -6996,6 +7686,18 @@ MonoBehaviour:
   mainColor: green
   subColor: blue
   icon: Ladder
+--- !u!114 &1487477605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487477599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1497424733
 GameObject:
   m_ObjectHideFlags: 0
@@ -7009,6 +7711,7 @@ GameObject:
   - component: {fileID: 1497424736}
   - component: {fileID: 1497424738}
   - component: {fileID: 1497424735}
+  - component: {fileID: 1497424739}
   m_Layer: 0
   m_Name: Medicine_18
   m_TagString: Medicine
@@ -7156,6 +7859,18 @@ MonoBehaviour:
   mainColor: green
   subColor: orange
   icon: Triangle
+--- !u!114 &1497424739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497424733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1545740231
 GameObject:
   m_ObjectHideFlags: 0
@@ -7406,6 +8121,7 @@ GameObject:
   - component: {fileID: 1600051606}
   - component: {fileID: 1600051608}
   - component: {fileID: 1600051605}
+  - component: {fileID: 1600051609}
   m_Layer: 0
   m_Name: Medicine_177
   m_TagString: Medicine
@@ -7553,6 +8269,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: pink
   icon: DUBUPL
+--- !u!114 &1600051609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600051603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1710059142
 GameObject:
   m_ObjectHideFlags: 0
@@ -7566,6 +8294,7 @@ GameObject:
   - component: {fileID: 1710059145}
   - component: {fileID: 1710059147}
   - component: {fileID: 1710059144}
+  - component: {fileID: 1710059148}
   m_Layer: 0
   m_Name: Medicine_66
   m_TagString: Medicine
@@ -7713,6 +8442,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: blue
   icon: Glasses
+--- !u!114 &1710059148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710059142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1766475558
 GameObject:
   m_ObjectHideFlags: 0
@@ -7726,6 +8467,7 @@ GameObject:
   - component: {fileID: 1766475561}
   - component: {fileID: 1766475563}
   - component: {fileID: 1766475560}
+  - component: {fileID: 1766475564}
   m_Layer: 0
   m_Name: Medicine_45
   m_TagString: Medicine
@@ -7873,6 +8615,18 @@ MonoBehaviour:
   mainColor: green
   subColor: orange
   icon: Mcdonald
+--- !u!114 &1766475564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766475558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1785627259
 GameObject:
   m_ObjectHideFlags: 0
@@ -7886,6 +8640,7 @@ GameObject:
   - component: {fileID: 1785627262}
   - component: {fileID: 1785627264}
   - component: {fileID: 1785627261}
+  - component: {fileID: 1785627265}
   m_Layer: 0
   m_Name: Medicine_3
   m_TagString: Medicine
@@ -8033,6 +8788,18 @@ MonoBehaviour:
   mainColor: red
   subColor: blue
   icon: Ladder
+--- !u!114 &1785627265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785627259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1806027906
 GameObject:
   m_ObjectHideFlags: 0
@@ -8046,6 +8813,7 @@ GameObject:
   - component: {fileID: 1806027909}
   - component: {fileID: 1806027908}
   - component: {fileID: 1806027911}
+  - component: {fileID: 1806027912}
   m_Layer: 0
   m_Name: Medicine_96
   m_TagString: Medicine
@@ -8193,164 +8961,18 @@ MonoBehaviour:
   mainColor: blue
   subColor: pink
   icon: DUBUPL
---- !u!1001 &1815000759
-PrefabInstance:
+--- !u!114 &1806027912
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 813740697556857769, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 1089934916053598678, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2127118494060987294, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2127473365290639703, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_Name
-      value: UIBars 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886106612674973313, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469648020781598949, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 3772578703707349945, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4037147925387869787, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4414282351509150997, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4541785918454586201, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 5927787745946976560, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 6213960597339627861, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377216788855497978, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 6528702172600914934, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 6828263530719515089, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172023642924576896, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 7481421066882056282, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -300
-      objectReference: {fileID: 0}
-    - target: {fileID: 8175429846400997451, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517731075140472002, guid: 443a079157eb97b41b46ac9fd7464205,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 300
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 443a079157eb97b41b46ac9fd7464205, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806027906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1822962963
 GameObject:
   m_ObjectHideFlags: 0
@@ -8364,6 +8986,7 @@ GameObject:
   - component: {fileID: 1822962966}
   - component: {fileID: 1822962968}
   - component: {fileID: 1822962965}
+  - component: {fileID: 1822962969}
   m_Layer: 0
   m_Name: Medicine_0
   m_TagString: Medicine
@@ -8511,6 +9134,18 @@ MonoBehaviour:
   mainColor: red
   subColor: orange
   icon: Triangle
+--- !u!114 &1822962969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822962963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1834618913
 GameObject:
   m_ObjectHideFlags: 0
@@ -8524,6 +9159,7 @@ GameObject:
   - component: {fileID: 1834618916}
   - component: {fileID: 1834618918}
   - component: {fileID: 1834618915}
+  - component: {fileID: 1834618919}
   m_Layer: 0
   m_Name: Medicine_99
   m_TagString: Medicine
@@ -8671,6 +9307,18 @@ MonoBehaviour:
   mainColor: purple
   subColor: orange
   icon: Triangle
+--- !u!114 &1834618919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834618913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1836146169
 GameObject:
   m_ObjectHideFlags: 0
@@ -8684,6 +9332,7 @@ GameObject:
   - component: {fileID: 1836146172}
   - component: {fileID: 1836146174}
   - component: {fileID: 1836146171}
+  - component: {fileID: 1836146175}
   m_Layer: 0
   m_Name: Medicine_162
   m_TagString: Medicine
@@ -8831,6 +9480,18 @@ MonoBehaviour:
   mainColor: pink
   subColor: orange
   icon: Triangle
+--- !u!114 &1836146175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836146169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1839377414
 GameObject:
   m_ObjectHideFlags: 0
@@ -8911,7 +9572,8 @@ RectTransform:
   - {fileID: 691645150}
   - {fileID: 1283796590}
   - {fileID: 1593790138}
-  - {fileID: 906551374}
+  - {fileID: 501821435}
+  - {fileID: 692841498}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8949,6 +9611,7 @@ GameObject:
   - component: {fileID: 1846613170}
   - component: {fileID: 1846613172}
   - component: {fileID: 1846613169}
+  - component: {fileID: 1846613173}
   m_Layer: 0
   m_Name: Medicine_72
   m_TagString: Medicine
@@ -9096,6 +9759,18 @@ MonoBehaviour:
   mainColor: green
   subColor: orange
   icon: RR
+--- !u!114 &1846613173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846613167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1855391135
 GameObject:
   m_ObjectHideFlags: 0
@@ -9109,6 +9784,7 @@ GameObject:
   - component: {fileID: 1855391138}
   - component: {fileID: 1855391137}
   - component: {fileID: 1855391140}
+  - component: {fileID: 1855391141}
   m_Layer: 0
   m_Name: Medicine_132
   m_TagString: Medicine
@@ -9256,6 +9932,18 @@ MonoBehaviour:
   mainColor: purple
   subColor: pink
   icon: Demon
+--- !u!114 &1855391141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855391135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1885619283
 GameObject:
   m_ObjectHideFlags: 0
@@ -9269,6 +9957,7 @@ GameObject:
   - component: {fileID: 1885619286}
   - component: {fileID: 1885619288}
   - component: {fileID: 1885619285}
+  - component: {fileID: 1885619289}
   m_Layer: 0
   m_Name: Medicine_75
   m_TagString: Medicine
@@ -9416,6 +10105,18 @@ MonoBehaviour:
   mainColor: green
   subColor: blue
   icon: Glasses
+--- !u!114 &1885619289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885619283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1888605358
 GameObject:
   m_ObjectHideFlags: 0
@@ -9429,6 +10130,7 @@ GameObject:
   - component: {fileID: 1888605361}
   - component: {fileID: 1888605360}
   - component: {fileID: 1888605363}
+  - component: {fileID: 1888605364}
   m_Layer: 0
   m_Name: Medicine_42
   m_TagString: Medicine
@@ -9576,6 +10278,18 @@ MonoBehaviour:
   mainColor: yellow
   subColor: pink
   icon: Demon
+--- !u!114 &1888605364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888605358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1935439617
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,6 +10303,7 @@ GameObject:
   - component: {fileID: 1935439620}
   - component: {fileID: 1935439619}
   - component: {fileID: 1935439622}
+  - component: {fileID: 1935439623}
   m_Layer: 0
   m_Name: Medicine_24
   m_TagString: Medicine
@@ -9736,6 +10451,18 @@ MonoBehaviour:
   mainColor: green
   subColor: pink
   icon: DUBUPL
+--- !u!114 &1935439623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935439617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1964216454
 GameObject:
   m_ObjectHideFlags: 0
@@ -9749,6 +10476,7 @@ GameObject:
   - component: {fileID: 1964216457}
   - component: {fileID: 1964216456}
   - component: {fileID: 1964216459}
+  - component: {fileID: 1964216460}
   m_Layer: 0
   m_Name: Medicine_174
   m_TagString: Medicine
@@ -9896,6 +10624,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: blue
   icon: Ladder
+--- !u!114 &1964216460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964216454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1967420970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9977,6 +10717,7 @@ GameObject:
   - component: {fileID: 2088432780}
   - component: {fileID: 2088432779}
   - component: {fileID: 2088432782}
+  - component: {fileID: 2088432783}
   m_Layer: 0
   m_Name: Medicine_33
   m_TagString: Medicine
@@ -10124,6 +10865,18 @@ MonoBehaviour:
   mainColor: red
   subColor: pink
   icon: Demon
+--- !u!114 &2088432783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088432777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2130728803
 GameObject:
   m_ObjectHideFlags: 0
@@ -10137,6 +10890,7 @@ GameObject:
   - component: {fileID: 2130728805}
   - component: {fileID: 2130728804}
   - component: {fileID: 2130728808}
+  - component: {fileID: 2130728809}
   m_Layer: 0
   m_Name: Medicine_225
   m_TagString: Medicine
@@ -10284,6 +11038,18 @@ MonoBehaviour:
   mainColor: grey
   subColor: red
   icon: RR
+--- !u!114 &2130728809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130728803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7209c468625e53948b7aad7afdea9ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -10293,6 +11059,6 @@ SceneRoots:
   - {fileID: 1839377418}
   - {fileID: 888107875}
   - {fileID: 1967420970}
-  - {fileID: 837620980}
-  - {fileID: 1815000759}
   - {fileID: 230834716}
+  - {fileID: 1332597213}
+  - {fileID: 890916391}

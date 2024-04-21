@@ -12,26 +12,18 @@ public class InventoryUI : MonoBehaviour
         itemImage.sprite = defaultSprite;
     }
 
-    public void UpdateInventoryUI(MedicineData item)
+    public void UpdateInventoryUI(Sprite itemSprite)
     {
-        if (item != null && !string.IsNullOrEmpty(item.icon))
+        if (itemSprite != null)
         {
-            // Load sprite based on item's icon path
-            Sprite itemSprite = Resources.Load<Sprite>(item.icon);
-            if (itemSprite != null)
-            {
-                // Update image with the item's sprite
-                itemImage.sprite = itemSprite;
-            }
-            else
-            {
-                Debug.LogWarning("Sprite not found for item: " + item.icon);
-            }
+            // Update image with the item's sprite
+            itemImage.sprite = itemSprite;
         }
         else
         {
-            // If item is null or icon is empty, display default sprite
+            // If item sprite is null, display default sprite
             itemImage.sprite = defaultSprite;
         }
     }
 }
+
