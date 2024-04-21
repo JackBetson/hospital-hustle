@@ -195,8 +195,10 @@ public class Patient : MonoBehaviour
         GameManager.Instance.IncreaseSuspicion(1);
     }
 
+    public AudioClip KillSFX;
     private void KillPatient()
     {
+        GetComponent<AudioSource>().PlayOneShot(KillSFX);
         Debug.Log("Patient has died");
         GameManager.Instance.EndGame();
     }

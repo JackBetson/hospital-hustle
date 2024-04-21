@@ -147,3 +147,4 @@ MonoBehaviour:
   requiredSubColour: purple
   requiredIcon: Demon
   HealSFX: {fileID: 8300000, guid: deec1f954e120904bba9e32af220c60a, type: 3}
+  KillSFX: {fileID: 8300000, guid: ef67b27162f18014f8ee059b4050d0b6, type: 3}
