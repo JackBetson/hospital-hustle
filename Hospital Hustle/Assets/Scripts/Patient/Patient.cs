@@ -157,9 +157,14 @@ public class Patient : MonoBehaviour
         InventoryManager.Instance.ClearMedicine();
     }
 
+    public AudioClip HealSFX;
     private void HealPatient()
     {
+
         Healed = true;
+
+        if (Healed) GetComponent<AudioSource>().PlayOneShot(HealSFX);
+
 
         FindNotificationText();
         FindInteractionText();

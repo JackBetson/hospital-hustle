@@ -146,3 +146,4 @@ MonoBehaviour:
   requiredColour: blue
   requiredSubColour: purple
   requiredIcon: Demon
+  HealSFX: {fileID: 8300000, guid: deec1f954e120904bba9e32af220c60a, type: 3}

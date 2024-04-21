@@ -119,4 +119,5 @@ public class DoorScript : MonoBehaviour
             _sceneTransition.FadeToScene(INCORRECT_PR_NAME);
         }
     }
-}
+
+    }
