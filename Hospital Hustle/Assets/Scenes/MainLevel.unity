@@ -5289,7 +5289,7 @@ MonoBehaviour:
   lines:
   - Can I help you??
   dialogueSpeed: 0.05
-  endlineWait: 1
+  endlineWait: 0
 --- !u!114 &1774719440
 MonoBehaviour:
   m_ObjectHideFlags: 0
