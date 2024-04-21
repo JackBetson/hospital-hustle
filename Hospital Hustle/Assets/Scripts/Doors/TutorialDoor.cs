@@ -1,17 +1,19 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
-public class DoorScript : MonoBehaviour
+public class TutorialDoor : MonoBehaviour
 {
-    [SerializeField] private bool _isRightDoor;
-    [SerializeField] private bool _isHallwayDoor;
-    private const string CORRECT_PR_NAME = "CorrectPatientRoom";
-    private const string INCORRECT_PR_NAME = "InCorrectPatientRoom";
-    private const string HALLWAY_NAME = "MainLevel";
-
     private TextMeshProUGUI _interactionText;
     private SceneTransition _sceneTransition;
     private bool _isPlayerInTrigger = false;
+
+    public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 
     private void Start()
     {
@@ -25,7 +27,8 @@ public class DoorScript : MonoBehaviour
     {
         if (_isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
-            HandleDoorInteraction();
+            string sceneName = "MainLevel";
+            ChangeScene(sceneName);
         }
     }
 
@@ -33,7 +36,6 @@ public class DoorScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log(InventoryManager.Instance.Medicine);
             _isPlayerInTrigger = true;
             FindInteractionText(); // Ensure the text component is ready
             FindSceneTransition(); // Ensure the SceneTransition component is ready
@@ -79,45 +81,6 @@ public class DoorScript : MonoBehaviour
             {
                 Debug.LogError("SceneTransition component not found.");
             }
-        }
-    }
-
-    private void HandleDoorInteraction()
-    {
-        if (_sceneTransition == null)
-        {
-            Debug.LogError("SceneTransition component is missing.");
-            return;
-        }
-
-        DoorManager.enteredFromRightDoor = _isRightDoor;
-        if (_isHallwayDoor)
-        {
-            Vector2 spawnPosition = CalculateSpawnPosition();
-            DoorManager.SetLastDoorEnteredPosition(spawnPosition);
-            LoadAppropriateScene();
-        }
-        else
-        {
-            _sceneTransition.FadeToScene(HALLWAY_NAME);
-            if(Patient.Instance != null && Patient.Instance.Healed) Destroy(Patient.Instance.gameObject);
-        }
-    }
-
-    private Vector2 CalculateSpawnPosition()
-    {
-        return (Vector2)transform.position + new Vector2(_isRightDoor ? -0.5f : 0.5f, 0);
-    }
-
-    private void LoadAppropriateScene()
-    {
-        if (GameManager.Instance.GetCurrentTargetDoorId() == gameObject.GetComponent<Door>().doorId)
-        {
-            _sceneTransition.FadeToScene(CORRECT_PR_NAME);
-        }
-        else
-        {
-            _sceneTransition.FadeToScene(INCORRECT_PR_NAME);
         }
     }
 }

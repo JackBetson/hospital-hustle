@@ -23,7 +23,8 @@ public class UIManager : MonoBehaviour
     {
         if (InventoryManager.Instance.Medicine != null)
         {
-            itemIcon.sprite = InventoryManager.Instance.Medicine.gameObject.GetComponent<SpriteRenderer>().sprite;
+            //Will need to figure out another way to get the sprite, this could be called straight from ViewSupply to use the gameobject instead of the Medicine script
+            //itemIcon.sprite = InventoryManager.Instance.Medicine.gameObject.GetComponent<SpriteRenderer>().sprite;
             itemIcon.enabled = true;
         }
         else
