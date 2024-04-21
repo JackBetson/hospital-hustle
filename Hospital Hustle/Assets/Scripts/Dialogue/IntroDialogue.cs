@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class StartDialogue : MonoBehaviour
+public class IntroDialogue : MonoBehaviour
 {
     public string[] lines;
     public float dialogueSpeed = 0.05f;
