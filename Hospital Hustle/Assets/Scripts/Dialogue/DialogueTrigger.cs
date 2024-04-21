@@ -27,6 +27,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             isDisplaying = true;
             dialogueDisplay.DisplayLines(lines, dialogueSpeed, endlineWait);
+            hasDisplayed = true; // Mark dialogue as displayed
         }
     }
 
@@ -35,5 +36,13 @@ public class DialogueTrigger : MonoBehaviour
     {
         hasDisplayed = false;
         isDisplaying = false;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            ResetDialogueState(); // Reset dialogue state when player exits the trigger
+        }
     }
 }
