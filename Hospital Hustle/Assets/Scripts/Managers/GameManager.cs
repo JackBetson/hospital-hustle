@@ -39,7 +39,6 @@ public class GameManager : MonoBehaviour
     {
         if (scene.name == MAIN_LEVEL_NAME)
         {
-            Debug.Log("Main level loaded");
             RefreshRoomReferences();
             if (_currentTargetRoomId != null)
             {

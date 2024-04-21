@@ -8,6 +8,5 @@ public static class DoorManager
     public static void SetLastDoorEnteredPosition(Vector2 position)
     {
         lastDoorEnteredPosition = position;
-        Debug.Log("Last door entered position set to: " + lastDoorEnteredPosition);
     }
 }
