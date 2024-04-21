@@ -543,7 +543,6 @@ GameObject:
   - component: {fileID: 477984634}
   - component: {fileID: 477984635}
   - component: {fileID: 477984637}
-  - component: {fileID: 477984636}
   - component: {fileID: 477984638}
   - component: {fileID: 477984639}
   - component: {fileID: 477984640}
@@ -621,23 +620,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &477984636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477984633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lines:
-  - wow thanks!
-  - you should go talk to that nurse over there!
-  dialogueSpeed: 0.05
-  endlineWait: 0
 --- !u!114 &477984637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,6 +647,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65f9aa23de7401b45aff86388f77dca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueLines:
+  - wow thanks!
+  - you should go talk to that nurse over there!
+  dialogueSpeed: 0.05
+  endlineWait: 1
 --- !u!61 &477984639
 BoxCollider2D:
   m_ObjectHideFlags: 0
