@@ -8,6 +8,7 @@ public class ClueGiver : MonoBehaviour
     public GameObject imageToShow; // Reference to the image object you want to appear
     public Button buttonToShow; // Reference to the button object you want to appear
     public float activationDistance = 2f; // Distance at which the player can activate the image and button
+    public AudioClip ClueSFX;
 
     private bool playerInRange = false;
 
@@ -26,6 +27,7 @@ public class ClueGiver : MonoBehaviour
                 // Activate the image and button when the player clicks while pointing at the object
                 imageToShow.SetActive(true);
                 buttonToShow.gameObject.SetActive(true);
+                GetComponent<AudioSource>().PlayOneShot(ClueSFX);
             }
         }
     }

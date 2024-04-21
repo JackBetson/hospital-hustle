@@ -7,6 +7,7 @@ public class MedicineData
     public string mainColor;
     public string subColor;
     public string icon;
+    
 }
 
 public class InventoryManager : MonoBehaviour
@@ -27,6 +28,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    public AudioClip pickupSFX;
     public void SetMedicine(Medicine medicine)
     {
         Medicine = new MedicineData
@@ -35,7 +37,9 @@ public class InventoryManager : MonoBehaviour
             mainColor = medicine.mainColor,
             subColor = medicine.subColor,
             icon = medicine.icon
+
         };
+        GetComponent<AudioSource>().PlayOneShot(pickupSFX);
     }
 
     public void ClearMedicine()
