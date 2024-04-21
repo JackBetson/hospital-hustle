@@ -384,6 +384,8 @@ GameObject:
   - component: {fileID: 280372733}
   - component: {fileID: 280372735}
   - component: {fileID: 280372734}
+  - component: {fileID: 280372737}
+  - component: {fileID: 280372736}
   m_Layer: 8
   m_Name: Nurse1
   m_TagString: Untagged
@@ -479,6 +481,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &280372736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280372732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ab60416284f3a499fa499429d06526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 0}
+  dialogueText: {fileID: 0}
+--- !u!114 &280372737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280372732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines: []
+  dialogueSpeed: 0.05
+  endlineWait: 1
 --- !u!1 &477984633
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +520,8 @@ GameObject:
   m_Component:
   - component: {fileID: 477984634}
   - component: {fileID: 477984635}
+  - component: {fileID: 477984637}
+  - component: {fileID: 477984636}
   m_Layer: 7
   m_Name: Patient1
   m_TagString: Untagged
@@ -563,6 +596,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &477984636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477984633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - 
+  dialogueSpeed: 0.05
+  endlineWait: 1
+--- !u!114 &477984637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477984633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ab60416284f3a499fa499429d06526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 1572262956}
+  dialogueText: {fileID: 2004333911}
 --- !u!1 &683921555
 GameObject:
   m_ObjectHideFlags: 0
