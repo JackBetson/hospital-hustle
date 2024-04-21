@@ -14,6 +14,8 @@ public class DialogueDisplay : MonoBehaviour
     private bool waitForInput;
     private bool skipText;
 
+    public bool IsDialogueFinished { get { return currentLineIndex >= currentLines.Length; } }
+
     private void Start()
     {
         dialogueCanvas.SetActive(false); // Hide the canvas when the game starts
