@@ -596,7 +596,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
 --- !u!114 &477984636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,10 +628,8 @@ MonoBehaviour:
   dialogueText: {fileID: 2004333911}
 --- !u!1 &683921555
 GameObject:
-=======
 --- !u!1001 &592471507
 PrefabInstance:
->>>>>>> origin/dev
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
