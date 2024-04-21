@@ -60,7 +60,7 @@ public class DialogueDisplay : MonoBehaviour
         NextLine();
     }
 
-    private void NextLine()
+    public void NextLine()
     {
         currentLineIndex++;
         if (currentLineIndex < currentLines.Length)
@@ -78,6 +78,19 @@ public class DialogueDisplay : MonoBehaviour
         if (!waitForInput && Input.GetMouseButtonDown(0))
         {
             skipText = true; // Set skipText flag to true when left mouse button is pressed
+        }
+    }
+
+    public string GetLineAtIndex(int index)
+    {
+        if (index >= 0 && index < currentLines.Length)
+        {
+            return currentLines[index];
+        }
+        else
+        {
+            Debug.LogWarning("Index out of range.");
+            return null;
         }
     }
 }

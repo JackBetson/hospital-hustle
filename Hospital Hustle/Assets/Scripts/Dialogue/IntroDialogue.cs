@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StartDialogue : MonoBehaviour
 {
@@ -32,4 +33,5 @@ public class StartDialogue : MonoBehaviour
         // Change scene after dialogue finishes
         SceneManager.LoadScene(sceneToLoad);
     }
+
 }
