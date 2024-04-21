@@ -100,7 +100,7 @@ public class TutorialCabinet : MonoBehaviour
 
     private void LoadAppropriateScene()
     {
-        string sceneName = "Tutorial";
+        string sceneName = "TutorialCabinet";
         ChangeScene(sceneName);
     }
 }

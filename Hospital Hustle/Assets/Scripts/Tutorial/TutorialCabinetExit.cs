@@ -4,47 +4,42 @@ using UnityEngine;
 
 public class TutorialCabinetExit : MonoBehaviour
 {
-    private SceneTransition _sceneTransition;
+    private TutorialSceneManager _sceneManager; // Use TutorialSceneManager
     private const string HALLWAY_NAME = "Tutorial";
-    void Start()
-    {
-        FindSceneTransition();
-    }
 
-    private void OnMouseEnter()
-    {
-        FindSceneTransition();
-    }
-
-    private void FindSceneTransition()
-    {
-        if (_sceneTransition == null)
-        {
-            _sceneTransition = FindObjectOfType<SceneTransition>();
-            if (_sceneTransition == null)
-            {
-                Debug.LogError("SceneTransition component not found.");
-            }
-        }
-    }
+    public Vector2 spawnPosition; // Store the spawn position
 
     public void ExitToMainScene()
     {
-        if (_sceneTransition == null)
+        if (_sceneManager == null)
         {
-            FindSceneTransition();
-            if (_sceneTransition != null)
+            FindSceneManager();
+            if (_sceneManager != null)
             {
-                _sceneTransition.FadeToScene(HALLWAY_NAME);
+                // Pass spawn position to FadeToScene
+                _sceneManager.FadeToScene(HALLWAY_NAME, spawnPosition);
             }
             else
             {
-                Debug.LogError("SceneTransition component not found.");
+                Debug.LogError("TutorialSceneManager component not found.");
             }
         }
         else
         {
-            _sceneTransition.FadeToScene(HALLWAY_NAME);
+            // Pass spawn position to FadeToScene
+            _sceneManager.FadeToScene(HALLWAY_NAME, spawnPosition);
+        }
+    }
+
+    private void FindSceneManager()
+    {
+        if (_sceneManager == null)
+        {
+            _sceneManager = FindObjectOfType<TutorialSceneManager>();
+            if (_sceneManager == null)
+            {
+                Debug.LogError("TutorialSceneManager component not found.");
+            }
         }
     }
 }
