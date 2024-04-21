@@ -33,7 +33,6 @@ public class DoorScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (GameManager.Instance.GetCurrentTargetRoomId() == gameObject.name) Debug.Log("Correct room");
             _isPlayerInTrigger = true;
             FindInteractionText(); // Ensure the text component is ready
             FindSceneTransition(); // Ensure the SceneTransition component is ready
@@ -110,7 +109,7 @@ public class DoorScript : MonoBehaviour
 
     private void LoadAppropriateScene()
     {
-        if (GameManager.Instance.GetCurrentTargetRoomId() == gameObject.name)
+        if (GameManager.Instance.GetCurrentTargetDoorId() == gameObject.GetComponent<Door>().doorId)
         {
             _sceneTransition.FadeToScene(CORRECT_PR_NAME);
         }
