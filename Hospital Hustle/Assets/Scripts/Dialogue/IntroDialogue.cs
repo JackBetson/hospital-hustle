@@ -10,9 +10,7 @@ public class StartDialogue : MonoBehaviour
     public float dialogueSpeed = 0.05f;
     public float endlineWait = 1f;
     public string sceneToLoad; // Name of the scene to load after dialogue finishes
-    public Image dialogueImage; // Reference to the Image component displaying the image
     private DialogueDisplay dialogueDisplay;
-    private int currentLineIndex = 0;
 
     private void Start()
     {
@@ -36,22 +34,4 @@ public class StartDialogue : MonoBehaviour
         SceneManager.LoadScene(sceneToLoad);
     }
 
-    void Update()
-    {
-        // Check if the current line being displayed is line 5
-        if (currentLineIndex == 4) // Arrays are zero-indexed
-        {
-            dialogueImage.enabled = true; // Show the image
-        }
-        else
-        {
-            dialogueImage.enabled = false; // Hide the image
-        }
-    }
-
-    // Call this method to advance the dialogue to the next line
-    public void NextLine()
-    {
-        currentLineIndex++;
-    }
 }
