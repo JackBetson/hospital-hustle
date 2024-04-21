@@ -692,8 +692,7 @@ MonoBehaviour:
   - Good luck!
   dialogueSpeed: 0.03
   endlineWait: 0
-  sceneToLoad: MainLevel
-  dialogueImage: {fileID: 155276500}
+  sceneToLoad: Tutorial
 --- !u!4 &624537057
 Transform:
   m_ObjectHideFlags: 0
