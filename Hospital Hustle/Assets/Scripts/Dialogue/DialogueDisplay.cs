@@ -13,12 +13,16 @@ public class DialogueDisplay : MonoBehaviour
     private float endlineWait;
     private bool waitForInput;
     private bool skipText;
+    public AudioClip typingSound; // Audio clip for typing sound
+    private string fullText;
+    private AudioSource audioSource;
 
     public bool IsDialogueFinished { get { return currentLineIndex >= currentLines.Length; } }
 
     private void Start()
     {
         dialogueCanvas.SetActive(false); // Hide the canvas when the game starts
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void DisplayLines(string[] lines, float speed, float waitTime, bool waitForInput = true)
@@ -46,6 +50,10 @@ public class DialogueDisplay : MonoBehaviour
             else
             {
                 dialogueText.text += currentLines[currentLineIndex][i];
+                if (typingSound != null)
+                {
+                    audioSource.PlayOneShot(typingSound); // Play typing sound
+                }
                 yield return new WaitForSeconds(dialogueSpeed);
             }
         }
