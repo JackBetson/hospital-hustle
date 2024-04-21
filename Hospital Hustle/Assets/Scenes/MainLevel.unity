@@ -5967,6 +5967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueCanvas: {fileID: 714345473}
   dialogueText: {fileID: 1263448451}
+  typingSound: {fileID: 0}
 --- !u!58 &1774719441
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9521,6 +9522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 551924912982629032, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
         type: 3}

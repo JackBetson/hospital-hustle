@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163012731}
   - component: {fileID: 163012732}
+  - component: {fileID: 163012733}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -200,6 +201,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &163012733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163012730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - 
+  dialogueSpeed: 0.05
+  endlineWait: 1
 --- !u!1 &182845976
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,10 +563,10 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28125, y: 0.46875}
+    newSize: {x: 0.28125, y: 0.46875}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -619,6 +636,7 @@ GameObject:
   - component: {fileID: 477984635}
   - component: {fileID: 477984637}
   - component: {fileID: 477984636}
+  - component: {fileID: 477984638}
   m_Layer: 7
   m_Name: Patient1
   m_TagString: Untagged
@@ -724,6 +742,18 @@ MonoBehaviour:
   dialogueCanvas: {fileID: 1572262956}
   dialogueText: {fileID: 2004333911}
   typingSound: {fileID: 0}
+--- !u!114 &477984638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477984633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f9aa23de7401b45aff86388f77dca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &592471507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2616,9 +2646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - USE WASD TO MOVE AROUND!
   dialogueSpeed: 0.05
-  endlineWait: 1
+  endlineWait: 0
 --- !u!61 &1567435768
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2909,6 +2940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1638793060}
   - component: {fileID: 1638793061}
+  - component: {fileID: 1638793062}
   m_Layer: 0
   m_Name: 3
   m_TagString: Untagged
@@ -2976,6 +3008,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &1638793062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638793059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - 'TREAT THE PATIENT WITH YOUR ITEM! '
+  dialogueSpeed: 0.05
+  endlineWait: 0
 --- !u!1 &1647303455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3021,9 +3069,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - OPEN THE SUPPLY CABINET AND GRAB SOMETHING
   dialogueSpeed: 0.05
-  endlineWait: 1
+  endlineWait: 0
 --- !u!61 &1647303458
 BoxCollider2D:
   m_ObjectHideFlags: 0
