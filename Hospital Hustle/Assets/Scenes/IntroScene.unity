@@ -665,6 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueCanvas: {fileID: 68757984}
   dialogueText: {fileID: 385888804}
+  typingSound: {fileID: 0}
 --- !u!114 &624537056
 MonoBehaviour:
   m_ObjectHideFlags: 0

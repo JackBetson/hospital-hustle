@@ -515,7 +515,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueCanvas: {fileID: 1572262956}
   dialogueText: {fileID: 2004333911}
-  typingSound: {fileID: 0}
 --- !u!4 &418705712
 Transform:
   m_ObjectHideFlags: 0
@@ -542,7 +541,6 @@ GameObject:
   m_Component:
   - component: {fileID: 477984634}
   - component: {fileID: 477984635}
-  - component: {fileID: 477984637}
   - component: {fileID: 477984638}
   - component: {fileID: 477984639}
   - component: {fileID: 477984640}
@@ -620,21 +618,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &477984637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477984633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31ab60416284f3a499fa499429d06526, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueCanvas: {fileID: 1572262956}
-  dialogueText: {fileID: 2004333911}
-  typingSound: {fileID: 8300000, guid: 7b01323874a8ef743a75e1e6d4da4c26, type: 3}
 --- !u!114 &477984638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -648,10 +631,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - wow thanks!
+  - thanks for healing me so quickly!
+  - patients' health bars decrease over time
+  - if it reaches zero ... we die!!
   - you should go talk to that nurse over there!
   dialogueSpeed: 0.05
-  endlineWait: 1
+  endlineWait: 0
+  typingSound: {fileID: 8300000, guid: 7b01323874a8ef743a75e1e6d4da4c26, type: 3}
 --- !u!61 &477984639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2571,10 +2557,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 595878881265771043, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 4641662603938070487, guid: 7f39c05c43405e14481e7de85adadc1f,
         type: 3}
       propertyPath: m_Name
       value: OverlayCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4927729524902670418, guid: 7f39c05c43405e14481e7de85adadc1f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 8390541025887209743, guid: 7f39c05c43405e14481e7de85adadc1f,
         type: 3}
@@ -2959,10 +2955,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines:
-  - GO AND TREAT THE PATIENT (he's nervous)
+  currentLines: []
   dialogueSpeed: 0.05
   endlineWait: 0
+  typingSound: {fileID: 8300000, guid: c40f506c7539b274ea78208d3d284f26, type: 3}
 --- !u!1 &1683866002
 GameObject:
   m_ObjectHideFlags: 0

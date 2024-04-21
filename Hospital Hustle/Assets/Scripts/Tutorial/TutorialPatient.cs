@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -15,6 +14,9 @@ public class TutorialPatient : MonoBehaviour
     private TextMeshProUGUI interactionText;
     private bool isPlayerInTrigger = false;
 
+    public AudioClip typingSound; // Audio clip for typing sound
+    private AudioSource audioSource;
+
     private void Start()
     {
         FindInteractionText();
@@ -23,6 +25,9 @@ public class TutorialPatient : MonoBehaviour
         {
             Debug.LogError("DialogueDisplay component not found in the scene.");
         }
+
+        // Initialize audio source
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -108,5 +113,21 @@ public class TutorialPatient : MonoBehaviour
     private void StartDialogue()
     {
         dialogueDisplay.DisplayLines(dialogueLines, dialogueSpeed, endlineWait);
+
+        StartCoroutine(TypeDialogue());
+    }
+
+    private IEnumerator TypeDialogue()
+    {
+        foreach (string line in dialogueLines)
+        {
+            foreach (char c in line)
+            {
+                // Play typing sound for each character
+                audioSource.PlayOneShot(typingSound);
+                yield return new WaitForSeconds(dialogueSpeed);
+            }
+            yield return new WaitForSeconds(endlineWait);
+        }
     }
 }
