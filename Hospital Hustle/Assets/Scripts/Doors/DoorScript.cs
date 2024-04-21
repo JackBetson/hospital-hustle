@@ -1,63 +1,121 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using TMPro;
 
 public class DoorScript : MonoBehaviour
 {
-    [SerializeField]
-    private SceneTransition _sceneTransition;
-    [SerializeField]
-    private string _sceneToLoad;
-    [SerializeField]
-    private TextMeshProUGUI _interactionText;
-    [SerializeField]
-    private bool _isRightDoor;
-    [SerializeField]
-    private bool _isHallwayDoor;
+    [SerializeField] private bool _isRightDoor;
+    [SerializeField] private bool _isHallwayDoor;
+    private const string CORRECT_PR_NAME = "CorrectPatientRoom";
+    private const string INCORRECT_PR_NAME = "InCorrectPatientRoom";
+    private const string HALLWAY_NAME = "MainLevel";
 
+    private TextMeshProUGUI _interactionText;
+    private SceneTransition _sceneTransition;
     private bool _isPlayerInTrigger = false;
 
     private void Start()
     {
+        FindInteractionText();
+        FindSceneTransition();
         if (_interactionText != null)
             _interactionText.enabled = false;
     }
 
     private void Update()
     {
-        // Check if the player is in the trigger area and if they press the 'E' key
         if (_isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
-            DoorManager.enteredFromRightDoor = _isRightDoor;
-            if (_isHallwayDoor)
-            {
-                Vector2 spawnPosition = (Vector2)transform.position + (new Vector2(_isRightDoor ? -0.5f : 0.5f, 0));
-                DoorManager.SetLastDoorEnteredPosition(spawnPosition);
-            }
-                
-            _sceneTransition.FadeToScene(_sceneToLoad);
+            HandleDoorInteraction();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the collider belongs to a player
         if (other.CompareTag("Player"))
         {
-            _interactionText.text = "Press E to enter";
-            _interactionText.enabled = true;
             _isPlayerInTrigger = true;
+            FindInteractionText(); // Ensure the text component is ready
+            FindSceneTransition(); // Ensure the SceneTransition component is ready
+
+            if (_interactionText != null)
+            {
+                _interactionText.text = "Press E to enter";
+                _interactionText.enabled = true;
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        // Disable the text and reset the trigger flag when the player exits
         if (other.CompareTag("Player"))
         {
-            _interactionText.enabled = false;
             _isPlayerInTrigger = false;
+            if (_interactionText != null)
+            {
+                _interactionText.enabled = false;
+            }
+        }
+    }
+
+    private void FindInteractionText()
+    {
+        if (_interactionText == null)
+        {
+            _interactionText = GameObject.FindGameObjectWithTag("InteractionText")?.GetComponent<TextMeshProUGUI>();
+            if (_interactionText == null)
+            {
+                Debug.LogError("Interaction text component not found.");
+            }
+        }
+    }
+
+    private void FindSceneTransition()
+    {
+        if (_sceneTransition == null)
+        {
+            _sceneTransition = FindObjectOfType<SceneTransition>();
+            if (_sceneTransition == null)
+            {
+                Debug.LogError("SceneTransition component not found.");
+            }
+        }
+    }
+
+    private void HandleDoorInteraction()
+    {
+        if (_sceneTransition == null)
+        {
+            Debug.LogError("SceneTransition component is missing.");
+            return;
+        }
+
+        DoorManager.enteredFromRightDoor = _isRightDoor;
+        if (_isHallwayDoor)
+        {
+            Vector2 spawnPosition = CalculateSpawnPosition();
+            DoorManager.SetLastDoorEnteredPosition(spawnPosition);
+            LoadAppropriateScene();
+        }
+        else
+        {
+            _sceneTransition.FadeToScene(HALLWAY_NAME);
+        }
+    }
+
+    private Vector2 CalculateSpawnPosition()
+    {
+        return (Vector2)transform.position + new Vector2(_isRightDoor ? -0.5f : 0.5f, 0);
+    }
+
+    private void LoadAppropriateScene()
+    {
+        if (GameManager.Instance.GetCurrentTargetDoorId() == gameObject.GetComponent<Door>().doorId)
+        {
+            _sceneTransition.FadeToScene(CORRECT_PR_NAME);
+        }
+        else
+        {
+            _sceneTransition.FadeToScene(INCORRECT_PR_NAME);
         }
     }
 }

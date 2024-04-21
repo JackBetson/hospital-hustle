@@ -12,7 +12,15 @@ public class SceneTransition : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(this.transform.root.gameObject); // This will make the entire Canvas persistent
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.transform.root.gameObject); // Make the entire Canvas persistent
+        }
+        else if (Instance != this)
+        {
+            Destroy(this.transform.root.gameObject); // Destroy this if there's already an instance
+        }
     }
 
     public void FadeToScene(string sceneName)
@@ -37,7 +45,15 @@ public class SceneTransition : MonoBehaviour
         }
 
         // Ensure the animator is correctly targeted after new scene is loaded
-        _animator = GetComponent<Animator>();  // Re-grab the Animator in case it's lost reference
+        if (_animator == null)
+        {
+            _animator = GetComponent<Animator>();
+            if (_animator == null)
+            {
+                Debug.LogError("Animator component not found after scene load!");
+                yield break; // Exit if no animator is found
+            }
+        }
 
         // Trigger fade-in after scene is loaded
         _animator.SetTrigger("startFadeIn");

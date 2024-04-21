@@ -129,6 +129,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1416326551550763406}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &22350736 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6529895399729642389, guid: d91b4f5a084e4114fb5459db7304ca9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7660514203941933500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &79334352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -141,6 +153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -206,16 +223,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 79334355}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &79334353 stripped
 Transform:
@@ -223,6 +244,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 79334352}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &79334354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 79334352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &79334355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79334354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 5
 --- !u!1 &88259805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,18 +1446,6 @@ Transform:
   - {fileID: 1312113499}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &549269973 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4594616983760139129, guid: d91b4f5a084e4114fb5459db7304ca9b,
-    type: 3}
-  m_PrefabInstance: {fileID: 4456276507848675329}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &684146236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1430,6 +1458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -1505,16 +1538,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 684146239}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &684146237 stripped
 Transform:
@@ -1522,6 +1559,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 684146236}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &684146238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 684146236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &684146239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684146238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 4
 --- !u!1 &714345473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,6 +1702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door3
       objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1710,16 +1771,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 747062625}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &747062623 stripped
 Transform:
@@ -1727,6 +1792,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 747062622}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &747062624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 747062622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &747062625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747062624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 3
 --- !u!1 &783180660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +1930,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door10
       objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1920,16 +2009,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 957424765}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &957424763 stripped
 Transform:
@@ -1937,6 +2030,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 957424762}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &957424764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 957424762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &957424765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957424764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 10
 --- !u!4 &981100419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2481393635085531970, guid: 467467e5f8953c240898f34f49b82860,
@@ -1955,6 +2067,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -2020,16 +2137,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 988436570}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &988436568 stripped
 Transform:
@@ -2037,6 +2158,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 988436567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &988436569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 988436567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &988436570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988436569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 9
 --- !u!1 &995373395
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,6 +2522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door11
       objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2446,16 +2591,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1280954449}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &1280954447 stripped
 Transform:
@@ -2463,6 +2612,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1280954446}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1280954448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1280954446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280954449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280954448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 11
 --- !u!1001 &1312113498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2475,6 +2643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -2550,16 +2723,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1312113501}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &1312113499 stripped
 Transform:
@@ -2567,6 +2744,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1312113498}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1312113500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1312113498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1312113501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312113500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 12
 --- !u!1001 &1375981418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2579,6 +2775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -2654,16 +2855,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1375981421}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &1375981419 stripped
 Transform:
@@ -2671,6 +2876,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1375981418}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1375981420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1375981418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1375981421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375981420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 2
 --- !u!1 &1425144425
 GameObject:
   m_ObjectHideFlags: 0
@@ -4922,6 +5146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door7
       objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4986,16 +5215,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1551401964}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &1551401962 stripped
 Transform:
@@ -5003,6 +5236,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1551401961}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1551401963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1551401961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1551401964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551401963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 7
 --- !u!1001 &1579283395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5015,6 +5267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -5090,16 +5347,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1579283398}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &1579283396 stripped
 Transform:
@@ -5107,6 +5368,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1579283395}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1579283397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1579283395}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1579283398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579283397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 8
 --- !u!1 &1721479237
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,18 +5433,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1751724981 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8258539287458267292, guid: d91b4f5a084e4114fb5459db7304ca9b,
-    type: 3}
-  m_PrefabInstance: {fileID: 4456276507848675329}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d268de96553554ca77301a21b225da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1774719435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5352,6 +5620,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door6
       objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
+      objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5426,16 +5699,20 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1819959019}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
 --- !u!4 &1819959017 stripped
 Transform:
@@ -5443,6 +5720,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1819959016}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1819959018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819959016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1819959019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819959018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 6
 --- !u!1 &2007513940
 GameObject:
   m_ObjectHideFlags: 0
@@ -8456,6 +8752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 641c6a56dd0e75c40a1476dae22fd780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _notificationText: {fileID: 22350736}
 --- !u!4 &2091959019
 Transform:
   m_ObjectHideFlags: 0
@@ -8539,6 +8836,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f592fbb08ed53584c9e156fe3b4d2669, type: 3}
+--- !u!114 &149889901339534200 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8174233978842175760, guid: d91b4f5a084e4114fb5459db7304ca9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7660514203941933500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1416326551550763406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8551,6 +8860,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: PatientRoom
       objectReference: {fileID: 0}
     - target: {fileID: 2051759728049012170, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
@@ -8616,17 +8930,40 @@ PrefabInstance:
         type: 3}
       propertyPath: _interactionText
       value: 
-      objectReference: {fileID: 549269973}
+      objectReference: {fileID: 149889901339534200}
     - target: {fileID: 5000444986961984819, guid: 12bfcecfe92fa5243a4015d8a68710c8,
         type: 3}
       propertyPath: _sceneTransition
       value: 
-      objectReference: {fileID: 1751724981}
+      objectReference: {fileID: 5713913879884714141}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1416326551550763408}
   m_SourcePrefab: {fileID: 100100000, guid: 12bfcecfe92fa5243a4015d8a68710c8, type: 3}
+--- !u!1 &1416326551550763407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1327976667244177402, guid: 12bfcecfe92fa5243a4015d8a68710c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1416326551550763406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1416326551550763408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416326551550763407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbdf786cfdbf142aab19ec46ca80b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorId: 1
 --- !u!1001 &4325196089961733118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8695,7 +9032,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc99764394e2ade43977071c6b3b36b9, type: 3}
---- !u!1001 &4456276507848675329
+--- !u!114 &5713913879884714141 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4143985753762277299, guid: d91b4f5a084e4114fb5459db7304ca9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7660514203941933500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d268de96553554ca77301a21b225da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7660514203941933500
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8703,120 +9052,115 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051785616515215770, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6297022525737114142, guid: d91b4f5a084e4114fb5459db7304ca9b,
+    - target: {fileID: 385615967614891651, guid: d91b4f5a084e4114fb5459db7304ca9b,
         type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 6297022525737114142, guid: d91b4f5a084e4114fb5459db7304ca9b,
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
         type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8853263519579474028, guid: d91b4f5a084e4114fb5459db7304ca9b,
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
         type: 3}
-      propertyPath: m_RenderMode
+      propertyPath: m_LocalRotation.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051728347235941444, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_TagString
+      value: InteractionText
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8834,7 +9178,7 @@ SceneRoots:
   - {fileID: 534106480}
   - {fileID: 2142161678}
   - {fileID: 4325196089961733118}
-  - {fileID: 4456276507848675329}
+  - {fileID: 7660514203941933500}
   - {fileID: 318769538}
   - {fileID: 2091959019}
   - {fileID: 1721479239}
