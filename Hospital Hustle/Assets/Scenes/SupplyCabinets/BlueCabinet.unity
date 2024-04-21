@@ -198,6 +198,164 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22155530}
   m_CullTransparentMesh: 1
+--- !u!1001 &37201984
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349015169748942474, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 813740697556857769, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089934916053598678, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127118494060987294, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127473365290639703, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_Name
+      value: UIBars 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886106612674973313, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469648020781598949, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772578703707349945, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4037147925387869787, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414282351509150997, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541785918454586201, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5927787745946976560, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213960597339627861, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377216788855497978, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6528702172600914934, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828263530719515089, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172023642924576896, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481421066882056282, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8175429846400997451, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517731075140472002, guid: 443a079157eb97b41b46ac9fd7464205,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 443a079157eb97b41b46ac9fd7464205, type: 3}
 --- !u!1 &94073016
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: red
   icon: Triangle
@@ -513,6 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: purple
   icon: TINT
@@ -672,6 +832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: green
   icon: Ladder
@@ -831,6 +992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: red
   icon: RR
@@ -990,6 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: green
   icon: Snake
@@ -1236,6 +1399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: red
   icon: Mcdonald
@@ -1395,6 +1559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: purple
   icon: DUBUPL
@@ -1554,6 +1719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: purple
   icon: Demon
@@ -1713,6 +1879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: green
   icon: Ladder
@@ -1872,6 +2039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: green
   icon: Snake
@@ -2031,6 +2199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: red
   icon: Mcdonald
@@ -2190,6 +2359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: green
   icon: Glasses
@@ -2310,23 +2480,9 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 8068523710918500487, guid: d91b4f5a084e4114fb5459db7304ca9b, type: 3}
     - {fileID: 5237264442793268012, guid: d91b4f5a084e4114fb5459db7304ca9b, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 989267859}
-    - targetCorrespondingSourceObject: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1613090019}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d91b4f5a084e4114fb5459db7304ca9b, type: 3}
---- !u!224 &546658572 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
-    type: 3}
-  m_PrefabInstance: {fileID: 546658571}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &584928029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2483,6 +2639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: red
   icon: Mcdonald
@@ -2642,6 +2799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: purple
   icon: DUBUPL
@@ -2801,6 +2959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: red
   icon: RR
@@ -2960,6 +3119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: green
   icon: Ladder
@@ -3224,6 +3384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: purple
   icon: DUBUPL
@@ -3383,6 +3544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: red
   icon: Triangle
@@ -3542,6 +3704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: red
   icon: Triangle
@@ -3701,6 +3864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: red
   icon: RR
@@ -3860,6 +4024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: red
   icon: Mcdonald
@@ -4087,6 +4252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: grey
   subColor: red
   icon: Triangle
@@ -4246,84 +4412,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: purple
   icon: TINT
---- !u!1 &989267858
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 989267859}
-  - component: {fileID: 989267861}
-  - component: {fileID: 989267860}
-  m_Layer: 5
-  m_Name: SusMeter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &989267859
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989267858}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.1999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 546658572}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: 434}
-  m_SizeDelta: {x: 500, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &989267860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989267858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1837105982, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &989267861
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989267858}
-  m_CullTransparentMesh: 1
 --- !u!1 &1015191358
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,6 +4572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: green
   icon: Snake
@@ -4639,6 +4732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: grey
   subColor: red
   icon: Mcdonald
@@ -5016,6 +5110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: pink
   icon: TINT
@@ -5175,6 +5270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: green
   icon: Glasses
@@ -5334,6 +5430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: purple
   icon: TINT
@@ -5493,6 +5590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: green
   icon: Snake
@@ -5652,6 +5750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: green
   icon: Glasses
@@ -5811,6 +5910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: purple
   icon: Demon
@@ -5970,6 +6070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: red
   icon: Triangle
@@ -6129,6 +6230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: purple
   icon: TINT
@@ -6288,6 +6390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: grey
   subColor: dblue
   icon: Glasses
@@ -6447,6 +6550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: pink
   subColor: green
   icon: Ladder
@@ -6606,6 +6710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: grey
   subColor: orange
   icon: RR
@@ -6765,6 +6870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: purple
   icon: Demon
@@ -6924,6 +7030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: purple
   icon: DUBUPL
@@ -7083,6 +7190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: red
   icon: Mcdonald
@@ -7351,6 +7459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: red
   icon: Triangle
@@ -7510,84 +7619,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: red
   icon: RR
---- !u!1 &1613090018
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1613090019}
-  - component: {fileID: 1613090021}
-  - component: {fileID: 1613090020}
-  m_Layer: 5
-  m_Name: HealthMeter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1613090019
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613090018}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 546658572}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -300, y: 434}
-  m_SizeDelta: {x: 500, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1613090020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613090018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1390517028, guid: 9d5128abf2692b14a848e215d26cf049, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1613090021
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613090018}
-  m_CullTransparentMesh: 1
 --- !u!1 &1614134402
 GameObject:
   m_ObjectHideFlags: 0
@@ -7744,6 +7779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: purple
   icon: Demon
@@ -7903,6 +7939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: purple
   subColor: green
   icon: Ladder
@@ -8062,6 +8099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: purple
   icon: DUBUPL
@@ -8221,6 +8259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: green
   icon: Snake
@@ -8380,6 +8419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: red
   icon: RR
@@ -8539,6 +8579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: grey
   subColor: purple
   icon: DUBUPL
@@ -8843,6 +8884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: green
   subColor: green
   icon: Glasses
@@ -9002,6 +9044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: grey
   subColor: green
   icon: Ladder
@@ -9161,6 +9204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: purple
   icon: Demon
@@ -9320,6 +9364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: purple
   icon: Demon
@@ -9479,6 +9524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: grey
   subColor: green
   icon: Snake
@@ -9638,6 +9684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: red
   icon: Triangle
@@ -9797,6 +9844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: red
   subColor: purple
   icon: DUBUPL
@@ -9956,6 +10004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: yellow
   subColor: green
   icon: Ladder
@@ -10115,6 +10164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDefibrillator: 0
   mainColor: blue
   subColor: red
   icon: Mcdonald
@@ -10128,3 +10178,4 @@ SceneRoots:
   - {fileID: 888107875}
   - {fileID: 1096008078}
   - {fileID: 546658571}
+  - {fileID: 37201984}
