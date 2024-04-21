@@ -7,6 +7,7 @@ TagManager:
   - Flippable
   - PatientRoom
   - InteractionText
+  - Medicine
   layers:
   - Default
   - TransparentFX

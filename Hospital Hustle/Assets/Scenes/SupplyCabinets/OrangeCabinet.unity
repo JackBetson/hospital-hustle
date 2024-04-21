@@ -135,9 +135,10 @@ GameObject:
   - component: {fileID: 31822190}
   - component: {fileID: 31822189}
   - component: {fileID: 31822188}
+  - component: {fileID: 31822191}
   m_Layer: 0
   m_Name: Medicine_171
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,6 +267,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &31822191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31822186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: orange
+  icon: Triangle
 --- !u!1 &36731660
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,10 +293,11 @@ GameObject:
   - component: {fileID: 36731661}
   - component: {fileID: 36731664}
   - component: {fileID: 36731663}
+  - component: {fileID: 36731665}
   - component: {fileID: 36731662}
   m_Layer: 0
   m_Name: Medicine_30
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -409,6 +426,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &36731665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36731660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: blue
+  icon: Snake
 --- !u!1 &76507726
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,10 +452,11 @@ GameObject:
   - component: {fileID: 76507727}
   - component: {fileID: 76507730}
   - component: {fileID: 76507729}
+  - component: {fileID: 76507731}
   - component: {fileID: 76507728}
   m_Layer: 0
   m_Name: Medicine_165
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -552,6 +585,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &76507731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76507726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: blue
+  icon: Ladder
 --- !u!1 &103188981
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,9 +612,10 @@ GameObject:
   - component: {fileID: 103188985}
   - component: {fileID: 103188984}
   - component: {fileID: 103188983}
+  - component: {fileID: 103188986}
   m_Layer: 0
   m_Name: Medicine_15
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -695,6 +744,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &103188986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103188981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: pink
+  icon: DUBUPL
 --- !u!1 &103911481
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,10 +770,11 @@ GameObject:
   - component: {fileID: 103911482}
   - component: {fileID: 103911485}
   - component: {fileID: 103911484}
+  - component: {fileID: 103911486}
   - component: {fileID: 103911483}
   m_Layer: 0
   m_Name: Medicine_9
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -838,6 +903,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &103911486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103911481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: orange
+  icon: Triangle
 --- !u!1 &128865541
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,10 +929,11 @@ GameObject:
   - component: {fileID: 128865542}
   - component: {fileID: 128865545}
   - component: {fileID: 128865544}
+  - component: {fileID: 128865546}
   - component: {fileID: 128865543}
   m_Layer: 0
   m_Name: Medicine_147
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -981,6 +1062,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &128865546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128865541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: blue
+  icon: Glasses
 --- !u!1 &143039880
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,10 +1088,11 @@ GameObject:
   - component: {fileID: 143039881}
   - component: {fileID: 143039884}
   - component: {fileID: 143039883}
+  - component: {fileID: 143039885}
   - component: {fileID: 143039882}
   m_Layer: 0
   m_Name: Medicine_90
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1124,6 +1221,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &143039885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143039880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: orange
+  icon: Triangle
 --- !u!1 &175839758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,9 +1248,10 @@ GameObject:
   - component: {fileID: 175839761}
   - component: {fileID: 175839760}
   - component: {fileID: 175839759}
+  - component: {fileID: 175839763}
   m_Layer: 0
   m_Name: Medicine_231 (2)
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1267,6 +1380,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342437961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &175839763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175839758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: black
+  icon: TINT
 --- !u!1 &179877966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,9 +1407,10 @@ GameObject:
   - component: {fileID: 179877969}
   - component: {fileID: 179877968}
   - component: {fileID: 179877967}
+  - component: {fileID: 179877971}
   m_Layer: 0
   m_Name: Medicine_228 (3)
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1410,6 +1539,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342437961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &179877971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179877966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: blue
+  icon: Glasses
 --- !u!1 &267832203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,9 +1566,10 @@ GameObject:
   - component: {fileID: 267832206}
   - component: {fileID: 267832205}
   - component: {fileID: 267832204}
+  - component: {fileID: 267832208}
   m_Layer: 0
   m_Name: Medicine_216 (1)
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1553,6 +1698,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342437961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &267832208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267832203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: yellow
+  icon: RR
 --- !u!1 &342437960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,9 +1812,10 @@ GameObject:
   - component: {fileID: 346818007}
   - component: {fileID: 346818006}
   - component: {fileID: 346818005}
+  - component: {fileID: 346818008}
   m_Layer: 0
   m_Name: Medicine_192
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1783,6 +1944,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &346818008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346818003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: blue
+  icon: Snake
 --- !u!1 &374477391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,10 +1970,11 @@ GameObject:
   - component: {fileID: 374477392}
   - component: {fileID: 374477395}
   - component: {fileID: 374477394}
+  - component: {fileID: 374477396}
   - component: {fileID: 374477393}
   m_Layer: 0
   m_Name: Medicine_12
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1926,6 +2103,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &374477396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374477391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: blue
+  icon: Ladder
 --- !u!1 &457457586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1937,10 +2129,11 @@ GameObject:
   - component: {fileID: 457457587}
   - component: {fileID: 457457590}
   - component: {fileID: 457457589}
+  - component: {fileID: 457457591}
   - component: {fileID: 457457588}
   m_Layer: 0
   m_Name: Medicine_102
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2069,6 +2262,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &457457591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457457586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: blue
+  icon: Ladder
 --- !u!1 &515661360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,10 +2288,11 @@ GameObject:
   - component: {fileID: 515661361}
   - component: {fileID: 515661364}
   - component: {fileID: 515661363}
+  - component: {fileID: 515661365}
   - component: {fileID: 515661362}
   m_Layer: 0
   m_Name: Medicine_129
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2212,6 +2421,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &515661365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515661360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: blue
+  icon: Snake
 --- !u!1 &561979092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,9 +2448,10 @@ GameObject:
   - component: {fileID: 561979096}
   - component: {fileID: 561979095}
   - component: {fileID: 561979094}
+  - component: {fileID: 561979097}
   m_Layer: 0
   m_Name: Medicine_201
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2355,6 +2580,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &561979097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561979092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: blue
+  icon: Snake
 --- !u!1 &603953368
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,10 +2606,11 @@ GameObject:
   - component: {fileID: 603953369}
   - component: {fileID: 603953372}
   - component: {fileID: 603953371}
+  - component: {fileID: 603953373}
   - component: {fileID: 603953370}
   m_Layer: 0
   m_Name: Medicine_27
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2498,6 +2739,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &603953373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603953368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: orange
+  icon: Mcdonald
 --- !u!1 &607568064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,10 +2765,11 @@ GameObject:
   - component: {fileID: 607568065}
   - component: {fileID: 607568068}
   - component: {fileID: 607568067}
+  - component: {fileID: 607568069}
   - component: {fileID: 607568066}
   m_Layer: 0
   m_Name: Medicine_198
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2641,6 +2898,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &607568069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607568064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: orange
+  icon: Mcdonald
 --- !u!1 &691645149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,7 +2964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2727,10 +2999,11 @@ GameObject:
   - component: {fileID: 766815275}
   - component: {fileID: 766815278}
   - component: {fileID: 766815277}
+  - component: {fileID: 766815279}
   - component: {fileID: 766815276}
   m_Layer: 0
   m_Name: Medicine_168
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2859,6 +3132,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &766815279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766815274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: pink
+  icon: DUBUPL
 --- !u!1 &822502882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,10 +3158,11 @@ GameObject:
   - component: {fileID: 822502883}
   - component: {fileID: 822502886}
   - component: {fileID: 822502885}
+  - component: {fileID: 822502887}
   - component: {fileID: 822502884}
   m_Layer: 0
   m_Name: Medicine_144
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3002,6 +3291,139 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &822502887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822502882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: orange
+  icon: RR
+--- !u!1001 &837620980
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 385615967614891651, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446405695229544737, guid: d91b4f5a084e4114fb5459db7304ca9b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d91b4f5a084e4114fb5459db7304ca9b, type: 3}
 --- !u!1 &839224789
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,10 +3435,11 @@ GameObject:
   - component: {fileID: 839224790}
   - component: {fileID: 839224793}
   - component: {fileID: 839224792}
+  - component: {fileID: 839224794}
   - component: {fileID: 839224791}
   m_Layer: 0
   m_Name: Medicine_93
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3145,6 +3568,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &839224794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839224789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: blue
+  icon: Ladder
 --- !u!1 &851600783
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,10 +3594,11 @@ GameObject:
   - component: {fileID: 851600784}
   - component: {fileID: 851600787}
   - component: {fileID: 851600786}
+  - component: {fileID: 851600788}
   - component: {fileID: 851600785}
   m_Layer: 0
   m_Name: Medicine_39
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3288,6 +3727,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &851600788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851600783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: blue
+  icon: Snake
 --- !u!1 &888107872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3368,9 +3822,10 @@ GameObject:
   - component: {fileID: 895508389}
   - component: {fileID: 895508388}
   - component: {fileID: 895508387}
+  - component: {fileID: 895508390}
   m_Layer: 0
   m_Name: Medicine_78
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3499,6 +3954,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &895508390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895508385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: green
+  subColor: pink
+  icon: TINT
 --- !u!1 &906551373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,7 +4020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3585,10 +4055,11 @@ GameObject:
   - component: {fileID: 930736309}
   - component: {fileID: 930736312}
   - component: {fileID: 930736311}
+  - component: {fileID: 930736313}
   - component: {fileID: 930736310}
   m_Layer: 0
   m_Name: Medicine_63
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3717,6 +4188,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &930736313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930736308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: orange
+  icon: RR
 --- !u!1 &936185957
 GameObject:
   m_ObjectHideFlags: 0
@@ -3728,10 +4214,11 @@ GameObject:
   - component: {fileID: 936185958}
   - component: {fileID: 936185961}
   - component: {fileID: 936185960}
+  - component: {fileID: 936185962}
   - component: {fileID: 936185959}
   m_Layer: 0
   m_Name: Medicine_153
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3860,6 +4347,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &936185962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936185957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: orange
+  icon: RR
 --- !u!1 &1056109803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3871,10 +4373,11 @@ GameObject:
   - component: {fileID: 1056109804}
   - component: {fileID: 1056109807}
   - component: {fileID: 1056109806}
+  - component: {fileID: 1056109808}
   - component: {fileID: 1056109805}
   m_Layer: 0
   m_Name: Medicine_57
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4003,6 +4506,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1056109808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056109803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: blue
+  icon: Glasses
 --- !u!1 &1057569855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4014,10 +4532,11 @@ GameObject:
   - component: {fileID: 1057569856}
   - component: {fileID: 1057569859}
   - component: {fileID: 1057569858}
+  - component: {fileID: 1057569860}
   - component: {fileID: 1057569857}
   m_Layer: 0
   m_Name: Medicine_120
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4146,6 +4665,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1057569860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057569855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: blue
+  icon: Snake
 --- !u!1 &1085472764
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,9 +4692,10 @@ GameObject:
   - component: {fileID: 1085472768}
   - component: {fileID: 1085472767}
   - component: {fileID: 1085472766}
+  - component: {fileID: 1085472769}
   m_Layer: 0
   m_Name: Medicine_159
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4289,6 +4824,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1085472769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085472764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: pink
+  icon: TINT
 --- !u!1 &1091403099
 GameObject:
   m_ObjectHideFlags: 0
@@ -4300,10 +4850,11 @@ GameObject:
   - component: {fileID: 1091403100}
   - component: {fileID: 1091403103}
   - component: {fileID: 1091403102}
+  - component: {fileID: 1091403104}
   - component: {fileID: 1091403101}
   m_Layer: 0
   m_Name: Medicine_195
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4432,6 +4983,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1091403104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091403099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: pink
+  icon: Demon
 --- !u!1 &1127790640
 GameObject:
   m_ObjectHideFlags: 0
@@ -4443,10 +5009,11 @@ GameObject:
   - component: {fileID: 1127790641}
   - component: {fileID: 1127790644}
   - component: {fileID: 1127790643}
+  - component: {fileID: 1127790645}
   - component: {fileID: 1127790642}
   m_Layer: 0
   m_Name: Medicine_117
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4575,6 +5142,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1127790645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127790640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: orange
+  icon: Mcdonald
 --- !u!1 &1151745392
 GameObject:
   m_ObjectHideFlags: 0
@@ -4586,10 +5168,11 @@ GameObject:
   - component: {fileID: 1151745396}
   - component: {fileID: 1151745395}
   - component: {fileID: 1151745394}
+  - component: {fileID: 1151745397}
   - component: {fileID: 1151745393}
   m_Layer: 0
   m_Name: Medicine_231 (1)
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4718,6 +5301,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342437961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1151745397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151745392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: pink
+  icon: TINT
 --- !u!1 &1202911278
 GameObject:
   m_ObjectHideFlags: 0
@@ -4729,10 +5327,11 @@ GameObject:
   - component: {fileID: 1202911279}
   - component: {fileID: 1202911282}
   - component: {fileID: 1202911281}
+  - component: {fileID: 1202911283}
   - component: {fileID: 1202911280}
   m_Layer: 0
   m_Name: Medicine_36
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4861,6 +5460,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1202911283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202911278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: orange
+  icon: Mcdonald
 --- !u!1 &1215286844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4872,10 +5486,11 @@ GameObject:
   - component: {fileID: 1215286845}
   - component: {fileID: 1215286848}
   - component: {fileID: 1215286847}
+  - component: {fileID: 1215286849}
   - component: {fileID: 1215286846}
   m_Layer: 0
   m_Name: Medicine_156
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5004,6 +5619,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1215286849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215286844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: blue
+  icon: Glasses
 --- !u!1 &1220993243
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,9 +5646,10 @@ GameObject:
   - component: {fileID: 1220993246}
   - component: {fileID: 1220993245}
   - component: {fileID: 1220993244}
+  - component: {fileID: 1220993248}
   m_Layer: 0
   m_Name: Medicine_219 (2)
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5147,6 +5778,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342437961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1220993248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220993243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: blue
+  icon: Glasses
 --- !u!1 &1283796589
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,7 +5844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -5234,9 +5880,10 @@ GameObject:
   - component: {fileID: 1308373040}
   - component: {fileID: 1308373039}
   - component: {fileID: 1308373038}
+  - component: {fileID: 1308373041}
   m_Layer: 0
   m_Name: Medicine_189
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5365,6 +6012,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1308373041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308373036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: orange
+  icon: Mcdonald
 --- !u!1 &1353977328
 GameObject:
   m_ObjectHideFlags: 0
@@ -5376,10 +6038,11 @@ GameObject:
   - component: {fileID: 1353977329}
   - component: {fileID: 1353977332}
   - component: {fileID: 1353977331}
+  - component: {fileID: 1353977333}
   - component: {fileID: 1353977330}
   m_Layer: 0
   m_Name: Medicine_150
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5508,6 +6171,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1353977333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353977328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: pink
+  icon: TINT
 --- !u!1 &1370175128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5520,9 +6198,10 @@ GameObject:
   - component: {fileID: 1370175132}
   - component: {fileID: 1370175131}
   - component: {fileID: 1370175130}
+  - component: {fileID: 1370175133}
   m_Layer: 0
   m_Name: Medicine_60
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5651,6 +6330,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1370175133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370175128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: pink
+  icon: TINT
 --- !u!1 &1372656902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5663,9 +6357,10 @@ GameObject:
   - component: {fileID: 1372656906}
   - component: {fileID: 1372656905}
   - component: {fileID: 1372656904}
+  - component: {fileID: 1372656907}
   m_Layer: 0
   m_Name: Medicine_105
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5794,6 +6489,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1372656907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372656902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: pink
+  icon: DUBUPL
 --- !u!1 &1479922089
 GameObject:
   m_ObjectHideFlags: 0
@@ -5806,9 +6516,10 @@ GameObject:
   - component: {fileID: 1479922093}
   - component: {fileID: 1479922092}
   - component: {fileID: 1479922091}
+  - component: {fileID: 1479922094}
   m_Layer: 0
   m_Name: Medicine_6
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5937,6 +6648,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1479922094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479922089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: pink
+  icon: DUBUPL
 --- !u!1 &1487477599
 GameObject:
   m_ObjectHideFlags: 0
@@ -5948,10 +6674,11 @@ GameObject:
   - component: {fileID: 1487477600}
   - component: {fileID: 1487477603}
   - component: {fileID: 1487477602}
+  - component: {fileID: 1487477604}
   - component: {fileID: 1487477601}
   m_Layer: 0
   m_Name: Medicine_21
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6080,6 +6807,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1487477604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487477599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: green
+  subColor: blue
+  icon: Ladder
 --- !u!1 &1497424733
 GameObject:
   m_ObjectHideFlags: 0
@@ -6091,10 +6833,11 @@ GameObject:
   - component: {fileID: 1497424734}
   - component: {fileID: 1497424737}
   - component: {fileID: 1497424736}
+  - component: {fileID: 1497424738}
   - component: {fileID: 1497424735}
   m_Layer: 0
   m_Name: Medicine_18
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6223,6 +6966,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1497424738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497424733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: green
+  subColor: orange
+  icon: Triangle
 --- !u!1 &1545740231
 GameObject:
   m_ObjectHideFlags: 0
@@ -6315,74 +7073,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1556451684
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6429069363751823776, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8195310444402828510, guid: f592fbb08ed53584c9e156fe3b4d2669,
-        type: 3}
-      propertyPath: m_Name
-      value: SceneChanger
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f592fbb08ed53584c9e156fe3b4d2669, type: 3}
 --- !u!1 &1593790137
 GameObject:
   m_ObjectHideFlags: 0
@@ -6395,6 +7085,7 @@ GameObject:
   - component: {fileID: 1593790141}
   - component: {fileID: 1593790140}
   - component: {fileID: 1593790139}
+  - component: {fileID: 1593790142}
   m_Layer: 5
   m_Name: EscButton
   m_TagString: Untagged
@@ -6465,10 +7156,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 5
+      - m_Target: {fileID: 1593790142}
+        m_TargetAssemblyTypeName: ExitButton, Assembly-CSharp
+        m_MethodName: ExitToMainScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6515,6 +7206,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593790137}
   m_CullTransparentMesh: 1
+--- !u!114 &1593790142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593790137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a9611ef5369d24a946d1342212c4c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1600051603
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,10 +7229,11 @@ GameObject:
   - component: {fileID: 1600051604}
   - component: {fileID: 1600051607}
   - component: {fileID: 1600051606}
+  - component: {fileID: 1600051608}
   - component: {fileID: 1600051605}
   m_Layer: 0
   m_Name: Medicine_177
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6658,6 +7362,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1600051608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600051603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: pink
+  icon: DUBUPL
 --- !u!1 &1710059142
 GameObject:
   m_ObjectHideFlags: 0
@@ -6669,10 +7388,11 @@ GameObject:
   - component: {fileID: 1710059143}
   - component: {fileID: 1710059146}
   - component: {fileID: 1710059145}
+  - component: {fileID: 1710059147}
   - component: {fileID: 1710059144}
   m_Layer: 0
   m_Name: Medicine_66
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6801,6 +7521,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1710059147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710059142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: blue
+  icon: Glasses
 --- !u!1 &1766475558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,10 +7547,11 @@ GameObject:
   - component: {fileID: 1766475559}
   - component: {fileID: 1766475562}
   - component: {fileID: 1766475561}
+  - component: {fileID: 1766475563}
   - component: {fileID: 1766475560}
   m_Layer: 0
   m_Name: Medicine_45
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6944,6 +7680,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1766475563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766475558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: green
+  subColor: orange
+  icon: Mcdonald
 --- !u!1 &1785627259
 GameObject:
   m_ObjectHideFlags: 0
@@ -6955,10 +7706,11 @@ GameObject:
   - component: {fileID: 1785627260}
   - component: {fileID: 1785627263}
   - component: {fileID: 1785627262}
+  - component: {fileID: 1785627264}
   - component: {fileID: 1785627261}
   m_Layer: 0
   m_Name: Medicine_3
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7087,6 +7839,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1785627264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785627259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: blue
+  icon: Ladder
 --- !u!1 &1806027906
 GameObject:
   m_ObjectHideFlags: 0
@@ -7099,9 +7866,10 @@ GameObject:
   - component: {fileID: 1806027910}
   - component: {fileID: 1806027909}
   - component: {fileID: 1806027908}
+  - component: {fileID: 1806027911}
   m_Layer: 0
   m_Name: Medicine_96
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7230,6 +7998,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1806027911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806027906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: blue
+  subColor: pink
+  icon: DUBUPL
 --- !u!1 &1822962963
 GameObject:
   m_ObjectHideFlags: 0
@@ -7241,10 +8024,11 @@ GameObject:
   - component: {fileID: 1822962964}
   - component: {fileID: 1822962967}
   - component: {fileID: 1822962966}
+  - component: {fileID: 1822962968}
   - component: {fileID: 1822962965}
   m_Layer: 0
   m_Name: Medicine_0
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7373,6 +8157,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1822962968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822962963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: orange
+  icon: Triangle
 --- !u!1 &1834618913
 GameObject:
   m_ObjectHideFlags: 0
@@ -7384,10 +8183,11 @@ GameObject:
   - component: {fileID: 1834618914}
   - component: {fileID: 1834618917}
   - component: {fileID: 1834618916}
+  - component: {fileID: 1834618918}
   - component: {fileID: 1834618915}
   m_Layer: 0
   m_Name: Medicine_99
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7516,6 +8316,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1834618918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834618913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: orange
+  icon: Triangle
 --- !u!1 &1836146169
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,10 +8342,11 @@ GameObject:
   - component: {fileID: 1836146170}
   - component: {fileID: 1836146173}
   - component: {fileID: 1836146172}
+  - component: {fileID: 1836146174}
   - component: {fileID: 1836146171}
   m_Layer: 0
   m_Name: Medicine_162
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7659,6 +8475,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1836146174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836146169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: pink
+  subColor: orange
+  icon: Triangle
 --- !u!1 &1839377414
 GameObject:
   m_ObjectHideFlags: 0
@@ -7670,6 +8501,7 @@ GameObject:
   - component: {fileID: 1839377418}
   - component: {fileID: 1839377417}
   - component: {fileID: 1839377416}
+  - component: {fileID: 1839377419}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7746,6 +8578,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1839377419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839377414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1846613167
 GameObject:
   m_ObjectHideFlags: 0
@@ -7757,10 +8606,11 @@ GameObject:
   - component: {fileID: 1846613168}
   - component: {fileID: 1846613171}
   - component: {fileID: 1846613170}
+  - component: {fileID: 1846613172}
   - component: {fileID: 1846613169}
   m_Layer: 0
   m_Name: Medicine_72
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7889,6 +8739,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1846613172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846613167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: green
+  subColor: orange
+  icon: RR
 --- !u!1 &1855391135
 GameObject:
   m_ObjectHideFlags: 0
@@ -7901,9 +8766,10 @@ GameObject:
   - component: {fileID: 1855391139}
   - component: {fileID: 1855391138}
   - component: {fileID: 1855391137}
+  - component: {fileID: 1855391140}
   m_Layer: 0
   m_Name: Medicine_132
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8032,6 +8898,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1855391140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855391135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: purple
+  subColor: pink
+  icon: Demon
 --- !u!1 &1885619283
 GameObject:
   m_ObjectHideFlags: 0
@@ -8043,10 +8924,11 @@ GameObject:
   - component: {fileID: 1885619284}
   - component: {fileID: 1885619287}
   - component: {fileID: 1885619286}
+  - component: {fileID: 1885619288}
   - component: {fileID: 1885619285}
   m_Layer: 0
   m_Name: Medicine_75
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8175,6 +9057,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1885619288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885619283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: green
+  subColor: blue
+  icon: Glasses
 --- !u!1 &1888605358
 GameObject:
   m_ObjectHideFlags: 0
@@ -8187,9 +9084,10 @@ GameObject:
   - component: {fileID: 1888605362}
   - component: {fileID: 1888605361}
   - component: {fileID: 1888605360}
+  - component: {fileID: 1888605363}
   m_Layer: 0
   m_Name: Medicine_42
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8318,6 +9216,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1888605363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888605358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: yellow
+  subColor: pink
+  icon: Demon
 --- !u!1 &1935439617
 GameObject:
   m_ObjectHideFlags: 0
@@ -8330,9 +9243,10 @@ GameObject:
   - component: {fileID: 1935439621}
   - component: {fileID: 1935439620}
   - component: {fileID: 1935439619}
+  - component: {fileID: 1935439622}
   m_Layer: 0
   m_Name: Medicine_24
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8461,6 +9375,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1935439622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935439617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: green
+  subColor: pink
+  icon: DUBUPL
 --- !u!1 &1964216454
 GameObject:
   m_ObjectHideFlags: 0
@@ -8473,9 +9402,10 @@ GameObject:
   - component: {fileID: 1964216458}
   - component: {fileID: 1964216457}
   - component: {fileID: 1964216456}
+  - component: {fileID: 1964216459}
   m_Layer: 0
   m_Name: Medicine_174
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8604,6 +9534,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1964216459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964216454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: blue
+  icon: Ladder
 --- !u!1001 &1967420970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8684,9 +9629,10 @@ GameObject:
   - component: {fileID: 2088432781}
   - component: {fileID: 2088432780}
   - component: {fileID: 2088432779}
+  - component: {fileID: 2088432782}
   m_Layer: 0
   m_Name: Medicine_33
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8815,6 +9761,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2088432782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088432777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: red
+  subColor: pink
+  icon: Demon
 --- !u!1 &2130728803
 GameObject:
   m_ObjectHideFlags: 0
@@ -8827,9 +9788,10 @@ GameObject:
   - component: {fileID: 2130728806}
   - component: {fileID: 2130728805}
   - component: {fileID: 2130728804}
+  - component: {fileID: 2130728808}
   m_Layer: 0
   m_Name: Medicine_225
-  m_TagString: Untagged
+  m_TagString: Medicine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8958,13 +9920,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342437961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2130728808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130728803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076d3a276e1a3df4f959e171dacd2966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainColor: grey
+  subColor: red
+  icon: RR
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1545740234}
-  - {fileID: 1839377418}
   - {fileID: 342437961}
+  - {fileID: 1839377418}
   - {fileID: 888107875}
   - {fileID: 1967420970}
-  - {fileID: 1556451684}
+  - {fileID: 837620980}
