@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    public bool IsDefibRound { get; private set; } = false;
 
     [SerializeField] private TextMeshProUGUI _notificationText;
     private GameObject[] _patientDoors;
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Sprite[] _healthBarSprites;
     [SerializeField] private int _maxHealth = 9;
     [SerializeField] private int _currentHealth = 9;
+
 
     void Awake()
     {
@@ -41,7 +43,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         StartNewRound();
-        StartHealthDecay();
+        StartHealthDecay(20);
         UpdateHealthUI();
     }
 
@@ -58,6 +60,11 @@ public class GameManager : MonoBehaviour
             if (_currentTargetDoorId != null)
             {
                 UpdateNotification(_currentTargetDoorId);
+            }
+            if (Patient.Instance != null && Patient.Instance.Healed)
+            {
+                Destroy(Patient.Instance.gameObject);
+                StartNewDefibRound();
             }
         }
         else
@@ -85,6 +92,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void StartNewDefibRound()
+    {
+        string selectedDoor = SelectRandomDoor();
+        if (selectedDoor != null)
+        {
+            IsDefibRound = true;
+            _currentTargetDoorId = selectedDoor;
+            HeartAttackNotification(_currentTargetDoorId);
+            StartHealthDecay(10);
+        }
+        else
+        {
+            Debug.LogError("No patient rooms available!");
+        }
+    }
+
     private string SelectRandomDoor()
     {
         if (_patientDoors == null || _patientDoors.Length == 0)
@@ -102,6 +125,18 @@ public class GameManager : MonoBehaviour
         if (_notificationText != null)
         {
             _notificationText.text = "Please go to Room " + roomId;
+        }
+        else
+        {
+            Debug.LogError("Notification text UI is not set!");
+        }
+    }
+
+    private void HeartAttackNotification(string roomId)
+    {
+        if (_notificationText != null)
+        {
+            _notificationText.text = "Patient in Room " + roomId + " is having a heart attack!";
         }
         else
         {
@@ -140,16 +175,21 @@ public class GameManager : MonoBehaviour
         UpdateSuspicionUI();
     }
 
-    private void StartHealthDecay()
+    private void StartHealthDecay(float timeBetween)
     {
-        StartCoroutine(HealthDecayRoutine());
+        StartCoroutine(HealthDecayRoutine(timeBetween));
     }
 
-    private IEnumerator HealthDecayRoutine()
+    public void StopHealthDecay()
+    {
+        StopCoroutine(nameof(HealthDecayRoutine));
+    }
+
+    private IEnumerator HealthDecayRoutine(float timeBetween)
     {
         while (_currentHealth > 0)
         {
-            yield return new WaitForSeconds(20f);
+            yield return new WaitForSeconds(timeBetween);
             DecreaseHealth(1);
         }
 
@@ -182,7 +222,7 @@ public class GameManager : MonoBehaviour
         UpdateHealthUI();
     }
 
-    private void EndGame()
+    public void EndGame()
     {
         Debug.Log("Game Over");
     }
