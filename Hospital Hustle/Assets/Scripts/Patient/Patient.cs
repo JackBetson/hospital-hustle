@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using System.Collections;
 
 public class Patient : MonoBehaviour
 {
@@ -14,6 +15,19 @@ public class Patient : MonoBehaviour
     private TextMeshProUGUI _interactionText;
     private TextMeshProUGUI _notificationText;
     private bool _isPlayerInTrigger = false;
+
+    public string[] healedDialogue;
+    public string[] damagedDialogue;
+    public string[] killedDialogue;
+
+    private DialogueDisplay dialogueDisplay;
+    public float dialogueSpeed = 0.05f;
+    public float endlineWait = 0f;
+
+    public AudioClip typingSound; // Audio clip for typing sound
+    private AudioSource audioSource;
+
+    private Animator animator;
 
     void Awake()
     {
@@ -32,6 +46,21 @@ public class Patient : MonoBehaviour
     {
         FindInteractionText();
         FindNotificationText();
+        dialogueDisplay = FindObjectOfType<DialogueDisplay>(); // Assuming there's only one DialogueDisplay in the scene
+        if (dialogueDisplay == null)
+        {
+            Debug.LogError("DialogueDisplay component not found in the scene.");
+        }
+
+        // Initialize audio source
+        audioSource = GetComponent<AudioSource>();
+
+        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            Debug.LogError("Animator component not found on patient GameObject.");
+        }
+
     }
 
     private void Update()
@@ -151,20 +180,46 @@ public class Patient : MonoBehaviour
                 KillPatient();
                 break;
             default: // Some but not all traits match
-                IncreaseSuspicion();
+                DamagePatient();
                 break;
         }
+
         InventoryManager.Instance.ClearMedicine();
+        InventoryUI inventoryUI = FindObjectOfType<InventoryUI>();
+        if (inventoryUI != null)
+        {
+            inventoryUI.ClearInventoryUI();
+        }
+    }
+
+    private void StartDialogue(string[] dialogueToUse)
+    {
+        dialogueDisplay.DisplayLines(dialogueToUse, dialogueSpeed, endlineWait);
+
+        StartCoroutine(TypeDialogue(dialogueToUse));
+    }
+
+    private IEnumerator TypeDialogue(string[] dialogueToUse)
+    {
+        foreach (string line in dialogueToUse)
+        {
+            foreach (char c in line)
+            {
+                // Play typing sound for each character
+                audioSource.PlayOneShot(typingSound);
+                yield return new WaitForSeconds(dialogueSpeed);
+            }
+            yield return new WaitForSeconds(endlineWait);
+        }
     }
 
     public AudioClip HealSFX;
     private void HealPatient()
     {
-
+        string[] dialogueToUse = healedDialogue;
         Healed = true;
 
         if (Healed) GetComponent<AudioSource>().PlayOneShot(HealSFX);
-
 
         FindNotificationText();
         FindInteractionText();
@@ -183,6 +238,37 @@ public class Patient : MonoBehaviour
 
         DecreaseSuspicion();
         GameManager.Instance.StopHealthDecay();
+        StartDialogue(dialogueToUse);
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Healed");
+        }
+
+    }
+
+    private void DamagePatient()
+    {
+        string[] dialogueToUse = damagedDialogue;
+        Healed = false;
+
+        FindNotificationText();
+        FindInteractionText();
+
+        if (_interactionText != null)
+        {
+            _interactionText.text = "Wrong item!!";
+            _interactionText.enabled = true;
+        }
+
+        IncreaseSuspicion();
+        IncreaseSuspicion();
+        StartDialogue(dialogueToUse);
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Healed");
+        }
     }
 
     private void DecreaseSuspicion()
@@ -196,10 +282,30 @@ public class Patient : MonoBehaviour
     }
 
     public AudioClip KillSFX;
+
     private void KillPatient()
     {
+        string[] dialogueToUse = killedDialogue;
         GetComponent<AudioSource>().PlayOneShot(KillSFX);
         Debug.Log("Patient has died");
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Healed");
+        }
+
+        StartCoroutine(DialogueAndEndGame(dialogueToUse));
+    }
+
+    private IEnumerator DialogueAndEndGame(string[] dialogueToUse)
+    {
+        // Start dialogue
+        StartDialogue(dialogueToUse);
+
+        // Wait for dialogue to finish
+        yield return new WaitForSeconds(dialogueToUse.Length * (dialogueSpeed + endlineWait));
+
+        // End game
         GameManager.Instance.EndGame();
     }
 

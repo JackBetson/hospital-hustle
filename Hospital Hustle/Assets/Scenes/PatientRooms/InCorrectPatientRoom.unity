@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6158802}
   - component: {fileID: 6158801}
+  - component: {fileID: 6158803}
   m_Layer: 0
   m_Name: Patient
   m_TagString: Untagged
@@ -207,6 +208,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6158803
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6158800}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18cc60ceeedc3024280c79fc8e338629, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &318322712
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,17 +364,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861f8bf644570de44bf5e287fa71ac66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines:
+  currentLines:
   - WAHHHHHH AHHHH!!!!
   - '*ahem* You''re not supposed to be in this room!'
   - I'm starting to get suspicious of your motives.
   - Patients' privacy is paramount, and you're violating it by barging in like this.
-  - 'Leave immediately, and don''t threaten me with a chat about your understanding
-    of confidentiality. '
+  - Leave immediately, and don''t threaten me with a chat about your understanding
+    of confidentiality.
   - I've got my eye on you ...
   - Don't you have something to do?
   dialogueSpeed: 0.05
   endlineWait: 0
+  typingSound: {fileID: 8300000, guid: aed7ac1912d6ca3449efa8ab9badf29e, type: 3}
 --- !u!114 &318322721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +390,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueCanvas: {fileID: 517469635}
   dialogueText: {fileID: 1240831091}
-  typingSound: {fileID: 8300000, guid: 7b01323874a8ef743a75e1e6d4da4c26, type: 3}
 --- !u!61 &318322722
 BoxCollider2D:
   m_ObjectHideFlags: 0

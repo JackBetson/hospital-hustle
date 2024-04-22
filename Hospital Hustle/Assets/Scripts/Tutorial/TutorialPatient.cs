@@ -92,12 +92,6 @@ public class TutorialPatient : MonoBehaviour
         }
     }
 
-    public void AdministerMedicine(MedicineData medicine)
-    {
-        HealPatient();
-        StartDialogue();
-    }
-
     private void HealPatient()
     {
         Healed = true;
@@ -108,6 +102,20 @@ public class TutorialPatient : MonoBehaviour
             interactionText.text = "Patient has been healed";
             interactionText.enabled = true;
         }
+    }
+
+    public void AdministerMedicine(MedicineData medicine)
+    {
+        HealPatient();
+        InventoryManager.Instance.ClearMedicine(); // Clear medicine after administering
+
+        // Clear inventory UI directly
+        InventoryUI inventoryUI = FindObjectOfType<InventoryUI>();
+        if (inventoryUI != null)
+        {
+            inventoryUI.ClearInventoryUI();
+        } 
+        StartDialogue();
     }
 
     private void StartDialogue()

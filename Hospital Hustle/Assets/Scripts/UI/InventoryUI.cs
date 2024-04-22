@@ -25,5 +25,11 @@ public class InventoryUI : MonoBehaviour
             itemImage.sprite = defaultSprite;
         }
     }
-}
 
+    // Add a method to clear the inventory UI
+    public void ClearInventoryUI()
+    {
+        // Reset the item image to the default sprite
+        itemImage.sprite = defaultSprite;
+    }
+}
