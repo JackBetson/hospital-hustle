@@ -11,8 +11,6 @@ public class DialogueDisplay : MonoBehaviour
     private int currentLineIndex;
     private float dialogueSpeed;
     private float endlineWait;
-    private bool waitForInput;
-    private string fullText;
 
     public bool IsDialogueFinished { get { return currentLineIndex >= currentLines.Length; } }
 
@@ -21,13 +19,12 @@ public class DialogueDisplay : MonoBehaviour
         dialogueCanvas.SetActive(false); // Hide the canvas when the game starts
     }
 
-    public void DisplayLines(string[] lines, float speed, float waitTime, bool waitForInput = true)
+    public void DisplayLines(string[] lines, float speed, float waitTime)
     {
         currentLines = lines;
         currentLineIndex = 0;
         dialogueSpeed = speed;
         endlineWait = waitTime;
-        this.waitForInput = waitForInput;
         dialogueCanvas.SetActive(true); // Show the canvas
         StartCoroutine(TypeDialogue());
     }
@@ -37,14 +34,26 @@ public class DialogueDisplay : MonoBehaviour
         for (int i = 0; i < currentLines.Length; i++)
         {
             string line = currentLines[i];
+            dialogueText.text = ""; // Clear the text before typing new line
             foreach (char c in line)
             {
+                dialogueText.text += c; // Append each character to the text
                 yield return new WaitForSeconds(dialogueSpeed);
             }
             if (i < currentLines.Length - 1)
             {
                 yield return new WaitForSeconds(endlineWait);
+                yield return WaitForLeftMouseButton(); // Wait for left mouse button
             }
+        }
+        dialogueCanvas.SetActive(false); // Hide the canvas when dialogue is finished
+    }
+
+    private IEnumerator WaitForLeftMouseButton()
+    {
+        while (!Input.GetMouseButtonDown(0))
+        {
+            yield return null; // Wait until the left mouse button is pressed
         }
     }
 

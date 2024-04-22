@@ -665,7 +665,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueCanvas: {fileID: 68757984}
   dialogueText: {fileID: 385888804}
-  typingSound: {fileID: 0}
 --- !u!114 &624537056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,22 +677,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549707c8cd49f1547b4500f5d528680d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines:
-  - Life is tough.
-  - Life throws curveballs and economical crises.
-  - Stability collapses, survival kicks in.
-  - All you have is a minimally achieved high school diploma.
-  - You are making a desperate attempt to secure a job in this cost of living crisis.
-  - You craft a dazzling resume that outshines even the most qualified candidates.
-  - "You land a job at a top hospital. Yay! \u2026 yay?"
-  - Now the question is, can you keep up the facade?
-  - Each beep, each call, a reminder of your limits.
-  - Time's ticking, stakes are high, consequences are real.
-  - If you fail to fulfill your duties and earn your keep, truth will prevail.
-  - Good luck!
+  currentLines: []
   dialogueSpeed: 0.03
   endlineWait: 0
   sceneToLoad: Tutorial
+  typingSound: {fileID: 8300000, guid: c40f506c7539b274ea78208d3d284f26, type: 3}
 --- !u!4 &624537057
 Transform:
   m_ObjectHideFlags: 0

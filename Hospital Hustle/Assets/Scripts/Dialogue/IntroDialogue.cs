@@ -6,11 +6,13 @@ using UnityEngine.UI;
 
 public class IntroDialogue : MonoBehaviour
 {
-    public string[] lines;
+    public string[] currentLines;
     public float dialogueSpeed = 0.05f;
     public float endlineWait = 1f;
     public string sceneToLoad; // Name of the scene to load after dialogue finishes
     private DialogueDisplay dialogueDisplay;
+    public AudioClip typingSound; // Audio clip for typing sound
+    private AudioSource audioSource;
 
     private void Start()
     {
@@ -22,7 +24,7 @@ public class IntroDialogue : MonoBehaviour
         else
         {
             dialogueDisplay.dialogueCanvas.SetActive(true); // Activate the dialogue canvas
-            dialogueDisplay.DisplayLines(lines, dialogueSpeed, endlineWait);
+            dialogueDisplay.DisplayLines(currentLines, dialogueSpeed, endlineWait);
             StartCoroutine(WaitForDialogueFinish());
         }
     }
@@ -33,5 +35,21 @@ public class IntroDialogue : MonoBehaviour
         // Change scene after dialogue finishes
         SceneManager.LoadScene(sceneToLoad);
     }
-
+    private IEnumerator TypeDialogue()
+    {
+        for (int i = 0; i < currentLines.Length; i++)
+        {
+            string line = currentLines[i];
+            foreach (char c in line)
+            {
+                // Play typing sound for each character
+                audioSource.PlayOneShot(typingSound);
+                yield return new WaitForSeconds(dialogueSpeed);
+            }
+            if (i < currentLines.Length - 1)
+            {
+                yield return new WaitForSeconds(endlineWait);
+            }
+        }
+    }
 }
