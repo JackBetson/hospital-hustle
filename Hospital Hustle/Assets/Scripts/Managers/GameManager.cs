@@ -45,6 +45,8 @@ public class GameManager : MonoBehaviour
         StartNewRound();
         StartHealthDecay(20);
         UpdateHealthUI();
+        _currentHealth = 8;
+        _currentSuspicion = 0;
     }
 
     void OnDestroy()
@@ -84,6 +86,8 @@ public class GameManager : MonoBehaviour
 
     public void StartNewRound()
     {
+        _currentHealth = 8;
+        _currentSuspicion = 0;
         string selectedDoor = SelectRandomDoor();
         if (selectedDoor != null)
         {
@@ -225,5 +229,15 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         Debug.Log("Game Over");
+        // Hide HealthBar and SuspicionMeter
+        _healthBarImage.gameObject.SetActive(false);
+        _suspicionMeter.gameObject.SetActive(false);
+    
+        ChangeScene("EndScene");
+    }
+
+    public void ChangeScene(string sceneName)
+    {    
+        SceneManager.LoadScene(sceneName);
     }
 }

@@ -267,7 +267,7 @@ public class Patient : MonoBehaviour
 
         if (animator != null)
         {
-            animator.SetTrigger("Healed");
+            animator.SetTrigger("Damaged");
         }
     }
 
@@ -291,7 +291,7 @@ public class Patient : MonoBehaviour
 
         if (animator != null)
         {
-            animator.SetTrigger("Healed");
+            animator.SetTrigger("Killed");
         }
 
         StartCoroutine(DialogueAndEndGame(dialogueToUse));
@@ -302,8 +302,11 @@ public class Patient : MonoBehaviour
         // Start dialogue
         StartDialogue(dialogueToUse);
 
-        // Wait for dialogue to finish
-        yield return new WaitForSeconds(dialogueToUse.Length * (dialogueSpeed + endlineWait));
+        // Wait for left mouse button to be pressed
+        while (!Input.GetMouseButtonDown(0))
+        {
+            yield return null;
+        }
 
         // End game
         GameManager.Instance.EndGame();

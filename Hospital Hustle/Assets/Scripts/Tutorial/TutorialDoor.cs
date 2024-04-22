@@ -29,6 +29,7 @@ public class TutorialDoor : MonoBehaviour
         {
             string sceneName = "MainLevel";
             ChangeScene(sceneName);
+            GameManager.Instance.StartNewRound();
         }
     }
 
