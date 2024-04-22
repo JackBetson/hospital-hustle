@@ -644,7 +644,6 @@ GameObject:
   - component: {fileID: 624537057}
   - component: {fileID: 624537056}
   - component: {fileID: 624537055}
-  - component: {fileID: 624537058}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -673,22 +672,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624537054}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 549707c8cd49f1547b4500f5d528680d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLines:
-  - 'Life is tough. '
-  - 'It throws you curveballs and economical crises. '
-  - 'Unfortunately all you have to combat this is a high school diploma. '
-  - 'You make a desperate attempt to secure a job in this cost of living crisis. '
-  - 'You craft a dazzling resume that outshines even the most qualified candidates. '
-  - "You land a job at a top hospital. Yay! \u2026 yay? "
-  - 'Now the question is, can you keep up the facade? '
-  - 'Each beep, each call, is but a reminder of your limits. '
-  - 'Time''s ticking, stakes are high, consequences are real. '
-  - 'If you fail to fulfill your duties and earn your keep, truth will prevail. '
+  lines:
+  - Life is tough.
+  - It throws you curveballs and economical crises.
+  - Unfortunately all you have to combat this is a high school diploma.
+  - You make a desperate attempt to secure a job in this cost of living crisis.
+  - You craft a dazzling resume that outshines even the most qualified candidates.
+  - You land a job at a top hospital. Yay! ... yay?
+  - Now the question is, can you keep up the facade?
+  - Each beep, each call, is but a reminder of your limits.
+  - 'Time''s ticking, stakes are high, and the consequences are real. '
+  - If you fail to fulfill your duties and earn your keep, truth will prevail.
   dialogueSpeed: 0.05
   endlineWait: 0
   sceneToLoad: Tutorial
@@ -708,25 +707,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &624537058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624537054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 549707c8cd49f1547b4500f5d528680d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLines:
-  - 'Life is tough. '
-  - 'If you fail to fulfill your duties and earn your keep, truth will prevail. '
-  dialogueSpeed: 0.05
-  endlineWait: 0
-  sceneToLoad: Tutorial
-  typingSound: {fileID: 8300000, guid: c40f506c7539b274ea78208d3d284f26, type: 3}
 --- !u!1 &897018837
 GameObject:
   m_ObjectHideFlags: 0
