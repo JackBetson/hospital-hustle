@@ -11,6 +11,8 @@ public class DialogueDisplay : MonoBehaviour
     private int currentLineIndex;
     private float dialogueSpeed;
     private float endlineWait;
+    private bool waitForInput;
+    private bool skipText;
 
     public bool IsDialogueFinished { get { return currentLineIndex >= currentLines.Length; } }
 
@@ -19,52 +21,43 @@ public class DialogueDisplay : MonoBehaviour
         dialogueCanvas.SetActive(false); // Hide the canvas when the game starts
     }
 
-    public void DisplayLines(string[] lines, float speed, float waitTime)
+    public void DisplayLines(string[] lines, float speed, float waitTime, bool waitForInput = true)
     {
         currentLines = lines;
         currentLineIndex = 0;
         dialogueSpeed = speed;
         endlineWait = waitTime;
+        this.waitForInput = waitForInput;
         dialogueCanvas.SetActive(true); // Show the canvas
-        StartCoroutine(TypeDialogue());
+        StartCoroutine(AnimateText());
     }
 
-    private IEnumerator TypeDialogue()
+    private IEnumerator AnimateText()
     {
-        for (int i = 0; i < currentLines.Length; i++)
+        dialogueText.text = ""; // Clear existing text
+        for (int i = 0; i < currentLines[currentLineIndex].Length; i++)
         {
-            string line = currentLines[i];
-            dialogueText.text = ""; // Clear the text before typing new line
-            foreach (char c in line)
+            if (skipText && Input.GetMouseButtonDown(0))
             {
-                dialogueText.text += c; // Append each character to the text
+                dialogueText.text = currentLines[currentLineIndex]; // Show full text if left mouse button is pressed
+                skipText = false; // Reset skipText flag
+                break; // Exit the loop
+            }
+            else
+            {
+                dialogueText.text += currentLines[currentLineIndex][i];
                 yield return new WaitForSeconds(dialogueSpeed);
             }
-            if (i < currentLines.Length - 1)
-            {
-                yield return new WaitForSeconds(endlineWait);
-
-                // Wait for left mouse button to be pressed
-                while (!Input.GetMouseButtonDown(0))
-                {
-                    yield return null;
-                }
-            }
-            else // Last line of dialogue
-            {
-                // Wait for left mouse button to be pressed to hide the canvas
-                yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
-            }
         }
-        dialogueCanvas.SetActive(false); // Hide the canvas when dialogue is finished
-    }
-
-    private IEnumerator WaitForLeftMouseButton()
-    {
-        while (!Input.GetMouseButtonDown(0))
+        if (waitForInput)
         {
-            yield return null; // Wait until the left mouse button is pressed
+            yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // Wait for left mouse button click
         }
+        else
+        {
+            yield return new WaitForSeconds(endlineWait);
+        }
+        NextLine();
     }
 
     public void NextLine()
@@ -72,11 +65,19 @@ public class DialogueDisplay : MonoBehaviour
         currentLineIndex++;
         if (currentLineIndex < currentLines.Length)
         {
-            StartCoroutine(TypeDialogue());
+            StartCoroutine(AnimateText());
         }
         else
         {
             dialogueCanvas.SetActive(false); // Hide the canvas when dialogue is finished
+        }
+    }
+
+    private void Update()
+    {
+        if (!waitForInput && Input.GetMouseButtonDown(0))
+        {
+            skipText = true; // Set skipText flag to true when left mouse button is pressed
         }
     }
 

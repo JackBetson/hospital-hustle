@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class IntroDialogue : MonoBehaviour
 {
-    public string[] currentLines;
+    public string[] lines;
     public float dialogueSpeed = 0.05f;
     public float endlineWait = 1f;
     public string sceneToLoad; // Name of the scene to load after dialogue finishes
@@ -24,7 +24,7 @@ public class IntroDialogue : MonoBehaviour
         else
         {
             dialogueDisplay.dialogueCanvas.SetActive(true); // Activate the dialogue canvas
-            dialogueDisplay.DisplayLines(currentLines, dialogueSpeed, endlineWait);
+            dialogueDisplay.DisplayLines(lines, dialogueSpeed, endlineWait);
             StartCoroutine(WaitForDialogueFinish());
         }
     }
@@ -33,20 +33,22 @@ public class IntroDialogue : MonoBehaviour
     {
         yield return new WaitUntil(() => dialogueDisplay.IsDialogueFinished);
         // Change scene after dialogue finishes
+        Debug.Log("Dialogue finished. Changing scene to: " + sceneToLoad);
         SceneManager.LoadScene(sceneToLoad);
     }
+
     private IEnumerator TypeDialogue()
     {
-        for (int i = 0; i < currentLines.Length; i++)
+        for (int i = 0; i < lines.Length; i++)
         {
-            string line = currentLines[i];
+            string line = lines[i];
             foreach (char c in line)
             {
                 // Play typing sound for each character
                 audioSource.PlayOneShot(typingSound);
                 yield return new WaitForSeconds(dialogueSpeed);
             }
-            if (i < currentLines.Length - 1)
+            if (i < lines.Length - 1)
             {
                 yield return new WaitForSeconds(endlineWait);
             }

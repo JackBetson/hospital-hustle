@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ClueGiver : MonoBehaviour
+public class DefibClueGiver : MonoBehaviour
 {
     public GameObject imageToShow; // Reference to the image object you want to appear
     public Button buttonToShow; // Reference to the button object you want to appear
