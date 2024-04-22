@@ -9,6 +9,8 @@ TagManager:
   - InteractionText
   - Medicine
   - NotificationText
+  - SusMeter
+  - HealthMeter
   layers:
   - Default
   - TransparentFX

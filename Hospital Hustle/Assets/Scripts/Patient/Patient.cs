@@ -145,7 +145,7 @@ public class Patient : MonoBehaviour
     {
         int matchingTraits = 0;
 
-        if(GameManager.Instance.IsDefibRound)
+        if (GameManager.Instance.IsDefibRound)
         {
             if (medicine.isDefibrillator)
             {
@@ -156,7 +156,7 @@ public class Patient : MonoBehaviour
             {
                 IncreaseSuspicion();
                 FindNotificationText();
-                if(_notificationText != null)
+                if (_notificationText != null)
                 {
                     _notificationText.text = "They're having a heart attack idiot!";
                     _notificationText.enabled = true;
@@ -169,7 +169,7 @@ public class Patient : MonoBehaviour
         if (medicine.mainColor == requiredColour) matchingTraits++;
         if (medicine.subColor == requiredSubColour) matchingTraits++;
         if (medicine.icon == requiredIcon) matchingTraits++;
-        
+
         // Determine outcome based on the number of matching traits
         switch (matchingTraits)
         {
@@ -238,6 +238,7 @@ public class Patient : MonoBehaviour
 
         DecreaseSuspicion();
         GameManager.Instance.StopHealthDecay();
+        GameManager.Instance.ResetHealth();
         StartDialogue(dialogueToUse);
 
         if (animator != null)
@@ -316,6 +317,5 @@ public class Patient : MonoBehaviour
     {
         Debug.Log("Defibrillator administered");
         HealPatient();
-        GameManager.Instance.EndGame();
     }
 }

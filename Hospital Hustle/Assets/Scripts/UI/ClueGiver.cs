@@ -32,12 +32,9 @@ public class ClueGiver : MonoBehaviour
             if (Vector2.Distance(mousePosition, objectPosition) < activationDistance)
             {
                 // Activate the image and button when the player clicks while pointing at the object
-                if (gameManager.IsDefibRound)
-                {
-                    imageToShow.SetActive(true);
-                    buttonToShow.gameObject.SetActive(true);
-                    GetComponent<AudioSource>().PlayOneShot(ClueSFX);
-                }
+                imageToShow.SetActive(true);
+                buttonToShow.gameObject.SetActive(true);
+                GetComponent<AudioSource>().PlayOneShot(ClueSFX);
             }
         }
     }

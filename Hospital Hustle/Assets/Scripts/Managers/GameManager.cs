@@ -9,22 +9,22 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
     public bool IsDefibRound { get; private set; } = false;
 
-    [SerializeField] private TextMeshProUGUI _notificationText;
+    private TextMeshProUGUI _notificationText;
     private GameObject[] _patientDoors;
     private string _currentTargetDoorId;
     private const string MAIN_LEVEL_NAME = "MainLevel";
 
-    [SerializeField] private Image _suspicionMeter; 
+    private Image _suspicionMeter;
     [SerializeField] private Sprite[] _suspicionSprites;
     [SerializeField] private int _maxSuspicion = 9;
     [SerializeField] private int _currentSuspicion = 0;
 
-    [SerializeField] private Image _healthBarImage; 
+    private Image _healthBarImage;
     [SerializeField] private Sprite[] _healthBarSprites;
     [SerializeField] private int _maxHealth = 9;
     [SerializeField] private int _currentHealth = 9;
 
-
+    private bool _initialMainLevelLoad = true;
     void Awake()
     {
         if (Instance == null)
@@ -42,6 +42,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        FindNotificationText();
+        FindHealthMeter();
+        FindSusMeter();
         StartNewRound();
         StartHealthDecay(20);
         UpdateHealthUI();
@@ -68,10 +71,60 @@ public class GameManager : MonoBehaviour
                 Destroy(Patient.Instance.gameObject);
                 StartNewDefibRound();
             }
+            FindNotificationText();
+            if (_notificationText != null)
+            {
+                if (_initialMainLevelLoad)
+                {
+                    _notificationText.enabled = true;
+                    _initialMainLevelLoad = false;
+                }
+            }
         }
         else
         {
-            _notificationText.enabled = false;
+            FindNotificationText();
+
+            if (_notificationText != null)
+            {
+                _notificationText.enabled = false;
+            }
+        }
+    }
+
+    private void FindNotificationText()
+    {
+        if (_notificationText == null)
+        {
+            _notificationText = GameObject.FindGameObjectWithTag("NotificationText")?.GetComponent<TextMeshProUGUI>();
+            if (_notificationText == null)
+            {
+                Debug.LogError("Notification text component not found.");
+            }
+        }
+    }
+
+    private void FindSusMeter()
+    {
+        if (_suspicionMeter == null)
+        {
+            _suspicionMeter = GameObject.FindGameObjectWithTag("SusMeter")?.GetComponent<Image>();
+            if (_suspicionMeter == null)
+            {
+                Debug.LogError("Sus Meter component not found.");
+            }
+        }
+    }
+
+    private void FindHealthMeter()
+    {
+        if (_healthBarImage == null)
+        {
+            _healthBarImage = GameObject.FindGameObjectWithTag("HealthMeter")?.GetComponent<Image>();
+            if (_healthBarImage == null)
+            {
+                Debug.LogError("Sus Meter component not found.");
+            }
         }
     }
 
@@ -126,6 +179,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateNotification(string roomId)
     {
+        FindNotificationText();
         if (_notificationText != null)
         {
             _notificationText.text = "Please go to Room " + roomId;
@@ -138,6 +192,7 @@ public class GameManager : MonoBehaviour
 
     private void HeartAttackNotification(string roomId)
     {
+        FindNotificationText();
         if (_notificationText != null)
         {
             _notificationText.text = "Patient in Room " + roomId + " is having a heart attack!";
@@ -157,6 +212,7 @@ public class GameManager : MonoBehaviour
     {
         if (_currentSuspicion < _suspicionSprites.Length)
         {
+            FindSusMeter();
             _suspicionMeter.sprite = _suspicionSprites[_currentSuspicion];
         }
     }
@@ -166,7 +222,7 @@ public class GameManager : MonoBehaviour
         _currentSuspicion += amount;
         _currentSuspicion = Mathf.Clamp(_currentSuspicion, 0, _maxSuspicion);
         UpdateSuspicionUI();
-        if(_currentSuspicion == _maxSuspicion)
+        if (_currentSuspicion == _maxSuspicion)
         {
             EndGame();
         }
@@ -216,7 +272,8 @@ public class GameManager : MonoBehaviour
     {
         if (_currentHealth > 0 && _currentHealth <= _healthBarSprites.Length)
         {
-            _healthBarImage.sprite = _healthBarSprites[_currentHealth - 1]; 
+            FindHealthMeter();
+            _healthBarImage.sprite = _healthBarSprites[_currentHealth - 1];
         }
     }
 
@@ -230,14 +287,16 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Game Over");
         // Hide HealthBar and SuspicionMeter
+        FindSusMeter();
+        FindHealthMeter();
         _healthBarImage.gameObject.SetActive(false);
         _suspicionMeter.gameObject.SetActive(false);
-    
+
         ChangeScene("EndScene");
     }
 
     public void ChangeScene(string sceneName)
-    {    
+    {
         SceneManager.LoadScene(sceneName);
     }
 }
