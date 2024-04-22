@@ -1925,13 +1925,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    PlayWhen: 0
+    PlayWhen: 1
     minDist: 1
     maxDist: 400
     minVol: 0
     maxVol: 1
-    playLooped: 0
-  clip: {fileID: 0}
+    playLooped: 1
+  clip: {fileID: 8300000, guid: 1160a99813ea50149a70b15b79e5dbc2, type: 3}
 --- !u!82 &1809764598
 AudioSource:
   m_ObjectHideFlags: 0
