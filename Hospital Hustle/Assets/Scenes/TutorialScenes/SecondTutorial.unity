@@ -636,7 +636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - thanks for healing me so quickly!
-  - my health bar decreases over time ,  if it reaches zero ... i die!!
+  - my health bar decreases over time, if it reaches zero ... i die!!
   - you should go talk to that nurse over there!
   dialogueSpeed: 0.05
   endlineWait: 0

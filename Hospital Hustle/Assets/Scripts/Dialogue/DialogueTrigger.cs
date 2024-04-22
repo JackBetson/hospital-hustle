@@ -37,8 +37,22 @@ public class DialogueTrigger : MonoBehaviour
             if (i < currentLines.Length - 1)
             {
                 yield return new WaitForSeconds(endlineWait);
+
+                // Wait for left mouse button to be pressed
+                while (!Input.GetMouseButtonDown(0))
+                {
+                    yield return null;
+                }
+            }
+            else // Last line of dialogue
+            {
+                // Wait for left mouse button to be pressed to hide the canvas
+                yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
             }
         }
+
+        // Dialogue has finished, reset dialogue state
+        ResetDialogueState();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -47,6 +61,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             isDisplaying = true;
             dialogueDisplay.DisplayLines(currentLines, dialogueSpeed, endlineWait);
+            StartCoroutine(TypeDialogue());
             hasDisplayed = true; // Mark dialogue as displayed
         }
     }

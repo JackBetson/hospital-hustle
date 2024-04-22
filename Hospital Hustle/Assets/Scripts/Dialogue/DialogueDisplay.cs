@@ -43,7 +43,17 @@ public class DialogueDisplay : MonoBehaviour
             if (i < currentLines.Length - 1)
             {
                 yield return new WaitForSeconds(endlineWait);
-                yield return WaitForLeftMouseButton(); // Wait for left mouse button
+
+                // Wait for left mouse button to be pressed
+                while (!Input.GetMouseButtonDown(0))
+                {
+                    yield return null;
+                }
+            }
+            else // Last line of dialogue
+            {
+                // Wait for left mouse button to be pressed to hide the canvas
+                yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
             }
         }
         dialogueCanvas.SetActive(false); // Hide the canvas when dialogue is finished
